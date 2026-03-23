@@ -1,0 +1,549 @@
+# Ores Shop
+Settings:
+  Icon:
+    Material: minecraft:diamond
+    Name: <c:#3b82f6><b>✦ ORES SHOP ✦</b></c>
+    Lore:
+    - <gray>Precious materials for crafting!</gray>
+    - ''
+    - <c:#fbbf24>➥</c> <white>Coal</white> <c:#3E3E3E>→</c> <white>$5</white>
+    - <c:#fbbf24>➥</c> <white>Iron Ingot</white> <c:#3E3E3E>→</c> <white>$15</white>
+    - <c:#fbbf24>➥</c> <white>Gold Ingot</white> <c:#3E3E3E>→</c> <white>$25</white>
+    - <c:#fbbf24>➥</c> <white>Diamond</white> <c:#3E3E3E>→</c> <white>$100</white>
+    - <c:#fbbf24>➥</c> <white>Netherite Ingot</white> <c:#3E3E3E>→</c> <white>$400</white>
+    Display_Name: <c:#3b82f6><b>✦ ORES SHOP ✦</b></c>
+  Layout:
+    Paginated: true
+    ByPage:
+      '0': default
+  Aliases: []
+  Name: Ores
+  Description: []
+  Permission_Required: false
+  Buying: true
+  Selling: true
+  Pages: 1
+  MainMenu:
+    Slot: '22'
+
+Content:
+  # Basic Ores
+  coal:
+    Priority: 10
+    Item:
+      Material: minecraft:coal
+      Display_Name: <white>Coal</white>
+      Lore:
+      - <gray>Fuel source</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$5/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$2/stack</white>
+    Slots: 11
+    Shop_Item:
+      Buy_Price: 5
+      Sell_Price: 2
+      Amount: 64
+  
+  iron_ingot:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_ingot
+      Display_Name: <white>Iron Ingot</white>
+      Lore:
+      - <gray>Strong metal</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$15/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$7/stack</white>
+    Slots: 12
+    Shop_Item:
+      Buy_Price: 15
+      Sell_Price: 7
+      Amount: 64
+  
+  gold_ingot:
+    Priority: 10
+    Item:
+      Material: minecraft:gold_ingot
+      Display_Name: <c:#fbbf24>Gold Ingot</c>
+      Lore:
+      - <gray>Precious metal</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$25/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$12/stack</white>
+    Slots: 13
+    Shop_Item:
+      Buy_Price: 25
+      Sell_Price: 12
+      Amount: 64
+  
+  # Rare Ores
+  diamond:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond
+      Display_Name: <c:#3b82f6>Diamond</c>
+      Lore:
+      - <gray>Elite material</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$100</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$50</white>
+    Slots: 20
+    Shop_Item:
+      Buy_Price: 100
+      Sell_Price: 50
+  
+  emerald:
+    Priority: 10
+    Item:
+      Material: minecraft:emerald
+      Display_Name: <c:#4ade80>Emerald</c>
+      Lore:
+      - <gray>Trading currency</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$75</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$37</white>
+    Slots: 21
+    Shop_Item:
+      Buy_Price: 75
+      Sell_Price: 37
+  
+  lapis_lazuli:
+    Priority: 10
+    Item:
+      Material: minecraft:lapis_lazuli
+      Display_Name: <c:#3b82f6>Lapis Lazuli</c>
+      Lore:
+      - <gray>Enchanting material</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$10/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$5/stack</white>
+    Slots: 22
+    Shop_Item:
+      Buy_Price: 10
+      Sell_Price: 5
+      Amount: 64
+  
+  # Nether Ores
+  nether_quartz:
+    Priority: 10
+    Item:
+      Material: minecraft:quartz
+      Display_Name: <white>Nether Quartz</white>
+      Lore:
+      - <gray>Nether material</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$20/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$10/stack</white>
+    Slots: 29
+    Shop_Item:
+      Buy_Price: 20
+      Sell_Price: 10
+      Amount: 64
+  
+  netherite_ingot:
+    Priority: 10
+    Item:
+      Material: minecraft:netherite_ingot
+      Display_Name: <c:#a855f7>Netherite Ingot</c>
+      Lore:
+      - <gray>Ultimate material</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$400</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$200</white>
+    Slots: 30
+    Shop_Item:
+      Buy_Price: 400
+      Sell_Price: 200
+  
+  ancient_debris:
+    Priority: 10
+    Item:
+      Material: minecraft:ancient_debris
+      Display_Name: <c:#a855f7>Ancient Debris</c>
+      Lore:
+      - <gray>Netherite source</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$300</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$150</white>
+    Slots: 31
+    Shop_Item:
+      Buy_Price: 300
+      Sell_Price: 150
+Items:
+  coal:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:coal"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  raw_copper:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:raw_copper"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  raw_iron:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:raw_iron"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  raw_gold:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:raw_gold"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  lapis_lazuli:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:lapis_lazuli"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  emerald:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:emerald"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  copper_ingot:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:copper_ingot"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  iron_ingot:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:iron_ingot"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  gold_ingot:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:gold_ingot"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  diamond:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:diamond"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  quartz:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:quartz"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  amethyst_shard:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:amethyst_shard"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  flint:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:flint"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1

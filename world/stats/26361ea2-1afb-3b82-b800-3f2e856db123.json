@@ -1,0 +1,49 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:crimson_stem": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 25434,
+      "minecraft:walk_one_cm": 23237,
+      "minecraft:leave_game": 5,
+      "minecraft:play_time": 25434,
+      "minecraft:jump": 214,
+      "minecraft:time_since_death": 25434,
+      "minecraft:drop": 71,
+      "minecraft:sprint_one_cm": 12008,
+      "minecraft:fall_one_cm": 2070,
+      "minecraft:total_world_time": 25434,
+      "minecraft:fly_one_cm": 22182,
+      "minecraft:crouch_one_cm": 80,
+      "minecraft:sneak_time": 178
+    },
+    "minecraft:dropped": {
+      "minecraft:totem_of_undying": 14,
+      "minecraft:stone_shovel": 1,
+      "minecraft:stone_sword": 1,
+      "minecraft:heart_of_the_sea": 2,
+      "minecraft:netherite_helmet": 7,
+      "minecraft:netherite_leggings": 4,
+      "minecraft:netherite_chestplate": 1,
+      "minecraft:crimson_planks": 32,
+      "minecraft:netherite_boots": 6,
+      "minecraft:enchanted_golden_apple": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:magma_cream": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:crimson_planks": 8
+    },
+    "minecraft:used": {
+      "minecraft:enchanted_golden_apple": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:crimson_planks": 32,
+      "minecraft:crimson_stem": 2,
+      "minecraft:netherite_helmet": 1
+    }
+  },
+  "DataVersion": 4671
+}

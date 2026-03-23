@@ -1,0 +1,140 @@
+[
+  {
+    "username": "seller",
+    "uuid": "e0e460be-70e2-4279-a5b5-dc7337424a06",
+    "lastUpdated": 1774018444386,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "lawman",
+    "uuid": "ab422b09-78c6-47b2-894b-a2eee3e227a7",
+    "lastUpdated": 1773753191095,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "mr",
+    "uuid": "84f4510f-aa5e-49b8-a7bc-e4e7dd7a6598",
+    "lastUpdated": 1773753209979,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "bot",
+    "uuid": "49e96464-aa17-46b3-b5c6-87574b6b48b4",
+    "lastUpdated": 1774018444375,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "cook",
+    "uuid": "68119924-8ee0-434a-938b-8f2a3e7b98c9",
+    "lastUpdated": 1774013582234,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "chef",
+    "uuid": "2c45ba42-2b02-4428-a324-e0e17929b66f",
+    "lastUpdated": 1774018444389,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "AI",
+    "uuid": "b0de9298-2541-4c16-8924-9f1ef6882483",
+    "lastUpdated": 1774018444383,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "merchant",
+    "uuid": "a39ef57a-387c-4cd1-9740-59b732ebc7a5",
+    "lastUpdated": 1774018444385,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "rich",
+    "uuid": "7ba02992-ff05-49b7-9ec5-ed03ccc36dd7",
+    "lastUpdated": 1774018444377,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "court",
+    "uuid": "ce58d194-545e-4b3a-8844-38a473a2f4d9",
+    "lastUpdated": 1774018444381,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "referee",
+    "uuid": "218814f1-e268-41eb-994a-75371193f01c",
+    "lastUpdated": 1774013916693,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "quest",
+    "uuid": "8dd304b9-38ce-4622-b2af-607465796e25",
+    "lastUpdated": 1774018444388,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "auction",
+    "uuid": "a47df667-8be9-4755-bf2c-985a1fda964b",
+    "lastUpdated": 1774018444378,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "rtp",
+    "uuid": "cf416ebd-925e-4fb4-b415-09a0d18e6fb3",
+    "lastUpdated": 1774018444382,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "lawer",
+    "uuid": "82455147-d7b3-4be1-a59c-d2d15edcf7bf",
+    "lastUpdated": 1773753606691,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "robot",
+    "uuid": "ee57ee4a-0ea8-4438-a75a-994c2e8cbd9a",
+    "lastUpdated": 1774018431965,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "police",
+    "uuid": "88178e5f-f638-44ee-88e0-1179c8004973",
+    "lastUpdated": 1774018444389,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "helper",
+    "uuid": "abcbbbfa-1d44-4f25-94a4-2b22bb3f60c8",
+    "lastUpdated": 1773753318008,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "daily",
+    "uuid": "217cd8ba-95bb-4264-973b-451ba1b2900f",
+    "lastUpdated": 1773752076129,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "mister",
+    "uuid": "2a3e853d-2399-4c6d-a77b-533658ba996d",
+    "lastUpdated": 1773753202460,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "dealer",
+    "uuid": "4c984420-1577-4a46-893c-63a99b23ebf2",
+    "lastUpdated": 1773752110841,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "judge",
+    "uuid": "c501ef48-709f-4b05-8ce5-262e6de4dbc8",
+    "lastUpdated": 1773752129195,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "coach",
+    "uuid": "b71182b7-6b90-471b-b210-3a88dd7d3129",
+    "lastUpdated": 1774018444380,
+    "timeToLive": 2592000000
+  }
+]

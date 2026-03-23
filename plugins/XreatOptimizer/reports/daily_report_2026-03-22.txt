@@ -1,0 +1,16 @@
+XreatOptimizer Daily Performance Report
+Generated at: 2026-03-22 00:00:00
+========================================
+
+Average TPS: 19.996558021773968
+Memory Usage Average: 16.61625203487547%
+Memory Usage Peak: 25.1953125%
+Average Entities: 1
+Max Entities: 1
+Average Chunks Loaded: 625
+Peak Players: 1
+
+Performance Statistics:
+- Time spent under 15 TPS: 0 minutes
+- Time spent under 10 TPS: 0 minutes
+- Memory pressure incidents: 0

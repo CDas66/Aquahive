@@ -1,0 +1,180 @@
+# Aqua Hive Key Store - Coins Version
+# Keys: Honeycomb Key, Stinger Key, Coral Key, Abyssal Key
+
+menu_title: '&8&l⟁ &6&lKEY STORE &8&l⟁'
+open_command:
+  - keys
+  - key
+size: 27
+items:
+
+  background:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 0-26
+    display_name: ' '
+
+  player_head:
+    material: PLAYER_HEAD
+    slot: 4
+    display_name: '&6&l%player_name%'
+    lore:
+      - '&7Your Balance: &6⛁%coinsengine_balance_coins%'
+      - ''
+      - '&eClick to refresh'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+  # 🍯 HONEYCOMB KEY - 500 Coins
+  honeycomb_key:
+    material: ORANGE_CANDLE
+    slot: 10
+    display_name: '&6&lHONEYCOMB KEY'
+    lore:
+      - '&7Unlock the Honeycomb Crate'
+      - ''
+      - '&aPrice: &6⛁50'
+      - '&eClick to purchase!'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 50
+      deny_commands:
+        - '[message] &cYou need ⛁50 to buy this!'
+    left_click_commands:
+      - '[console] coins take %player_name% 50'
+      - '[console] crate key give %player_name% honeycomb 1'
+      - '[message] &a✔ You purchased &6Honeycomb Key&a!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # 🐝 STINGER KEY - 800 Coins
+  stinger_key:
+    material: YELLOW_CANDLE
+    slot: 12
+    display_name: '&e&lSTINGER KEY'
+    lore:
+      - '&7Open the Stinger Crate for'
+      - '&7powerful weapons and armor!'
+      - ''
+      - '&aPrice: &6⛁100'
+      - '&eClick to purchase!'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 100
+      deny_commands:
+        - '[message] &cYou need ⛁100 to buy this!'
+    left_click_commands:
+      - '[console] coins take %player_name% 100'
+      - '[console] crate key give %player_name% stinger 1'
+      - '[message] &a✔ You purchased &eStinger Key&a!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # 🪸 CORAL KEY - 1000 Coins
+  coral_key:
+    material: MAGENTA_CANDLE
+    slot: 14
+    display_name: '&d&lCORAL KEY'
+    lore:
+      - '&7Unlock the mystical Coral Crate'
+      - '&7for enchanted items and boosts!'
+      - ''
+      - '&aPrice: &6⛁300'
+      - '&eClick to purchase!'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 300
+        deny_commands:
+        - '[message] &cYou need ⛁300 to buy this!'
+    left_click_commands:
+      - '[console] coins take %player_name% 300'
+      - '[console] crate key give %player_name% coral 1'
+      - '[message] &a✔ You purchased &dCoral Key&a!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # 🌊 ABYSSAL KEY - 1500 Coins
+  abyssal_key:
+    material: BLUE_CANDLE
+    slot: 16
+    display_name: '&5&lABYSSAL KEY'
+    lore:
+      - '&7The rarest key! Open the'
+      - '&7Abyssal Crate for legendary loot!'
+      - ''
+      - '&aPrice: &6⛁500'
+      - '&eClick to purchase!'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 500
+      deny_commands:
+        - '[message] &cYou need ⛁500 to buy this!'
+    left_click_commands:
+      - '[console] coins take %player_name% 500'
+      - '[console] crate key give %player_name% abyssal 1'
+      - '[message] &a✔ You purchased &5Abyssal Key&a!'
+      - '[sound] ENTITY_ENDER_DRAGON_GROWL'
+      - '[close]'
+
+  # 🛒 BUNDLE OFFER - 3500 Coins
+  bundle_offer:
+    material: CHEST
+    slot: 22
+    display_name: '&6&l✦ KEY BUNDLE ✦'
+    lore:
+      - '&7Get all 4 keys at a discount!'
+      - ''
+      - '&d&l★ BUNDLE INCLUDES:'
+      - '&7• &6Honeycomb Key &7- ⛁50'
+      - '&7• &eStinger Key &7- ⛁100'
+      - '&7• &dCoral Key &7- ⛁300'
+      - '&7• &5Abyssal Key &7- ⛁500'
+      - ''
+      - '&aNormal Price: &6⛁950'
+      - '&aBundle Price: &6⛁700 &7(26.31% OFF !!!!)'
+      - ''
+      - '&eClick to purchase bundle!'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 700
+      deny_commands:
+        - '[message] &cYou need ⛁700 to buy this!'
+    left_click_commands:
+      - '[console] coins take %player_name% 700'
+      - '[console] crate key give %player_name% honeycomb 1'
+      - '[console] crate key give %player_name% stinger 1'
+      - '[console] crate key give %player_name% coral 1'
+      - '[console] crate key give %player_name% abyssal 1'
+      - '[message] &a✔ You purchased the &6Key Bundle&a!'
+      - '[message] &7You received all 4 keys!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  back_button:
+    material: ARROW
+    slot: 18
+    display_name: '&c&l◀ BACK'
+    lore:
+      - '&7Click to return to'
+      - '&7the main shop!'
+      - ''
+      - '&eClick to go back'
+    left_click_commands:
+      - '[sound] BLOCK_NOTE_BLOCK_PLING'
+      - '[openguimenu] store'

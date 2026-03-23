@@ -1,0 +1,63 @@
+{
+	"textures": {
+		"0": "ei:item/stinger_crate",
+		"particle": "ei:item/stinger_crate"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0.75, 0.25, 1], "texture": "#0"},
+				"east": {"uv": [0.25, 0.75, 0.5, 1], "texture": "#0"},
+				"south": {"uv": [0.5, 0.75, 0.75, 1], "texture": "#0"},
+				"west": {"uv": [0.75, 0.75, 1, 1], "texture": "#0"},
+				"up": {"uv": [0, 0.5, 0.25, 0.75], "texture": "#0"},
+				"down": {"uv": [0.25, 0.5, 0.5, 0.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stinger_left",
+			"from": [2, 2, -0.1],
+			"to": [5, 12, 0],
+			"faces": {
+				"north": {"uv": [0.1, 0.1, 0.3, 0.7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "stinger_right",
+			"from": [11, 4, -0.1],
+			"to": [14, 14, 0],
+			"faces": {
+				"north": {"uv": [0.7, 0.2, 0.9, 0.8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "warning_stripes",
+			"from": [4, 8, 15.9],
+			"to": [12, 10, 16],
+			"faces": {
+				"south": {"uv": [0.25, 0.5, 0.75, 0.6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 0],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}

@@ -1,0 +1,385 @@
+npcs:
+  8f427c4c-cbb8-4551-9a06-4ad677c896fe:
+    name: vote
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: -2.5314469170451614
+      y: -2.0
+      z: -56.48627116406555
+      yaw: -6.5996704
+      pitch: -0.750042
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: red
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: bot
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: vote
+  c90ad02f-ce10-4059-8dc8-e190ca475a70:
+    name: shop
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 6.520747906458337
+      y: -2.0
+      z: -55.49862303879864
+      yaw: 18.300842
+      pitch: 6.750067
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: yellow
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: merchant
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: shop
+  ed44deee-3d09-4d78-b84b-e15eb29c93df:
+    name: daily
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 12.566987735873957
+      y: -2.0
+      z: -51.557406394588014
+      yaw: 42.60138
+      pitch: -0.2998804
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: red
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: seller
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: daily
+  9449a73a-dc38-4166-b756-c4f26462ac45:
+    name: help
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: -11.558655050266937
+      y: -2.0
+      z: -51.52239837386086
+      yaw: -40.049225
+      pitch: 8.099964
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: dark_green
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: quest
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: deluxemenu open help
+  aea53fdf-332f-4569-ae39-a301783490e9:
+    name: store
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 3.4964868895598586
+      y: -2.0
+      z: -56.495070868981294
+      yaw: 6.600647
+      pitch: 0.60000044
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: aqua
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: rich
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: deluxemenu open store
+  e1ab832c-dda0-4114-9634-37895696e7f0:
+    name: rules
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: -8.487896268689003
+      y: -2.0
+      z: -54.48490203915337
+      yaw: -33.299286
+      pitch: 5.5499897
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: gold
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: police
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: deluxemenu open rules
+  d99815bc-fd34-418b-9743-e51141ddddcf:
+    name: ToDo
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: -5.475728887664324
+      y: -2.0
+      z: -55.50995156475479
+      yaw: -16.949554
+      pitch: -0.2999974
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: blue
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: court
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: jobs
+  f6b555c9-51db-45cd-9d5a-bdc039057c8d:
+    name: RTP
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 0.4953444336571562
+      y: -2.0
+      z: -56.53013280206104
+      yaw: -0.7498474
+      pitch: 13.199995
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: green
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: rtp
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: rtp
+  5916296e-13b1-417b-9e0a-e1087f53441d:
+    name: auction
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 9.504891372496344
+      y: -2.0
+      z: -54.515304011986785
+      yaw: 53.100086
+      pitch: 90.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: blue
+    turnToPlayer: true
+    turnToPlayerDistance: 20
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      identifier: auction
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: ah
+  2d687035-883a-42b0-b67a-31ec5b148061:
+    name: food
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: -999.5312337465288
+      y: 3.0
+      z: -1028.3906285880364
+      yaw: 0.14648438
+      pitch: -2.413988E-6
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: gold
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 100
+    visibility: ALL
+    skin:
+      mirrorSkin: false
+      identifier: chef
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: console_command
+          value: give %player_name% bread 5
+  a60505a5-ee78-45c5-bd78-8e2dd63ea5e0:
+    name: referee
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: -999.5235052315668
+      y: 4.0
+      z: -1003.5469315022245
+      yaw: 0.14465332
+      pitch: 2.99998
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: blue
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 100
+    visibility: ALL
+    skin:
+      identifier: coach
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: console_command
+          value: give %player_name% wooden_sword 1
+  69300ff6-1830-4eba-8403-d79f03eb5e29:
+    name: reset
+    creator: 4ec2f899-1dcd-33dd-ad4e-26154522615b
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 1030.415957910413
+      y: 4.0
+      z: -975.4713318736601
+      yaw: 89.99972
+      pitch: 1.9499637
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: dark_red
+    turnToPlayer: true
+    turnToPlayerDistance: 50
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      identifier: AI
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: console_command
+          value: arena reset arena extreme

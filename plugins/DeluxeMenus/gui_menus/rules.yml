@@ -1,0 +1,230 @@
+# Aqua Hive LifeSteal - Rules by Punishment Tier
+#=========================================================
+menu_title: '&3&lAqua Hive &8- &c&lRULES'
+open_command:
+  - rules
+  - rule
+  - guidelines
+open_commands:
+  - '[sound] BLOCK_BOOKSHELF_PUT'
+  - '[message] &c&l(!) &7Please read the rules carefully...'
+size: 54
+
+items:
+  # ============= DECORATIVE BORDER =============
+  'border':
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      - 53
+    display_name: ' '
+  
+  # ============= HEADER =============
+  'header':
+    material: BOOKSHELF
+    slot: 4
+    display_name: '&c&lSERVER RULES'
+    lore:
+      - '&7─────────────────────'
+      - '&fClick on the colored books below'
+      - '&fto view rules grouped by punishment.'
+      - ''
+      - '&7Each book shows what happens'
+      - '&7if you break those specific rules.'
+      - '&7─────────────────────'
+  
+  # ============= BOOK 1: TEMP MUTE (Yellow/Orange) =============
+  'book_mute':
+    material: BOOK
+    slot: 20
+    display_name: '&6&l📕 TEMP MUTE OFFENSES'
+    lore:
+      - '&7─────────────────────'
+      - '&fThese rule violations result in:'
+      - '&6&l⚠ TEMPORARY MUTE ⚠'
+      - ''
+      - '&7◆ &fChat offenses & minor toxicity:'
+      - ''
+      - '&7▶ &fExcessive swearing / profanity'
+      - '&7▶ &fInsulting or harassing players'
+      - '&7▶ &fSpamming chat or commands'
+      - '&7▶ &fAdvertising other servers'
+      - '&7▶ &fInappropriate language'
+      - '&7▶ &fNSFW builds or inappropriate skins'
+      - '&7▶ &fToxicity or drama starting'
+      - '&7▶ &fDisrespecting staff warnings'
+      - ''
+      - '&6&lPUNISHMENT:'
+      - '&7■ First offense: &6Verbal warning'
+      - '&7■ Second offense: &630m - 2h mute'
+      - '&7■ Third offense: &61d - 7d mute'
+      - '&7■ Continued: &6Escalates to temp ban'
+      - '&7─────────────────────'
+      - '&e&lCLICK TO ACKNOWLEDGE'
+    left_click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+      - '[message] &8[&c&lRules&8] &7You have acknowledged the &6Temp Mute &7rules.'
+  
+  # ============= BOOK 2: JAIL (Green) =============
+  'book_jail':
+    material: BOOK
+    slot: 22
+    display_name: '&a&l📗 JAIL OFFENSES'
+    lore:
+      - '&7─────────────────────'
+      - '&fThese rule violations result in:'
+      - '&a&l⚠ JAIL TIME ⚠'
+      - ''
+      - '&7◆ &fGameplay abuse & minor exploits:'
+      - ''
+      - '&7▶ &fMinor glitch abuse'
+      - '&7▶ &fItem duplication attempts'
+      - '&7▶ &fAbusing /rtp or teleport mechanics'
+      - '&7▶ &fClaim hopping / border abuse'
+      - '&7▶ &fAbusing AFK mechanics'
+      - '&7▶ &fSpawn trapping (not killing)'
+      - '&7▶ &fCreating lag machines'
+      - '&7▶ &fAbusing shop prices'
+      - ''
+      - '&a&lPUNISHMENT:'
+      - '&7■ First offense: &a30m - 2h jail'
+      - '&7■ Second offense: &a4h - 12h jail'
+      - '&7■ Third offense: &a1d - 3d jail'
+      - '&7■ Continued: &aEscalates to temp ban'
+      - '&7─────────────────────'
+      - '&e&lCLICK TO ACKNOWLEDGE'
+    left_click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+      - '[message] &8[&c&lRules&8] &7You have acknowledged the &aJail &7rules.'
+  
+  # ============= BOOK 3: TEMP BAN (Red) =============
+  'book_tempban':
+    material: BOOK
+    slot: 24
+    display_name: '&c&l📘 TEMP BAN OFFENSES'
+    lore:
+      - '&7─────────────────────'
+      - '&fThese rule violations result in:'
+      - '&c&l⚠ TEMPORARY BAN ⚠'
+      - ''
+      - '&7◆ &fSerious rule breaking:'
+      - ''
+      - '&7▶ &fUsing hacks or unfair advantages'
+      - '&7▶ &fX-ray texture packs / resource packs'
+      - '&7▶ &fDisrespecting / arguing with admins'
+      - '&7▶ &fBan evasion on alternate accounts'
+      - '&7▶ &fRepeated mute/jail offenses'
+      - '&7▶ &fMajor glitch abuse'
+      - '&7▶ &fIntentionally crashing server'
+      - '&7▶ &fDoxxing threats or attempts'
+      - '&7▶ &fStaff impersonation'
+      - ''
+      - '&c&lPUNISHMENT:'
+      - '&7■ First offense: &c3d - 7d temp ban'
+      - '&7■ Second offense: &c14d - 30d temp ban'
+      - '&7■ Third offense: &cEscalates to permanent'
+      - '&7─────────────────────'
+      - '&e&lCLICK TO ACKNOWLEDGE'
+    left_click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+      - '[message] &8[&c&lRules&8] &7You have acknowledged the &cTemp Ban &7rules.'
+  
+  # ============= BOOK 4: PERMA BAN (Dark Red/Black) =============
+  'book_permaban':
+    material: BOOK
+    slot: 31
+    display_name: '&4&l📙 PERMANENT BAN OFFENSES'
+    lore:
+      - '&7─────────────────────'
+      - '&fThese rule violations result in:'
+      - '&4&l⚠ PERMANENT BAN ⚠'
+      - ''
+      - '&7◆ &fAttempting to harm the server:'
+      - ''
+      - '&7▶ &fDDoS threats or attempts'
+      - '&7▶ &fAttempting to crash server'
+      - '&7▶ &fCorrupting player data'
+      - '&7▶ &fExploiting core plugins'
+      - '&7▶ &fDistributing harmful mods/links'
+      - '&7▶ &fReal-world threats'
+      - '&7▶ &fExtreme toxicity after warnings'
+      - ''
+      - '&7◆ &fRepeated serious offenses:'
+      - '&7▶ &fThird temp ban offense'
+      - '&7▶ &fBan evasion after warning'
+      - '&7▶ &fHacking after temp ban'
+      - ''
+      - '&4&lPUNISHMENT:'
+      - '&7■ &4IMMEDIATE PERMANENT BAN'
+      - '&7■ No appeals except in extreme cases'
+      - '&7─────────────────────'
+      - '&e&lCLICK TO ACKNOWLEDGE'
+    left_click_commands:
+      - '[sound] ITEM_BOOK_PAGE_TURN'
+      - '[message] &8[&c&lRules&8] &7You have acknowledged the &4Permanent Ban &7rules.'
+  
+  # ============= ACCEPT BUTTON =============
+  'accept':
+    material: LIME_DYE
+    slot: 49
+    display_name: '&a&l✔ I ACKNOWLEDGE THE RULES'
+    lore:
+      - '&7─────────────────────'
+      - '&fClick to confirm you have read'
+      - '&fand understand all server rules.'
+      - ''
+      - '&c⚠ You must follow all rules above.'
+      - '&c⚠ Ignorance is not an excuse.'
+      - '&7─────────────────────'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] lp user %player_name% permission set rules.acknowledged true'
+      - '[message] &8[&c&lRules&8] &aThank you for acknowledging the server rules!'
+      - '[message] &8[&c&lRules&8] &7You now have access to all server features.'
+      - '[close]'
+  
+  # ============= ADDITIONAL INFO =============
+  'info':
+    material: OAK_SIGN
+    slot: 40
+    display_name: '&b&lℹ ADDITIONAL INFO'
+    lore:
+      - '&7─────────────────────'
+      - '&fNeed to report a player?'
+      - ''
+      - '&b▶ &fUse &7/report <player> <reason>'
+      - ''
+      - '&b▶ &fJoin our Discord for help:'
+      - '  &7discord.aquahive.net'
+      - ''
+      - '&b▶ &fStaff online? Use &7/helpop <message>'
+      - ''
+      - '&7─────────────────────'
+      - '&e&lCLICK TO COPY DISCORD LINK'
+    left_click_commands:
+      - '[message] &8[&c&lRules&8] &fDiscord link: &bdiscord.aquahive.net'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'

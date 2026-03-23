@@ -1,0 +1,39 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "keys:item/coral_key"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [17.25, -90, -30],
+			"translation": [0, 0.75, 0],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [17.25, 90, 30],
+			"translation": [0, 0.75, 0],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -85, -3.5],
+			"translation": [0.38, 2.45, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 85, 3.5],
+			"translation": [0.38, 2.45, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"ground": {
+			"rotation": [67.5, 0, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [0, 180, 45],
+			"translation": [0, 13, -2.75]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

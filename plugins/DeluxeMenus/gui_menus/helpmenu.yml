@@ -1,0 +1,271 @@
+# Aqua Hive LifeSteal - Help Menu
+#=========================================================
+menu_title: '&3&lAqua Hive &8- &f&lHelp Menu'
+open_command:
+  - help
+  - guide
+  - tutorial
+  - info
+open_commands:
+  - '[sound] BLOCK_BOOKSHELF_PUT'
+  - '[message] &b&l(!) &7Opening help menu...'
+size: 45
+
+items:
+  # ============= DECORATIVE BORDER =============
+  'border':
+    material: BLUE_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+    display_name: ' '
+  
+  # ============= HEARTS & DEATHBAN SECTION =============
+  'hearts_info':
+    material: NETHER_STAR
+    slot: 10
+    priority: 1
+    update: true
+    display_name: '&c&l❤ HEARTS & DEATHBAN &c&l❤'
+    lore:
+      - '&7─────────────────────'
+      - '&fEvery player starts with &c10 hearts&f!'
+      - ''
+      - '&a✅ Kill a player: &f+1 heart'
+      - '&c❌ Die: &f-1 heart'
+      - ''
+      - '&c⚠ If you reach &c0 hearts&c:'
+      - '&7► You get &cdeathbanned &7for &f24 hours'
+      - '&7► Use &f/hearts &7to check your hearts'
+      - '&7─────────────────────'
+      - '&e&oClick for more info!'
+    
+    left_click_commands:
+      - '[message] &8[&c&lInfo&8] &fYour hearts: &c%lifestealz_hearts%&8/&c%lifestealz_maxhearts%'
+      - '[message] &8[&c&lInfo&8] &fKills: &c%lifestealz_kills% &7| Deaths: &c%lifestealz_deaths%'
+      - '[sound] BLOCK_NOTE_BLOCK_PLING'
+  
+  # ============= GETTING STARTED =============
+  'getting_started':
+    material: WRITTEN_BOOK
+    slot: 12
+    priority: 1
+    display_name: '&b&l📖 GETTING STARTED'
+    lore:
+      - '&7─────────────────────'
+      - '&fNew to &bAqua Hive&f? Start here!'
+      - ''
+      - '&e◆ &fFirst steps:'
+      - '  &7• Type &f/kit starter &7for basic tools'
+      - '  &7• Gather wood and stone'
+      - '  &7• Build a base &7(no claims - be careful!)'
+      - ''
+      - '&e◆ &fImportant commands:'
+      - '  &7• &f/spawn &7- Return to spawn'
+      - '  &7• &f/rtp &7- Random teleport'
+      - '  &7• &f/sethome &7- Set your home'
+      - '  &7• &f/home &7- Go to your home'
+      - '&7─────────────────────'
+    left_click_commands:
+      - '[message] &8[&b&lGuide&8] &fCheck spawn for NPCs with more information!'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  
+  # ============= ECONOMY & SHOPS =============
+  'economy':
+    material: SUNFLOWER
+    slot: 14
+    priority: 1
+    update: true
+    display_name: '&e&l💰 ECONOMY & SHOPS'
+    lore:
+      - '&7─────────────────────'
+      - '&fTwo currencies on &bAqua Hive&f:'
+      - ''
+      - '&e⛁ COINS:'
+      - '  &7• Earn from &fkilling mobs&7, &fselling&7, &fvoting'
+      - '  &7• Use &f/coinshop &7to spend them'
+      - ''
+      - '&d✨ AFK SHARDS:'
+      - '  &7• Earn while &fAFK &7in the AFK zone'
+      - '  &7• Use &f/afkshop &7for special items'
+      - ''
+      - '&e◆ &fBalance: &e%coinsengine_balance_coins% ⛁'
+      - '&d◆ &fShards: &d%coinsengine_balance_afkshard% ✨'
+      - '&7─────────────────────'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  
+  # ============= PVP & COMBAT =============
+  'pvp_info':
+    material: DIAMOND_SWORD
+    slot: 16
+    priority: 1
+    update: true
+    display_name: '&c&l🗡 PVP & COMBAT'
+    lore:
+      - '&7─────────────────────'
+      - '&fLifeSteal is a &cPVP-focused &fserver!'
+      - ''
+      - '&e◆ &fYour stats:'
+      - '  &7• Kills: &c%statistic_player_kills%'
+      - '  &7• Deaths: &c%statistic_deaths%'
+      - ''
+      - '&c⚠ Remember: Each kill steals 1 heart!'
+      - '&7─────────────────────'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_ATTACK_SWEEP'
+  
+  # ============= TEAMS =============
+  'teams_info':
+    material: PLAYER_HEAD
+    slot: 20
+    priority: 1
+    display_name: '&b&l🤝 TEAMS'
+    lore:
+      - '&7─────────────────────'
+      - '&fTeam up with friends!'
+      - ''
+      - '&e◆ &fTeam commands:'
+      - '  &7• &f/team create &7- Create a team'
+      - '  &7• &f/team invite &7- Invite players'
+      - '  &7• &f/team join &7- Join a team'
+      - '  &7• &f/team leave &7- Leave your team'
+      - '  &7• &f/team chat &7- Team-only chat'
+      - ''
+      - '&a✓ &fTeammates cannot hurt each other'
+      - '&a✓ &fShare kills and protection'
+      - '&7─────────────────────'
+    left_click_commands:
+      - '[message] &8[&b&lTeams&8] &fType &b/team help &ffor all commands!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+
+
+  # ============= VOTING REWARDS =============
+  'voting':
+    material: PAPER
+    slot: 22
+    priority: 1
+    update: true
+    display_name: '&a&l📊 VOTING REWARDS'
+    lore:
+      - '&7─────────────────────'
+      - '&fSupport the server & get rewards!'
+      - ''
+      - '&e◆ &fVote with: &f/vote'
+      - ''
+      - '&a✓ &fVote Points: &a%votingplugin_points%'
+      - '&a✓ &fGet &ecoins&f, &dshards&f, and exclusive items'
+      - '&a✓ &fVote daily for bonuses!'
+      - ''
+      - '&7Vote links are in #vote channel'
+      - '&7─────────────────────'
+    left_click_commands:
+      - '[message] &8[&a&lVote&8] &fUse &a/vote &fto see voting sites!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+  
+  # ============= USEFUL COMMANDS =============
+  'commands_list':
+    material: COMMAND_BLOCK
+    slot: 24
+    priority: 1
+    display_name: '&b&l⌨️ USEFUL COMMANDS'
+    lore:
+      - '&7─────────────────────'
+      - '&fEssential commands:'
+      - ''
+      - '&e◆ &fTeleportation:'
+      - '  &7• &f/spawn, /rtp, /home, /sethome'
+      - '  &7• &f/tpa <player>, /tpahere, /tpaccept'
+      - ''
+      - '&e◆ &fEconomy:'
+      - '  &7• &f/bal, /pay, /baltop'
+      - '  &7• &f/shop, /ah &7(Auction House)'
+      - ''
+      - '&e◆ &fSocial:'
+      - '  &7• &f/msg, /r, /ignore'
+      - '  &7• &f/trash, /pv &7(Personal Vault)'
+      - '&7─────────────────────'
+    left_click_commands:
+      - '[message] &8[&b&lCommands&8] &fType &b/help commands &ffor the full list!'
+      - '[sound] BLOCK_NOTE_BLOCK_HAT'
+  
+  # ============= DISCORD =============
+  'discord':
+    material: BLUE_WOOL
+    slot: 28
+    priority: 1
+    display_name: '&9&l💬 JOIN OUR DISCORD'
+    head_text: 'ewYWMjAxM2U3YmM5NjFjYjIxODk3YjBkNTM4YjUwYmRjNzU2NWUzODkyMjYzNjNlMjA3ZjAwMjYzYzE2ODA4OTNkMCJ9XX0='
+    lore:
+      - '&7─────────────────────'
+      - '&fConnect with the community!'
+      - ''
+      - '&9◆ &fDiscord benefits:'
+      - '  &7• Get support'
+      - '  &7• Report bugs'
+      - '  &7• Find teammates'
+      - '  &7• Giveaways & events'
+      - ''
+      - '&9🔗 &fdiscord.aquahive.net'
+      - '&7─────────────────────'
+      - '&e&lCLICK TO COPY LINK!'
+    left_click_commands:
+      - '[message] &8[&9&lDiscord&8] &fLink copied to chat: &9discord.aquahive.net'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  # ============= AUCTION HOUSE =============
+  'auction_house':
+    material: GOLD_INGOT
+    slot: 34
+    priority: 1
+    display_name: '&6&l🏷️ AUCTION HOUSE'
+    lore:
+      - '&7─────────────────────'
+      - '&fBuy and sell with other players!'
+      - ''
+      - '&e◆ &fCommands:'
+      - '  &7• &f/ah &7- Open auction house'
+      - '  &7• &f/ah sell &7- Sell held item'
+      - '  &7• &f/ah expired &7- Claim expired items'
+      - ''
+      - '&7List your items for others to buy!'
+      - '&7─────────────────────'
+    left_click_commands:
+      - '[player] ah'
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  
+  # ============= BACK BUTTON (if you have main menu) =============
+  'back':
+    material: BARRIER
+    slot: 40
+    priority: 1
+    display_name: '&c&l« Back to Main Menu'
+    lore:
+      - '&7Click to return'
+    left_click_commands:
+      - '[sound] BLOCK_CHEST_CLOSE'
+      - '[open] main_menu'  # If you have a main menu
+      - '[close]'

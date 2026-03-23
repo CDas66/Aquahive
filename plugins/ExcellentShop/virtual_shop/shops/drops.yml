@@ -1,0 +1,780 @@
+# Mob Drops Shop
+Settings:
+  Icon:
+    Material: minecraft:leather
+    Name: <c:#a855f7><b>✦ MOB DROPS SHOP ✦</b></c>
+    Lore: []
+    Display_Name: <c:#a855f7><b>✦ MOB DROPS SHOP ✦</b></c>
+  Layout:
+    Paginated: true
+    ByPage:
+      '0': default
+  Aliases: []
+  Name: '&l<orange>✦ MOBS DROPS ✦</orange>'
+  Description: []
+  Permission_Required: false
+  Buying: true
+  Selling: true
+  Pages: 1
+  MainMenu:
+    Slot: '13'
+
+Content:
+  # Common Drops
+  gunpowder:
+    Priority: 10
+    Item:
+      Material: minecraft:gunpowder
+      Display_Name: <white>Gunpowder</white>
+      Lore:
+      - <gray>From Creepers</gray>
+      - <gray>Used for fireworks & TNT</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$10/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$5/stack</white>
+    Slots: 11
+    Shop_Item:
+      Buy_Price: 10
+      Sell_Price: 5
+      Amount: 64
+  
+  string:
+    Priority: 10
+    Item:
+      Material: minecraft:string
+      Display_Name: <white>String</white>
+      Lore:
+      - <gray>From Spiders</gray>
+      - <gray>Used for bows & fishing rods</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$8/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$4/stack</white>
+    Slots: 12
+    Shop_Item:
+      Buy_Price: 8
+      Sell_Price: 4
+      Amount: 64
+  
+  spider_eye:
+    Priority: 10
+    Item:
+      Material: minecraft:spider_eye
+      Display_Name: <white>Spider Eye</white>
+      Lore:
+      - <gray>From Spiders</gray>
+      - <gray>Used for brewing</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$5/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$2/stack</white>
+    Slots: 13
+    Shop_Item:
+      Buy_Price: 5
+      Sell_Price: 2
+      Amount: 64
+  
+  # Rare Drops
+  ender_pearl:
+    Priority: 10
+    Item:
+      Material: minecraft:ender_pearl
+      Display_Name: <c:#3b82f6>Ender Pearl</c>
+      Lore:
+      - <gray>From Endermen</gray>
+      - <gray>Used for teleportation</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$50</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$25</white>
+    Slots: 20
+    Shop_Item:
+      Buy_Price: 50
+      Sell_Price: 25
+  
+  blaze_rod:
+    Priority: 10
+    Item:
+      Material: minecraft:blaze_rod
+      Display_Name: <c:#f97316>Blaze Rod</c>
+      Lore:
+      - <gray>From Blazes</gray>
+      - <gray>Used for brewing & end rods</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$75</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$37</white>
+    Slots: 21
+    Shop_Item:
+      Buy_Price: 75
+      Sell_Price: 37
+  
+  ghast_tear:
+    Priority: 10
+    Item:
+      Material: minecraft:ghast_tear
+      Display_Name: <c:#a855f7>Ghast Tear</c>
+      Lore:
+      - <gray>From Ghasts</gray>
+      - <gray>Used for regeneration potions</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$100</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$50</white>
+    Slots: 22
+    Shop_Item:
+      Buy_Price: 100
+      Sell_Price: 50
+  
+  # Legendary Drops
+  wither_skeleton_skull:
+    Priority: 10
+    Item:
+      Material: minecraft:wither_skeleton_skull
+      Display_Name: <c:#f97316>Wither Skeleton Skull</c>
+      Lore:
+      - <gray>From Wither Skeletons</gray>
+      - <gray>Used to summon the Wither</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$500</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$250</white>
+    Slots: 29
+    Shop_Item:
+      Buy_Price: 500
+      Sell_Price: 250
+  
+  nether_star:
+    Priority: 10
+    Item:
+      Material: minecraft:nether_star
+      Display_Name: <c:#a855f7>Nether Star</c>
+      Lore:
+      - <gray>From Wither</gray>
+      - <gray>Used for beacons</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$1000</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$500</white>
+    Slots: 30
+    Shop_Item:
+      Buy_Price: 1000
+      Sell_Price: 500
+  
+  dragon_egg:
+    Priority: 10
+    Item:
+      Material: minecraft:dragon_egg
+      Display_Name: <c:#fbbf24>Dragon Egg</c>
+      Lore:
+      - <gray>From Ender Dragon</gray>
+      - <gray>Ultimate trophy</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$5000</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$2500</white>
+    Slots: 31
+    Shop_Item:
+      Buy_Price: 5000
+      Sell_Price: 2500
+# Aqua Hive Mob Drops Shop - Optimized Economy
+# All mob drops with fair prices based on rarity and utility
+
+Items:
+  # ==================== COMMON DROPS ====================
+
+  rotten_flesh:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:rotten_flesh"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 8.0
+      SELL: 4.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  
+  gunpowder:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:gunpowder"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 12.0
+      SELL: 6.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  
+  string:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:string"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 10.0
+      SELL: 5.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  
+  leather:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:leather"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 15.0
+      SELL: 7.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  
+  rabbit_foot:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:rabbit_foot"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 25.0
+      SELL: 12.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  
+  fermented_spider_eye:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:fermented_spider_eye"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 30.0
+      SELL: 15.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  
+  rabbit_hide:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:rabbit_hide"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 12.0
+      SELL: 6.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  
+  armadillo_scute:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:armadillo_scute"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 35.0
+      SELL: 17.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  
+  glow_ink_sac:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:glow_ink_sac"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 20.0
+      SELL: 10.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  
+  spider_eye:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:spider_eye"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 8.0
+      SELL: 4.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  
+  sugar:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:sugar"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 6.0
+      SELL: 3.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 1
+  
+  # ==================== RARE DROPS ====================
+
+  prismarine_shard:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:prismarine_shard"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 20.0
+      SELL: 10.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  
+  turtle_scute:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:turtle_scute"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 40.0
+      SELL: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  
+  slime_ball:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:slime_ball"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 25.0
+      SELL: 12.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1
+  
+  egg:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:16,id:"minecraft:egg"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 2.0
+      SELL: 1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  
+  # ==================== VERY RARE DROPS ====================
+
+  ender_pearl:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:16,id:"minecraft:ender_pearl"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 50.0
+      SELL: 25.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 38
+      Page: 1
+  
+  glowstone_dust:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:glowstone_dust"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 18.0
+      SELL: 9.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 39
+      Page: 1
+  
+  nautilus_shell:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:nautilus_shell"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 60.0
+      SELL: 30.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 40
+      Page: 1
+  
+  magma_cream:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:magma_cream"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 22.0
+      SELL: 11.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 41
+      Page: 1
+  
+  ghast_tear:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:ghast_tear"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 80.0
+      SELL: 40.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 42
+      Page: 1

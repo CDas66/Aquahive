@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:acacia_wood": 4,
+      "minecraft:beacon": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 10692,
+      "minecraft:time_since_rest": 40298,
+      "minecraft:fall_one_cm": 3096,
+      "minecraft:walk_one_cm": 21720,
+      "minecraft:total_world_time": 40298,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 37853,
+      "minecraft:crouch_one_cm": 120,
+      "minecraft:sneak_time": 101,
+      "minecraft:play_time": 40298,
+      "minecraft:jump": 201,
+      "minecraft:time_since_death": 40298
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 4,
+      "minecraft:acacia_wood": 4,
+      "minecraft:beacon": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:acacia_wood": 4,
+      "minecraft:beacon": 1
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,11 @@
+material: PLAYER_HEAD
+glow: false
+config_5: true
+config_update: true
+itemModel: ei:honeycomb_crate_block
+hiders:
+  hideUsage: true
+  hideEnchants: true
+name: "<#FFB347>Honeycomb Crate"
+lore:
+  - "<#FFD700>Right-click to open</#FFD700>"

@@ -1,0 +1,9 @@
+jails:
+  jail:
+    world: eccef47b-2cc9-45c0-b5ac-52470f8d5827
+    world-name: spawn
+    x: -999.5128719018074
+    y: 3.0
+    z: -1017.3464345640812
+    yaw: 177.453369140625
+    pitch: 90.0

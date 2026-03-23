@@ -1,0 +1,37 @@
+LastUpdated: 1774260545786
+VotingPlugin:
+  VoteShopConverted: true
+  AutoCachePlaceholders:
+  - points
+  - total_alltime
+  - alltimetotal
+  AutoCacheUpdated: true
+  Version: '1.21.11-117-79c77f5 (MC: 1.21.11)'
+  ServiceSites:
+  - best-minecraft-servers.co - Best Minecraft Servers
+  - bestservers.com - BestServers.com
+  - blockatlas.net - blockatlas
+  - crafty.gg - crafty.gg
+  - curseforge.com - curseforge
+  - liste-serveurs.fr - Liste-Serveurs
+  - mc-lists.org - MC-Lists
+  - mc-servers.com - MC-Servers.com
+  - Minecraft-MP.com - Minecraft-MP.com
+  - minecraft-server-list.com - MCSL
+  - Minecraft-Server.net - Minecraft-Server.net
+  - minecraft-serverlist.com - minecraft-serverlist-com
+  - minecraft.buzz - Minecraft.Buzz
+  - minecraft.menu - Minecraft Menu
+  - minecraftbestservers.com - Minecraft Server List
+  - minecraftservers.blog - minecraftservers.blog
+  - minecraftservers.org - MinecraftServers.org
+  - minestatus.net - minestatus.net
+  - PlanetMinecraft.com - PlanetMinecraft.com
+  - play-minecraft-servers.com - play-minecraft-servers.com
+  - servers-minecraft.net - Servers-Minecraft
+  - topminecraftservers.org - TopMinecraftServers
+PluginVersions:
+  VotingPlugin: '7.0'
+Month: MARCH
+PrevWeek: 13
+PrevDay: 23

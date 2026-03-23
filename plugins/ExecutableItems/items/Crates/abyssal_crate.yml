@@ -1,0 +1,12 @@
+material: SHULKER_BOX
+glow: true
+config_5: true
+config_update: true
+itemModel: ei:abyssal_crate
+hiders:
+  hideUsage: true
+  hideEnchants: true
+name: "<#2C3E50>Abyssal Crate"
+lore:
+  - "<#3498DB>From the darkest depths"
+  - "<#2980B9>Ancient ocean secrets inside"

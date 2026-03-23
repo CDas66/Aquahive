@@ -1,0 +1,13 @@
+arenas:
+  arena:
+    world: spawn
+    pos1:
+      x: 1012
+      y: 3
+      z: -962
+    pos2:
+      x: 1028
+      y: 0
+      z: -990
+    auto-reset: false
+    auto-reset-interval: 300

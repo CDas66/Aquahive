@@ -1,0 +1,857 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  AFK:
+    type: TEXT
+    location:
+      world: spawn
+      x: 9.522526741027832
+      y: -0.7999999523162842
+      z: -59.5284309387207
+      yaw: -1.4994023
+      pitch: 89.85
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&7&l>&d&lAFK ZONE&7&l<'
+    - '&7afk here'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  RTP:
+    type: TEXT
+    location:
+      world: spawn
+      x: 0.48561176657676697
+      y: 0.2480478286743164
+      z: -61.42068862915039
+      yaw: -1.4994023
+      pitch: 89.85
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 3.0
+    scale_y: 3.0
+    scale_z: 3.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&7&l>&a&lSPAWN&7&l<'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  AFKsub:
+    type: TEXT
+    location:
+      world: spawn
+      x: 0.47118401527404785
+      y: -0.13981260359287262
+      z: -61.54273986816406
+      yaw: 1.2003174
+      pitch: -1.2904406E-5
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&7&lrtp to overworld'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  arena:
+    type: TEXT
+    location:
+      world: spawn
+      x: -8.497879028320312
+      y: -0.7999999523162842
+      z: -59.50556945800781
+      yaw: 0.15047409
+      pitch: 89.549995
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&7&l>&c&lARENA&7&l<'
+    - '&7duel here'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  rtpnpc:
+    type: TEXT
+    location:
+      world: spawn
+      x: 0.4953444336571562
+      y: 0.12000000476837158
+      z: -56.53013280206104
+      yaw: -0.7498474
+      pitch: 13.199995
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&a&lRTP&f&l<'
+    - '&7click here to rtp'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    linkedNpc: RTP
+  store:
+    type: TEXT
+    location:
+      world: spawn
+      x: 3.4964868895598586
+      y: 0.12000000476837158
+      z: -56.495070868981294
+      yaw: 6.600647
+      pitch: 0.60000044
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&b&lSTORE&f&l<'
+    - '&7/store'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    linkedNpc: store
+    background: transparent
+  vote:
+    type: TEXT
+    location:
+      world: spawn
+      x: -2.5314469170451614
+      y: 0.12000000476837158
+      z: -56.48627116406555
+      yaw: -6.5996704
+      pitch: -0.750042
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&c&lVOTE&f&l<'
+    - '&7/vote'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    linkedNpc: vote
+    background: transparent
+  shop:
+    type: TEXT
+    location:
+      world: spawn
+      x: 6.520747906458337
+      y: 0.12000000476837158
+      z: -55.49862303879864
+      yaw: 18.300842
+      pitch: 6.750067
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&e&lSHOP&f&l<'
+    - '&7/shop'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    linkedNpc: shop
+    background: transparent
+  todo:
+    type: TEXT
+    location:
+      world: spawn
+      x: -5.475728887664324
+      y: 0.12000000476837158
+      z: -55.50995156475479
+      yaw: -16.949554
+      pitch: -0.2999974
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&9&lJOBS&f&l<'
+    - '&7/work'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    linkedNpc: ToDo
+    background: transparent
+  rules:
+    type: TEXT
+    location:
+      world: spawn
+      x: -8.487896268689003
+      y: 0.12000000476837158
+      z: -54.48490203915337
+      yaw: -33.299286
+      pitch: 5.5499897
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&6&lRULES&f&l<'
+    - '&7/rules'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    linkedNpc: rules
+  auction:
+    type: TEXT
+    location:
+      world: spawn
+      x: 9.504891372496344
+      y: 0.12000000476837158
+      z: -54.515304011986785
+      yaw: 53.100086
+      pitch: 90.0
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&9&lAUCTION&f&l<'
+    - '&7/ah'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    linkedNpc: auction
+  help:
+    type: TEXT
+    location:
+      world: spawn
+      x: -11.558655050266937
+      y: 0.12000000476837158
+      z: -51.52239837386086
+      yaw: -40.049225
+      pitch: 8.099964
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&2&lHELP&f&l<'
+    - '&7/help'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    linkedNpc: help
+  daily:
+    type: TEXT
+    location:
+      world: spawn
+      x: 12.566987735873957
+      y: 0.12000000476837158
+      z: -51.557406394588014
+      yaw: 42.60138
+      pitch: -0.2998804
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&l>&c&lDALY&f&l<'
+    - '&7/daily'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+    linkedNpc: daily
+  info:
+    type: TEXT
+    location:
+      world: spawn
+      x: -16.700000762939453
+      y: 1.7303181886672974
+      z: -41.44796371459961
+      yaw: -90.006195
+      pitch: 1.0341406E-5
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 3.0
+    scale_y: 3.0
+    scale_z: 3.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&f&lINFO'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+    background: transparent
+  infotxt:
+    type: TEXT
+    location:
+      world: spawn
+      x: -16.600000381469727
+      y: -0.5
+      z: -41.5
+      yaw: -90.0
+      pitch: 0.0
+    visibility_distance: 200
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&7---basic commands in this server---'
+    - '&b&l• /spawn - &fteleports you to the spawn'
+    - '&b&l• /sethome - &fsets a direct access to your base for you'
+    - '&b&l• /home - &fto teleport to yiur home faster'
+    - '&b&l• /rtp - &fto randomly telepor in any location in any dimension'
+    - '&b&l• /shop - &fto open your pocket shop'
+    - '&b&l• /store - &fto but more exiting stuff'
+    - '&b&l• /vote - &fvote to vote four our server'
+    - '&b&l• /kit <rank> - &fto get your rank kits'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    billboard: fixed
+    background: transparent
+  playtimesb:
+    type: TEXT
+    location:
+      world: spawn
+      x: 12.615617752075195
+      y: -0.5
+      z: -5.999846458435059
+      yaw: 89.84888
+      pitch: -1.6500088
+    visibility_distance: 50
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    billboard: fixed
+    text:
+    - <green><b>⏱ TOP PLAYTIME ⏱</b></green>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - <gold><b>#1</b></gold> <white>%ajlb_lb_statistic_minutes_played_1_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_1_alltime_value_formatted%
+      mins</green>
+    - <yellow>#2</yellow> <white>%ajlb_lb_statistic_minutes_played_2_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_2_alltime_value_formatted%
+      mins</green>
+    - <yellow>#3</yellow> <white>%ajlb_lb_statistic_minutes_played_3_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_3_alltime_value_formatted%
+      mins</green>
+    - <yellow>#4</yellow> <white>%ajlb_lb_statistic_minutes_played_4_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_4_alltime_value_formatted%
+      mins</green>
+    - <yellow>#5</yellow> <white>%ajlb_lb_statistic_minutes_played_5_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_5_alltime_value_formatted%
+      mins</green>
+    - <yellow>#6</yellow> <white>%ajlb_lb_statistic_minutes_played_6_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_6_alltime_value_formatted%
+      mins</green>
+    - <yellow>#7</yellow> <white>%ajlb_lb_statistic_minutes_played_7_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_7_alltime_value_formatted%
+      mins</green>
+    - <yellow>#8</yellow> <white>%ajlb_lb_statistic_minutes_played_8_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_8_alltime_value_formatted%
+      mins</green>
+    - <yellow>#9</yellow> <white>%ajlb_lb_statistic_minutes_played_9_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_9_alltime_value_formatted%
+      mins</green>
+    - <yellow>#10</yellow> <white>%ajlb_lb_statistic_minutes_played_10_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_minutes_played_10_alltime_value_formatted%
+      mins</green>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<aqua>Your playtime: %statistic_minutes_played% minutes</aqua>'
+    - '<aqua>Your rank: #%ajlb_position_statistic_minutes_played_alltime%</aqua>'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: 6000
+    background: transparent
+  killsLeaderboard:
+    type: TEXT
+    location:
+      world: spawn
+      x: -11.699999809265137
+      y: -0.5
+      z: -6.003392696380615
+      yaw: -89.851585
+      pitch: -1.2000582
+    visibility_distance: 50
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <red><b>⚔ TOP KILLS ⚔</b></red>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - <gold><b>#1</b></gold> <white>%ajlb_lb_statistic_player_kills_1_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_1_alltime_value_formatted%
+      kills</green>
+    - <yellow>#2</yellow> <white>%ajlb_lb_statistic_player_kills_2_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_2_alltime_value_formatted%
+      kills</green>
+    - <yellow>#3</yellow> <white>%ajlb_lb_statistic_player_kills_3_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_3_alltime_value_formatted%
+      kills</green>
+    - <yellow>#4</yellow> <white>%ajlb_lb_statistic_player_kills_4_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_4_alltime_value_formatted%
+      kills</green>
+    - <yellow>#5</yellow> <white>%ajlb_lb_statistic_player_kills_5_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_5_alltime_value_formatted%
+      kills</green>
+    - <yellow>#6</yellow> <white>%ajlb_lb_statistic_player_kills_6_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_6_alltime_value_formatted%
+      kills</green>
+    - <yellow>#7</yellow> <white>%ajlb_lb_statistic_player_kills_7_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_7_alltime_value_formatted%
+      kills</green>
+    - <yellow>#8</yellow> <white>%ajlb_lb_statistic_player_kills_8_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_8_alltime_value_formatted%
+      kills</green>
+    - <yellow>#9</yellow> <white>%ajlb_lb_statistic_player_kills_9_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_9_alltime_value_formatted%
+      kills</green>
+    - <yellow>#10</yellow> <white>%ajlb_lb_statistic_player_kills_10_alltime_name%</white>
+      <gray>-</gray> <green>%ajlb_lb_statistic_player_kills_10_alltime_value_formatted%
+      kills</green>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<aqua>Your kills: %statistic_player_kills%</aqua>'
+    - '<aqua>Your rank: #%ajlb_position_statistic_player_kills_alltime%</aqua>'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: 6000
+    billboard: fixed
+    background: transparent
+  deathsLeaderboard:
+    type: TEXT
+    location:
+      world: spawn
+      x: -10.699999809265137
+      y: -0.5
+      z: 1.0099095106124878
+      yaw: -90.00305
+      pitch: -1.3500324
+    visibility_distance: 50
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <dark_red><b>💀 TOP DEATHS 💀</b></dark_red>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - <gold><b>#1</b></gold> <white>%ajlb_lb_statistic_deaths_1_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_1_alltime_value_formatted% deaths</red>
+    - <yellow>#2</yellow> <white>%ajlb_lb_statistic_deaths_2_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_2_alltime_value_formatted% deaths</red>
+    - <yellow>#3</yellow> <white>%ajlb_lb_statistic_deaths_3_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_3_alltime_value_formatted% deaths</red>
+    - <yellow>#4</yellow> <white>%ajlb_lb_statistic_deaths_4_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_4_alltime_value_formatted% deaths</red>
+    - <yellow>#5</yellow> <white>%ajlb_lb_statistic_deaths_5_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_5_alltime_value_formatted% deaths</red>
+    - <yellow>#6</yellow> <white>%ajlb_lb_statistic_deaths_6_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_6_alltime_value_formatted% deaths</red>
+    - <yellow>#7</yellow> <white>%ajlb_lb_statistic_deaths_7_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_7_alltime_value_formatted% deaths</red>
+    - <yellow>#8</yellow> <white>%ajlb_lb_statistic_deaths_8_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_8_alltime_value_formatted% deaths</red>
+    - <yellow>#9</yellow> <white>%ajlb_lb_statistic_deaths_9_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_9_alltime_value_formatted% deaths</red>
+    - <yellow>#10</yellow> <white>%ajlb_lb_statistic_deaths_10_alltime_name%</white>
+      <gray>-</gray> <red>%ajlb_lb_statistic_deaths_10_alltime_value_formatted% deaths</red>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<aqua>Your deaths: %statistic_deaths%</aqua>'
+    - '<aqua>Your rank: #%ajlb_position_statistic_deaths_alltime%</aqua>'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: 6000
+    billboard: fixed
+    background: transparent
+  votesLeaderboard:
+    type: TEXT
+    location:
+      world: spawn
+      x: 11.699999809265137
+      y: -0.5
+      z: 1.0105808973312378
+      yaw: 89.84772
+      pitch: -2.9999511
+    visibility_distance: 100
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <gold><b>⭐ TOP VOTERS ⭐</b></gold>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<bold><gradient:#FFD700:#FFAA00>👑 #1 %ajlb_lb_votingplugin_alltimetotal_1_alltime_name%
+      👑</gradient></bold>'
+    - <#C0C0C0><b>#2</b> <white>%ajlb_lb_votingplugin_alltimetotal_2_alltime_name%</white>
+      - <#C0C0C0>%ajlb_lb_votingplugin_alltimetotal_2_alltime_value_formatted% votes</#C0C0C0></#C0C0C0>
+    - <#CD7F32><b>#3</b> <white>%ajlb_lb_votingplugin_alltimetotal_3_alltime_name%</white>
+      - <#CD7F32>%ajlb_lb_votingplugin_alltimetotal_3_alltime_value_formatted% votes</#CD7F32></#CD7F32>
+    - <yellow>#4</yellow> <white>%ajlb_lb_votingplugin_alltimetotal_4_alltime_name%</white>
+      - <green>%ajlb_lb_votingplugin_alltimetotal_4_alltime_value_formatted% votes</green>
+    - <yellow>#5</yellow> <white>%ajlb_lb_votingplugin_alltimetotal_5_alltime_name%</white>
+      - <green>%ajlb_lb_votingplugin_alltimetotal_5_alltime_value_formatted% votes</green>
+    - <yellow>#6</yellow> <white>%ajlb_lb_votingplugin_alltimetotal_6_alltime_name%</white>
+      - <green>%ajlb_lb_votingplugin_alltimetotal_6_alltime_value_formatted% votes</green>
+    - <yellow>#7</yellow> <white>%ajlb_lb_votingplugin_alltimetotal_7_alltime_name%</white>
+      - <green>%ajlb_lb_votingplugin_alltimetotal_7_alltime_value_formatted% votes</green>
+    - <yellow>#8</yellow> <white>%ajlb_lb_votingplugin_alltimetotal_8_alltime_name%</white>
+      - <green>%ajlb_lb_votingplugin_alltimetotal_8_alltime_value_formatted% votes</green>
+    - <yellow>#9</yellow> <white>%ajlb_lb_votingplugin_alltimetotal_9_alltime_name%</white>
+      - <green>%ajlb_lb_votingplugin_alltimetotal_9_alltime_value_formatted% votes</green>
+    - <yellow>#10</yellow> <white>%ajlb_lb_votingplugin_alltimetotal_10_alltime_name%</white>
+      - <green>%ajlb_lb_votingplugin_alltimetotal_10_alltime_value_formatted% votes</green>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<aqua>Your votes: %votingplugin_alltimetotal%</aqua>'
+    - '<aqua>Your rank: #%ajlb_position_votingplugin_alltimetotal_alltime%</aqua>'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: 6000
+    billboard: fixed
+    background: transparent
+  moneyLeaderboard:
+    type: TEXT
+    location:
+      world: spawn
+      x: 3.0036139488220215
+      y: -0.5
+      z: 7.699999809265137
+      yaw: 179.99576
+      pitch: -4.544854E-5
+    visibility_distance: 100
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <#FFD700><b>💰 RICHEST PLAYERS 💰</b></#FFD700>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<bold><gradient:#FFD700:#FFAA00>👑 #1 %ajlb_lb_vault_eco_balance_1_alltime_name%
+      👑</gradient></bold>'
+    - <bold><gradient:#FFD700:#FFAA00> $%ajlb_lb_vault_eco_balance_1_alltime_value_formatted%</gradient></bold>
+    - <gray>│</gray>
+    - <#C0C0C0><b>#2</b> <white>%ajlb_lb_vault_eco_balance_2_alltime_name%</white>
+      - <#C0C0C0>$%ajlb_lb_vault_eco_balance_2_alltime_value_formatted%</#C0C0C0></#C0C0C0>
+    - <#CD7F32><b>#3</b> <white>%ajlb_lb_vault_eco_balance_3_alltime_name%</white>
+      - <#CD7F32>$%ajlb_lb_vault_eco_balance_3_alltime_value_formatted%</#CD7F32></#CD7F32>
+    - <yellow>#4</yellow> <white>%ajlb_lb_vault_eco_balance_4_alltime_name%</white>
+      - <green>$%ajlb_lb_vault_eco_balance_4_alltime_value_formatted%</green>
+    - <yellow>#5</yellow> <white>%ajlb_lb_vault_eco_balance_5_alltime_name%</white>
+      - <green>$%ajlb_lb_vault_eco_balance_5_alltime_value_formatted%</green>
+    - <yellow>#7</yellow> <white>%ajlb_lb_vault_eco_balance_7_alltime_name%</white>
+      - <green>$%ajlb_lb_vault_eco_balance_7_alltime_value_formatted%</green>
+    - <yellow>#8</yellow> <white>%ajlb_lb_vault_eco_balance_8_alltime_name%</white>
+      - <green>$%ajlb_lb_vault_eco_balance_8_alltime_value_formatted%</green>
+    - <yellow>#9</yellow> <white>%ajlb_lb_vault_eco_balance_9_alltime_name%</white>
+      - <green>$%ajlb_lb_vault_eco_balance_9_alltime_value_formatted%</green>
+    - <yellow>#10</yellow> <white>%ajlb_lb_vault_eco_balance_10_alltime_name%</white>
+      - <green>$%ajlb_lb_vault_eco_balance_10_alltime_value_formatted%</green>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<aqua>Your balance: $%vault_eco_balance%</aqua>'
+    - '<aqua>Your rank: #%ajlb_position_vault_eco_balance_alltime%</aqua>'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: 6000
+    billboard: fixed
+    background: transparent
+  coinsLeaderboard:
+    type: TEXT
+    location:
+      world: spawn
+      x: -1.9957921504974365
+      y: -0.5
+      z: 7.699999809265137
+      yaw: 179.9963
+      pitch: -1.9162893E-5
+    visibility_distance: 100
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <#FFD700><b>💰 TOP COINS 💰</b></#FFD700>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<bold><gradient:#FFD700:#FFAA00>👑 #1 %ajlb_lb_coinsengine_balance_coins_1_alltime_name%
+      👑</gradient></bold>'
+    - <bold><gradient:#FFD700:#FFAA00> %ajlb_lb_coinsengine_balance_coins_1_alltime_value_formatted%
+      coins</gradient></bold>
+    - <gray>│</gray>
+    - <#C0C0C0><b>#2</b> <white>%ajlb_lb_coinsengine_balance_coins_2_alltime_name%</white>
+      - <#C0C0C0>%ajlb_lb_coinsengine_balance_coins_2_alltime_value_formatted% coins</#C0C0C0></#C0C0C0>
+    - <#CD7F32><b>#3</b> <white>%ajlb_lb_coinsengine_balance_coins_3_alltime_name%</white>
+      - <#CD7F32>%ajlb_lb_coinsengine_balance_coins_3_alltime_value_formatted% coins</#CD7F32></#CD7F32>
+    - <yellow>#4</yellow> <white>%ajlb_lb_coinsengine_balance_coins_4_alltime_name%</white>
+      - <green>%ajlb_lb_coinsengine_balance_coins_4_alltime_value_formatted% coins</green>
+    - <yellow>#5</yellow> <white>%ajlb_lb_coinsengine_balance_coins_5_alltime_name%</white>
+      - <green>%ajlb_lb_coinsengine_balance_coins_5_alltime_value_formatted% coins</green>
+    - <yellow>#6</yellow> <white>%ajlb_lb_coinsengine_balance_coins_6_alltime_name%</white>
+      - <green>%ajlb_lb_coinsengine_balance_coins_6_alltime_value_formatted% coins</green>
+    - <yellow>#7</yellow> <white>%ajlb_lb_coinsengine_balance_coins_7_alltime_name%</white>
+      - <green>%ajlb_lb_coinsengine_balance_coins_7_alltime_value_formatted% coins</green>
+    - <yellow>#8</yellow> <white>%ajlb_lb_coinsengine_balance_coins_8_alltime_name%</white>
+      - <green>%ajlb_lb_coinsengine_balance_coins_8_alltime_value_formatted% coins</green>
+    - <yellow>#9</yellow> <white>%ajlb_lb_coinsengine_balance_coins_9_alltime_name%</white>
+      - <green>%ajlb_lb_coinsengine_balance_coins_9_alltime_value_formatted% coins</green>
+    - <yellow>#10</yellow> <white>%ajlb_lb_coinsengine_balance_coins_10_alltime_name%</white>
+      - <green>%ajlb_lb_coinsengine_balance_coins_10_alltime_value_formatted% coins</green>
+    - <gray>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</gray>
+    - '<aqua>Your coins: %coinsengine_balance_coins%</aqua>'
+    - '<aqua>Your rank: #%ajlb_position_coinsengine_balance_coins_alltime%</aqua>'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: 6000
+    billboard: fixed
+    background: transparent
+  food:
+    type: TEXT
+    location:
+      world: spawn
+      x: -999.5312337465288
+      y: 5.120000004768372
+      z: -1028.3906285880364
+      yaw: 0.14648438
+      pitch: -2.413988E-6
+    visibility_distance: 100
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&7>&6&lFOOD&7<'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    linkedNpc: food
+  referee:
+    type: TEXT
+    location:
+      world: spawn
+      x: -999.5235052315668
+      y: 6.120000004768372
+      z: -1003.5469315022245
+      yaw: 0.14465332
+      pitch: 2.99998
+    visibility_distance: 100
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&8&lREFEREE'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    linkedNpc: referee
+    background: '#c8ffffff'
+  reset:
+    type: TEXT
+    location:
+      world: spawn
+      x: 1030.415957910413
+      y: 6.120000004768372
+      z: -975.4713318736601
+      yaw: 89.99972
+      pitch: 1.9499637
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - '&4&lRESET ARENA'
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    linkedNpc: reset
+    block_brightness: 15
+    sky_brightness: 15
+    background: transparent

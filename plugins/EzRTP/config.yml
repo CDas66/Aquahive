@@ -1,0 +1,271 @@
+# EzRTP teleport configuration
+#
+# Balanced defaults that prioritize smooth gameplay on most survival servers.
+# Increase cache sizes or enable more advanced features as your hardware allows.
+#
+# The values in this file control the default random teleport behaviour. Additional
+# options such as MiniMessage templates, queue tuning, the selector GUI, and
+# proxy/network entries now live in the dedicated messages.yml, queue.yml, gui.yml,
+# and network.yml files respectively.
+#
+# Set to true to enable debug logging for rejected random teleport locations (for troubleshooting safe location logic).
+# This will print detailed reasons for every rejected candidate location to the server log. Only enable for troubleshooting!
+debug-rejection-logging: false
+
+# Prefix for all plugin messages. Supports color codes (&) and MiniMessage formatting. Leave empty for no prefix.
+message-prefix: "&7[&bRTP&7] &r"
+
+# Language for plugin messages. Place language files in the messages/ directory.
+# Supported languages: en (English). Create your own language files by copying en.yml and translating.
+language: en
+
+# RTP configuration
+rtp:
+  # Enable or disable fallback to cached locations when RTP search fails
+  # When enabled, if a location search fails, the plugin will try to use a random cached location
+  # When disabled, RTP will fail immediately if no location is found through search
+  enable_fallback_to_cache: true
+  # Enable human-readable cooldown formatting (e.g., "1h 30m 45s" instead of "5430 seconds")
+  human-readable-cooldown: true
+
+# Optional: restrict random teleport Y-levels (inclusive). If omitted, world min/max height is used.
+min-y: 54
+max-y: 320
+world: world
+center:
+  x: 0
+  z: 0
+radius:
+  min: 500  # Reduced from 1000 to 500 for faster searches with fewer chunk loads
+  # Set a custom maximum radius (in blocks). When omitted the world border size will be used.
+  max: 2000  # Added explicit max radius to prevent extremely large searches
+# Candidate coordinate search pattern. Options: random, circle, square, triangle, diamond.
+# - `random`: uniform random polar selection (default)
+# - `circle`: pick a random point inside a circular annulus
+# - `square`: pick a random point on the perimeter of a square annulus
+# - `triangle`: pick a random point on the perimeter of an equilateral triangle
+# - `diamond`: pick a random point on the perimeter of a diamond (rotated square)
+search-pattern: random
+max-attempts: 32  # Reduced for low-RAM servers - balances speed vs success rate
+cost: 0.0
+countdown-seconds: 5 # Optional countdown before teleport (0 = disabled)
+countdown:
+  # Optional: override countdown seconds here instead of countdown-seconds.
+  # seconds: 5
+  bossbar:
+    enabled: true
+    title: "<yellow>Teleporting in <white><seconds></white> seconds...</yellow>"
+    color: YELLOW
+    style: SOLID
+  particles:
+    enabled: true
+    # Primary Bukkit particle to use for the countdown ring.
+    type: ENCHANTMENT_TABLE
+    # Number of points in the ring around the player.
+    points: 12
+    # Ring radius in blocks.
+    radius: 1.2
+    # Height offset from the player's feet.
+    height-offset: 0.8
+    # Additional speed/extra parameter passed to the particle effect.
+    extra: 0.0
+    # Force the particles to render for players at long distances (1.13+ servers).
+    force: false
+    # Optional secondary sparkle particle.
+    secondary-particle: PORTAL
+    secondary-count: 6
+    secondary-offset: 0.35
+  # Enable or disable countdown chat messages. When disabled, only bossbar and particles will be shown.
+  chat-messages: false
+unsafe-blocks:
+  - WATER
+  - LAVA
+  - MAGMA_BLOCK
+  - POWDER_SNOW
+  - FIRE
+  - CAMPFIRE
+  - SOUL_FIRE
+safety:
+  water:
+    # When enabled, RTP will solidify shallow water by placing a block before teleporting.
+    # NOTE: the old key 'place-dirt-on-surface' is deprecated; use 'place-block-on-surface'.
+    place-block-on-surface: true
+    # Material to place on the surface when solidifying shallow water. Defaults to ICE.
+    # Valid values are Bukkit Material names (e.g., DIRT, GRASS_BLOCK, ICE).
+    material: ICE
+  recovery:
+    # Attempt to nudge unsafe RTP candidates vertically instead of discarding them immediately.
+    enabled: true
+    # Maximum number of blocks up/down to scan for a safe landing spot.
+    max-vertical-adjust: 6
+# Global chunk loading throttle (applies even without rare biome optimizations)
+chunk-loading:
+  enabled: true  # Enable to reduce RAM usage by queuing chunk loads
+  # Number of ticks to wait between chunk load batches
+  interval-ticks: 5
+  # Maximum chunks to load per batch
+  max-chunks-per-tick: 1
+# Chunky integration for pregenerating RTP search areas
+chunky-integration:
+  # Enable integration with Chunky plugin for chunk pregeneration
+  enabled: false
+  # Automatically start Chunky pregeneration tasks for RTP search areas
+  auto-pregenerate: false
+  # Shape for Chunky generation (circle, square, etc.)
+  shape: circle
+  # Pattern for Chunky generation (concentric, spiral, etc.)
+  pattern: concentric
+  # Memory safety settings for low-RAM servers
+  memory-safety:
+    # Enable memory-aware features to prevent crashes on low-RAM servers
+    # WARNING: If your server has less than 4GB RAM, consider these settings carefully
+    enabled: true
+    # Minimum free memory (in MB) required to enable Chunky integration features
+    # Lower values allow more features but increase OOM risk on low-RAM servers
+    min-free-memory-mb: 256
+    # Maximum chunk entries to retain in coordinator (0 = unlimited, but memory-safe mode will reduce this)
+    max-coordinator-entries: 5000
+    # Reduce coordinator retention time on low memory (in minutes, 0 = use default 60 minutes)
+    low-memory-retention-minutes: 10
+biomes:
+  # Optional: list of allowed biomes. Leave empty to allow all.
+  # Example biomes: PLAINS, FOREST, BIRCH_FOREST, DARK_FOREST, TAIGA, SNOWY_TAIGA,
+  #                 DESERT, SAVANNA, BADLANDS, MUSHROOM_FIELDS, JUNGLE, SWAMP
+  include: []
+  # Optional: list of biomes to avoid.
+  exclude: []
+  # Pre-caching configuration for biome-filtered RTPs
+  # When enabled, the server will pre-generate and cache safe locations for biome filters,
+  # significantly improving RTP success rates and reducing failed attempts.
+  pre-cache:
+    # Toggle pre-caching on/off. Enabled by default with conservative limits.
+    enabled: true
+    # Automatically force pre-cache on when biome filters are configured.
+    auto-enable-for-filters: true
+    # Maximum number of locations to cache per biome (higher = better hit rate but more memory)
+    max-per-biome: 32
+    # Number of locations to pre-generate during server startup/reload for each configured biome
+    warmup-size: 12
+    # How long (in minutes) cached locations remain valid before expiring
+    expiration-minutes: 15
+    # How often (in minutes) the cache refills locations in the background.
+    refill-interval-minutes: 10
+    # Number of locations generated during each refill pass per biome.
+    refill-batch-size: 3
+  # Rare biome optimization settings
+  # Advanced features to improve RTP success rates for hard-to-find biomes like Mushroom Fields,
+  # Ice Spikes, Jungle, and Badlands. These optimizations reduce chunk loading and search time.
+  rare-biome-optimization:
+    # Enable rare biome optimization features (recommended for servers with biome filters)
+    enabled: false
+    # List of biomes considered "rare" for optimization purposes
+    # Leave empty to use default list (MUSHROOM_FIELDS, JUNGLE, BADLANDS, ICE_SPIKES, etc.)
+    rare-biomes: []
+    # Use weighted search strategy that prioritizes areas near known rare biome hotspots
+    # This significantly improves success rates while maintaining randomness
+    use-weighted-search: true
+    # Track and register rare biome hotspots when found during RTP searches
+    # These hotspots are used to guide future searches more efficiently
+    enable-hotspot-tracking: true
+    # Perform background scanning for rare biomes during idle server times
+    # WARNING: May cause minor lag on low-end servers. Only enable if needed.
+    enable-background-scanning: false
+    # Maximum number of hotspot locations to track per rare biome
+    max-hotspots-per-biome: 48
+    # How often (in minutes) to scan for new rare biome hotspots during idle times
+    hotspot-scan-interval-minutes: 8
+    # Use chunk load queue to spread RTP chunk loading across multiple ticks
+    # Reduces server strain by preventing too many chunks from loading at once
+    use-chunk-load-queue: true
+    # Number of ticks to wait between chunk load batches (higher = slower but lighter on TPS)
+    chunk-load-interval-ticks: 3
+    # Maximum number of chunks to load per batch when using the queue (lower = less TPS impact)
+    max-chunks-per-tick: 2
+    # Automatically enable weighted search / hotspot tracking whenever biome filters are active.
+    auto-enable-for-filters: true
+  # Safeguards for expensive biome searches
+  search:
+    # Maximum wait time for standard biome searches, in seconds (0 = unlimited).
+    max-wait-seconds: 0
+    # Maximum wait time for rare-biome-only filters, in seconds.
+    max-wait-seconds-rare: 8
+    # Maximum number of rejected biome samples before triggering fallback logic (0 = unlimited).
+    max-biome-rejections: 0
+    # Separate rejection limit when every requested biome is marked rare.
+    max-biome-rejections-rare: 64
+    # Maximum number of chunks a standard search can load (0 = unlimited).
+    max-chunk-loads: 0
+    # Maximum number of chunks a rare-biome-only search can load before failing over.
+    max-chunk-loads-rare: 16
+    # Minimum number of attempts to make when biome filters are active (overrides max-attempts if higher).
+    min-biome-attempts: 96
+    # Behaviour once limits are exceeded: CACHE (only use cache), GENERIC (drop biome filters once), ABORT (fail immediately).
+    failover-mode: CACHE
+protection:
+  # Toggle claim/region avoidance during RTP searches.
+  avoid-claims: false
+  # Protection providers to query when avoiding claims.
+  providers:
+    - worldguard
+    - griefprevention
+particles:
+  enabled: true
+  # Bukkit particle name to spawn when a teleport succeeds.
+  type: PORTAL
+  # Number of particles spawned.
+  count: 40
+  # Offset applied around the destination location for particle spread.
+  offset:
+    x: 0.5
+    y: 1.0
+    z: 0.5
+  # Additional speed/extra parameter passed to the particle effect.
+  extra: 0.0
+  # Force the particles to render for players at long distances (1.13+ servers).
+  force: false
+on-join:
+  enabled: false
+  only-first-join: false
+  bypass-permission: ""
+  delay-ticks: 40
+
+# RTP cooldowns and usage limits
+rtp-limits:
+  default:
+    cooldown-seconds: 300   # Cooldown in seconds between /rtp uses
+    daily-limit: 10         # Max uses per day
+    weekly-limit: 50        # Max uses per week
+    cost: 0.0               # Optional cost override for this group
+  worlds:
+    world:
+      default:
+        cooldown-seconds: 300
+        daily-limit: 10
+        weekly-limit: 50
+        cost: 0.0
+      group.aeon:
+        cooldown-seconds: 60
+        daily-limit: 50
+        weekly-limit: 200
+        cost: 0.0
+    world_nether:
+      default:
+        cooldown-seconds: 600
+        daily-limit: 5
+        weekly-limit: 20
+        cost: 0.0
+      group.aeon:
+        cooldown-seconds: 0
+        daily-limit: -1   # -1 = unlimited
+        weekly-limit: -1
+        cost: 0.0
+  bypass-permissions:
+    - ezrtp.bypass.cooldown
+    - ezrtp.bypass.limit
+  # Allow players to open the RTP GUI even when on cooldown
+  allow-gui-during-cooldown: true
+
+# Enable or disable bStats metrics (https://bstats.org/plugin/bukkit/EzRTP/27735)
+# These anonymous metrics help track plugin usage and performance across servers.
+# View live statistics and graphs at the link above!
+enable-bstats: true

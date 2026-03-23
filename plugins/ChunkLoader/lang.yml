@@ -1,0 +1,59 @@
+# #------------------------------------------------------------------------------------------\n" +
+#                 "#                 author: Imperialroma10\n" +
+#                 "#     our project: https://modrinth.com/user/imperialroma10                \n" +
+#                 "#------------------------------------------------------------------------------------------\n" +
+#                 "#            Our Minecraft community is waiting for you \n" +
+#                 "#              Discord : http://discord.gg/fsEZEnE58g\n" +
+#                 "#------------------------------------------------------------------------------------------\n" +
+#                 "#              If you like our plugin support us with a cup of coffee\n" +
+#                 "#             Donate:   https://www.patreon.com/c/PluginDEV/membership\n" +
+#                 "    \n "+
+#                 "           If you need a custom plugin, please contact us on Discord!\n"+
+#                 "#------------------------------------------------------------------------------------------\n\n
+
+gui:
+  disablebutton:
+    title: <gradient:#ff0000:#ffaa00>Disable</gradient>
+    description: <gradient:#00ffff:#ff00ff>Chunk boundary is off</gradient>
+  admin:
+    chunk:
+      description:
+      - '&ex: &b{x}'
+      - '&ey: &b{y}'
+      - '&ez: &b{z}'
+      - '&eworld: &b{world}'
+      - '&7Left click to teleport to chunk loader block'
+      - '  '
+      - '&7We will soon add interaction with these blocks'
+      - '&7Deletion, modification, teleportation, etc.'
+      title: '&eOwner: &b{owner}'
+    title: <gradient:#4444ff:#aa00aa>Admin menu</gradient>
+    openbtn:
+      title: '&7Show loaded chunks'
+      description: ''
+    givebtn:
+      title: '&7Get the chunk loader block'
+      description: ''
+  owneritem:
+    description: <gradient:#00ffff:#ff00ff>This chunk loader is owned by {player}.</gradient>
+    title: <gradient:#00ffff:#ff00ff>Owner {player}</gradient>
+  enablebutton:
+    title: <gradient:#00ff00:#00ffff>Enable</gradient>
+    description: <gradient:#00ffff:#ff00ff>Chunk boundary enabled</gradient>
+  thirditem:
+    title: <gradient:#00ffff:#ff00ff>Information</gradient>
+    description: <gradient:#00ffff:#ff00ff>Now this chunk will be active until the
+      block is broken !</gradient>
+  title: <gradient:#4444ff:#aa00aa>ChunkLoader Menu</gradient>
+chunkblock:
+  name: <gradient:#00ffff:#ff00ff>Chunk loader</gradient>
+  placemessage: <gradient:#00ffff:#ff00ff>Chunk loader placed. Chunk will stay loaded.</gradient>
+  description: <gradient:#00ffff:#ff00ff>Keeps the chunk always loaded.</gradient>
+  errorplace: <gradient:#aa0000:#ff5555>This chunk already loaded</gradient>
+  breakmessage: <gradient:#aa0000:#ff5555>Chunk loader removed. Chunk may now unload.</gradient>
+  limitmessage: '<gradient:#ff0000:#ffaa00>You have reached the limit of chunks max:
+    {max}</gradient>'
+playernotonline: <gradient:#00ffff:#ff00ff>This player is not online.</gradient>
+reloadmessage: <gradient:#00ff00:#00ffff>Plugin reloaded</gradient>
+pluginprefix: '<gradient:#00c3ff:#8e2de2>[ChunkLoader]</gradient> '
+successgiveblock: <gradient:#00ffff:#ff00ff>Chunk Loader block has been given.</gradient>

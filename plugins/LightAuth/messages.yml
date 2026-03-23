@@ -1,0 +1,110 @@
+titles:
+  register:
+    title: "#7cfa6e🔒 Register Required!"
+    subtitle: "#fff08cPlease register using #ffd58c/register <password> <password>"
+  login:
+    title: "#7cfa6e🔒 Login Required!"
+    subtitle: "#fff08cUse #ffd58c/login <password> #fff08cto access the server."
+
+commands:
+  usage-command: "#ff0000✘Usage: /lightauth <reload|help|discord|unregister|changepassword|forcechangepassword|setspawn|password|info|website>"
+  unknown-command: "#ff0000✘Unknown sub-command: %command%"
+  help-command: "#ff0000Use✔ /lightauth help for a list of available commands."
+  player-only: "#ff0000✘ #ffd58cThis command can only be used by players!"
+  spawn:
+    not-enabled: "#ff0000✘ #fff08cSpawn feature is not enabled. Please enable it in the config.yml file."
+    set-success: "#7cfa6e✔Spawn #84f5a2location set successfully."
+  login:
+    not-registered: "#ff0000✘ #fff08cYou are not registered! Use #ffd58c/register #fff08cto register first."
+    usage: "#ff0000✘ #ffd58cUsage: #fff08c/login <password>"
+    incorrect-password: "#ff0000✘ #fff08cIncorrect password! Remaining attempts: #ffd58c%remaining%"
+    too-many-failures: "#ff0000✘ #fff08cToo many failed attempts! You have been punished."
+    success: "#7cfa6e✔ #8cfdffSuccessfully logged in! Welcome back."
+    premium-bypass: "&aAs a premium user, registration is not required. You are ready to play!"
+    bypass-success: "#7cfa6e✔ #84f5a2You have bypassed the login process because your IP matches the previous login."
+    name-taken: "#ff0000✘ #fff08cThis username is already in use by another player!"
+    same-ip: "#ff0000✘ #fff08cYou are already logged in from this IP address!"
+    another-ip: "#ff0000✘ #fff08cAnother player is already online with the same username!"
+    duplicate-login: "#ff0000✘ #fff08cThere is already a login attempt with this name!"
+
+  register:
+    usage: "#ff0000✘ #ffd58cUsage: #fff08c/register <password> <password>"
+    already-registered: "#ff0000✘ #fff08cYou are already registered! Use #ffd58c/login #fff08cto log in."
+    password-mismatch: "#ff0000✘ #fff08cPasswords do not match! Please try again."
+    success: "#7cfa6e✔ #8cfdffSuccessfully registered! You are now logged in."
+    password-too-short: "#ff0000✘ #fff08cPassword is too short! Minimum {min} characters required."
+    password-too-long: "#ff0000✘ #fff08cPassword is too long! Maximum {max} characters allowed."
+    password-name-not-allowed: "#ff0000✘ #fff08cYour password cannot be the same as your username!"
+    password-missing-uppercase: "#ff0000✘ #fff08cYour password must include at least {min} uppercase letter(s)."
+    password-missing-special: "#ff0000✘ #fff08cYour password must include at least one special character from: #84f5a2{chars}."
+    password-missing-number: "#ff0000✘ #fff08cYour password must include at least {min} number(s)."
+    ip-limit-reached: "#ff0000✘ #fff08cYou have reached the account limit for this IP address."
+  change-password:
+    usage: "#ff0000✘ #ffd58cUsage: #fff08c/changepassword <oldPassword> <newPassword>"
+    not-registered: "#ff0000✘ #fff08cYou are not registered!"
+    incorrect-current-password: "#ff0000✘ #fff08cThe old password you entered is incorrect."
+    success: "#7cfa6e✔ #8cfdffYour password has been changed successfully!"
+    player-not-found: "#ff0000✘ #fff08cThe specified player could not be found or is not registered."
+    incorrect-current-password-target: "#ff0000✘ #fff08cThe old password for the target player is incorrect."
+    success-target: "#7cfa6e✔ #8cfdffPassword for #ffd58c{player} #8cfdffhas been changed successfully."
+  unregister:
+    usage: "#ff0000✘ #ffd58cUsage: #fff08c/unregister <player>"
+    no-permission: "#ff0000✘ #fff08cYou do not have permission to use this command."
+    player-not-found: "#ff0000✘ #fff08cThe specified player could not be found or is not registered."
+    success: "#7cfa6e✔ #8cfdffSuccessfully unregistered #ffd58c{player}&b."
+    kicked: "#ff0000✘ #fff08cYou have been unregistered by an admin."
+  lightauth:
+    reload-success: "#7cfa6e✔ #8cfdffConfigurations reloaded successfully!"
+    usage: "#ff0000✘ #ffd58cUsage: #fff08c/lightauth reload"
+  force-change-password:
+    usage: "#ff0000✘ Usage: /forcechangepassword <player> <newpassword> or /lightauth forcechangepassword <player> <newpassword>"
+    player-not-found: "#ff0000✘ Player %player% not found or not online!"
+    not-registered: "#ff0000✘ Player %player% is not registered!"
+    success: "#8cffb1✔ Successfully changed password for %player%"
+
+actions:
+  not-allowed: "#ff0000✘ #fff08cYou cannot perform this action until you register or login."
+
+login:
+  timeout-kick: "#ff0000✘ #fff08cYou have been kicked for failing to register or login within the time limit."
+
+sounds:
+  success: "ENTITY_PLAYER_LEVELUP"
+  warning: "BLOCK_NOTE_BLOCK_BASS"
+
+info:
+  usage: "#ff0000✘ Usage: /lightauth playerinfo <player>"
+  not-registered: "#ff0000✘ Player %player% is not registered!"
+  unknown-ip: "Unknown"
+  date-format: "MM/dd/yyyy HH:mm:ss"
+  header: "&8&m------------------&r #ac57f2ᴘʟᴀʏᴇʀ ɪɴꜰᴏ &8&m------------------"
+  footer: "&8&m--------------------------------------------"
+  nickname: "#d39effNickname: #9effb5%player%"
+  uuid: "#d39effUUID: #9effb5%uuid%"
+  ip: "#d39effIP: #9effb5%ip%"
+  registration-date: "#d39effRegistration Date: #9effb5%date%"
+  registered-ago: "#d39effRegistered: #9effb5%time% ago"
+  last-login-date: "#d39effLast Login Date: #9effb5%date%"
+  last-login-ago: "#d39effLast Login: #9effb5%time% ago"
+  time:
+    months: "month"
+    weeks: "week"
+    days: "day"
+    hours: "hour"
+    minutes: "minute"
+    seconds: "second"
+
+password:
+  usage: "#ff0000✘ Usage: /playerpassword <player>"
+  not-registered: "#ff0000✘ Player %player% is not registered!"
+  no-password: "#ff0000✘ No password found for %player%"
+  success: "#a3ffcdPassword for %player%: #99ffb4%password%"
+website-command: |
+  #7700ffLightAuth #8b26ffWeb Interface
+  #ff0000Warning: &cThis website only works on the local machine where the server is installed.
+  #ff0000It will not work from other devices on the network.
+  #4a3f73Access the web interface at:
+  %url%
+  #ffec6eClick the link above to open in your browser.
+
+website-hover: "&eClick to open this link in your browser."

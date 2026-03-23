@@ -1,0 +1,249 @@
+# Aqua Hive Coin Shop
+# Convert real money to in-game coins and access other shops
+#=========================================================
+menu_title: '&6&l✦ COIN SHOP & MAIN MENU ✦'
+open_command:
+  - store
+  - coinshop
+  - coins
+  - cshop
+open_commands:
+  - '[sound] BLOCK_CHEST_OPEN'
+size: 54
+
+# Cool people with permission can bypass everything (optional)
+
+items:
+  # ============= COINS EXCHANGE (DIAMOND) =============
+  diamond:
+    material: SUNFLOWER
+    slot: 11
+    priority: 1
+    update: true
+    display_name: '&b&l⛁ COINS EXCHANGE'
+    lore:
+      - '&7A Unique Way To Convert Your Money To Coins'
+      - '&7Earn more coins with more money'
+      - ''
+      - '&ePrice: &f$1,000,000 for &6⛁ 100'
+      - '&eYour Balance: &f$%vault_eco_balance%'
+      - ''
+      - '&aLeft-click to purchase'
+    
+    left_click_requirement:
+      requirements:
+        has_enough_money:
+          type: has money
+          amount: 1000000
+      deny_commands:
+        - '[sound] ENTITY_VILLAGER_NO'
+        - "[message] &8[&6&lCoinShop&8] &cYou don't have enough money! You need $1,000,000"
+    
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] coins give %player_name% 100'
+      - '[console] eco take %player_name% 1000000'
+      - "[message] &8[&6&lCoinShop&8] &aYou purchased &b⛁ 100 &afor &f$1,000,000"
+      - '[refresh]'
+
+  # ============= MEDIUM COINS PACK =============
+  emerald:
+    material: EMERALD
+    slot: 13
+    priority: 1
+    update: true
+    display_name: '&a&l⛁ MEDIUM COINS PACK'
+    lore:
+      - '&7Best value for regular players!'
+      - ''
+      - '&ePrice: &f$500,000 for &6⛁ 75'
+      - '&eYour Balance: &f$%vault_eco_balance%'
+      - ''
+      - '&aLeft-click to purchase'
+    
+    left_click_requirement:
+      requirements:
+        has_enough_money:
+          type: has money
+          amount: 500000
+      deny_commands:
+        - '[sound] ENTITY_VILLAGER_NO'
+        - "[message] &8[&6&lCoinShop&8] &cYou don't have enough money! You need $500,000"
+    
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] coins give %player_name% 75'
+      - '[console] eco take %player_name% 500000'
+      - "[message] &8[&6&lCoinShop&8] &aYou purchased &b⛁ 75 &afor &f$500,000"
+      - '[refresh]'
+
+  # ============= SMALL COINS PACK =============
+  gold_ingot:
+    material: GOLD_INGOT
+    slot: 15
+    priority: 1
+    update: true
+    display_name: '&6&l⛁ SMALL COINS PACK'
+    lore:
+      - '&7Perfect for new players!'
+      - ''
+      - '&ePrice: &f$250,000 for &6⛁ 30'
+      - '&eYour Balance: &f$%vault_eco_balance%'
+      - ''
+      - '&aLeft-click to purchase'
+    
+    left_click_requirement:
+      requirements:
+        has_enough_money:
+          type: has money
+          amount: 250000
+      deny_commands:
+        - '[sound] ENTITY_VILLAGER_NO'
+        - "[message] &8[&6&lCoinShop&8] &cYou don't have enough money! You need $250,000"
+    
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] coins give %player_name% 30'
+      - '[console] eco take %player_name% 250000'
+      - "[message] &8[&6&lCoinShop&8] &aYou purchased &b⛁ 30 &afor &f$250,000"
+      - '[refresh]'
+
+  # ============= RANKS MENU BUTTON =============
+  ranks_menu:
+    material: NETHER_STAR
+    slot: 29
+    priority: 1
+    display_name: '&d&l✦ RANKS MENU ✦'
+    lore:
+      - '&7Upgrade your rank and unlock'
+      - '&7powerful perks and commands!'
+      - ''
+      - '&eRanks Available:'
+      - '&8• &7Spark &8→ &bEcho &8→ &eFlux'
+      - '&8→ &5Vex &8→ &dNova &8→ &8Umbra'
+      - '&8→ &6Aeon &8→ &4Zenith'
+      - ''
+      - '&aClick to open ranks store!'
+    left_click_commands:
+      - '[sound] BLOCK_NOTE_BLOCK_PLING'
+      - '[openguimenu] ranks'
+    
+  # ============= KEYS MENU BUTTON =============
+  keys_menu:
+    material: TRIPWIRE_HOOK
+    slot: 31
+    priority: 1
+    display_name: '&6&l✦ KEYS MENU ✦'
+    lore:
+      - '&7Purchase special crate keys'
+      - '&7to unlock amazing rewards!'
+      - ''
+      - '&eKeys Available:'
+      - '&8• &6Honeycomb Key &7- &a$4.99'
+      - '&8• &eStinger Key &7- &a$7.99'
+      - '&8• &dCoral Key &7- &a$9.99'
+      - '&8• &5Abyssal Key &7- &a$14.99'
+      - ''
+      - '&aClick to open keys store!'
+    left_click_commands:
+      - '[sound] BLOCK_NOTE_BLOCK_PLING'
+      - '[openguimenu] keys'
+
+  # ============= EFFECTS MENU BUTTON =============
+  effects_menu:
+    material: POTION
+    slot: 33
+    priority: 1
+    display_name: '&a&l✦ EFFECTS MENU ✦'
+    lore:
+      - '&7Purchase temporary effects'
+      - '&7and special abilities!'
+      - ''
+      - '&eEffects Available:'
+      - '&8• &bSpeed II &7- &a$2.99'
+      - '&8• &cStrength II &7- &a$4.99'
+      - '&8• &7Resistance II &7- &a$3.99'
+      - '&8• &eHaste III &7- &a$3.49'
+      - '&8• &fNight Vision &7- &a$1.49'
+      - '&8• &6Keep Inventory &7- &a$2.99'
+      - '&8• &fFlight &7- &a$5.99'
+      - ''
+      - '&aClick to open effects store!'
+    left_click_commands:
+      - '[sound] BLOCK_NOTE_BLOCK_PLING'
+      - '[openguimenu] effects'
+
+  # ============= BALANCE DISPLAY =============
+  balance_display:
+    material: GOLD_INGOT
+    slot: 48
+    priority: 1
+    display_name: '&6&l💰 YOUR BALANCE'
+    lore:
+      - '&7Real Money: &f$%vault_eco_balance%'
+      - '&7In-Game Coins: &6⛁%coins_balance%'
+      - ''
+      - '&eClick to refresh'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+  # ============= INFO BUTTON =============
+  info_button:
+    material: BOOK
+    slot: 50
+    priority: 1
+    display_name: '&d&l✦ SHOP INFO ✦'
+    lore:
+      - '&7Welcome to the Aqua Hive Coin Shop!'
+      - ''
+      - '&eHow to use:'
+      - '&8• &fClick on coin packs to buy'
+      - '&8• &fUse the menu buttons to access'
+      - '&8  other shops and features'
+      - ''
+      - '&eCoin Exchange Rates:'
+      - '&8• &f$1,000,000 &7→ &6⛁100'
+      - '&8• &f$500,000 &7→ &6⛁75'
+      - '&8• &f$250,000 &7→ &6⛁30'
+      - ''
+      - '&eOther Shops:'
+      - '&8• &dRanks &7- Permanent upgrades'
+      - '&8• &6Keys &7- Crate keys'
+      - '&8• &aEffects &7- Temporary abilities'
+      - ''
+      - '&aClick to see more info'
+    left_click_commands:
+      - '[message] &dAqua Hive Shop: Use coins to buy ranks, keys, and effects!'
+      - '[sound] BLOCK_NOTE_BLOCK_CHIME'
+
+  # ============= DECORATIVE BORDERS =============
+  border_top_left:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+    display_name: ' '
+  
+  border_top_right:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 17-18
+    display_name: ' '
+  
+  border_mid_left:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 26-27
+    display_name: ' '
+  
+  border_mid_right:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 35-36
+    display_name: ' '
+  
+  border_bottom:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 44-53
+    display_name: ' '

@@ -1,0 +1,38 @@
+# XreatOptimizer Per-World Configuration
+# Configure different optimization settings for each world.
+#
+# You can also protect specific chunks from being unloaded/hibernated.
+# Format: world_name:chunk_x:chunk_z
+
+worlds:
+  world:
+    entity_limiter:
+      enabled: false
+      max_entities: 10000
+    hibernate:
+      enabled: false
+      radius: 64
+    auto_clear:
+      enabled: false
+    view_distance: -1
+  world_nether:
+    entity_limiter:
+      enabled: false
+      max_entities: 5000
+    hibernate:
+      enabled: false
+      radius: 48
+    auto_clear:
+      enabled: false
+    view_distance: -1
+  world_the_end:
+    entity_limiter:
+      enabled: false
+      max_entities: 5000
+    hibernate:
+      enabled: false
+      radius: 48
+    auto_clear:
+      enabled: false
+    view_distance: -1
+protected_chunks: []

@@ -1,0 +1,375 @@
+# Aqua Hive Effect Shop
+# Purchase temporary effects and special abilities
+
+menu_title: '&8&l⟁ &2&lEFFECT SHOP &8&l⟁'
+open_command:
+  - effects
+  - effectshop
+  - buyeffect
+size: 54
+items:
+
+  # =========================
+  # 🟣 BACKGROUND
+  # =========================
+  background:
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+      - 1-9
+      - 17-18
+      - 26-27
+      - 35-36
+      - 44-53
+    display_name: ' '
+
+  # =========================
+  # 👤 PLAYER INFO
+  # =========================
+  player_head:
+    material: PLAYER_HEAD
+    slot: 4
+    display_name: '&a&l%player_name%'
+    lore:
+      - '&7Your Balance: &6⛁%coinsengine_balance_coins%'
+      - ''
+      - '&eClick to refresh'
+    left_click_commands:
+      - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+      - '[refresh]'
+
+  # =========================
+  # ⚡ SPEED BOOST - Slot 10
+  # =========================
+  speed_effect:
+    material: SUGAR
+    slot: 19
+    display_name: '&b&l⚡ SPEED BOOST'
+    lore:
+      - '&7Increases your movement speed'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fSpeed II &7- 30 minutes'
+      - '&7• &f+40% movement speed'
+      - '&7• &fPerfect for traveling and exploring'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 5
+      deny_commands:
+        - '[message] &cYou need ⛁5 to buy this!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% speed 1800 2'
+      - '[message] &a✔ You purchased &bSpeed II&a for 30 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 💪 STRENGTH - Slot 11
+  # =========================
+  strength_effect:
+    material: BLAZE_POWDER
+    slot: 20
+    display_name: '&c&l💪 STRENGTH'
+    lore:
+      - '&7Increases your attack damage'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fStrength II &7- 15 minutes'
+      - '&7• &f+6 attack damage'
+      - '&7• &fGreat for PvP and boss fights'
+      - ''
+      - '&aPrice: &6⛁5.'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] give take %player_name% 5'
+      - '[console] effect give %player_name% strength 900 2'
+      - '[message] &a✔ You purchased &cStrength II&a for 15 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 🛡️ RESISTANCE - Slot 12
+  # =========================
+  resistance_effect:
+    material: IRON_INGOT
+    slot: 21
+    display_name: '&7&l🛡️ RESISTANCE'
+    lore:
+      - '&7Reduces incoming damage'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fResistance II &7- 20 minutes'
+      - '&7• &f-40% damage taken'
+      - '&7• &fEssential for tanking'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% resistance 1200 2'
+      - '[message] &a✔ You purchased &7Resistance II&a for 20 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 🦅 JUMP BOOST - Slot 13
+  # =========================
+  jump_effect:
+    material: FEATHER
+    slot: 22
+    display_name: '&e&l🦅 JUMP BOOST'
+    lore:
+      - '&7Increases jump height'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fJump Boost III &7- 15 minutes'
+      - '&7• &fJump 3 blocks higher'
+      - '&7• &fFun for parkour and exploring'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% jump_boost 900 3'
+      - '[message] &a✔ You purchased &eJump Boost III&a for 15 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 🌊 WATER BREATHING - Slot 14
+  # =========================
+  water_breathing:
+    material: PUFFERFISH
+    slot: 23
+    display_name: '&b&l🌊 WATER BREATHING'
+    lore:
+      - '&7Breathe underwater indefinitely'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fWater Breathing &7- 30 minutes'
+      - '&7• &fNo more drowning'
+      - '&7• &fPerfect for ocean exploration'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% water_breathing 1800 1'
+      - '[message] &a✔ You purchased &bWater Breathing&a for 30 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 🔥 FIRE RESISTANCE - Slot 15
+  # =========================
+  fire_resist:
+    material: MAGMA_CREAM
+    slot: 24
+    display_name: '&6&l🔥 FIRE RESISTANCE'
+    lore:
+      - '&7Become immune to fire and lava'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fFire Resistance &7- 20 minutes'
+      - '&7• &fNo fire or lava damage'
+      - '&7• &fGreat for nether exploration'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% fire_resistance 1200 1'
+      - '[message] &a✔ You purchased &6Fire Resistance&a for 20 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 🏃 HASTE - Slot 16
+  # =========================
+  haste_effect:
+    material: GOLDEN_PICKAXE
+    slot: 25
+    display_name: '&e&l🏃 HASTE'
+    lore:
+      - '&7Mine blocks faster'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fHaste III &7- 15 minutes'
+      - '&7• &f+80% mining speed'
+      - '&7• &fPerfect for mining sessions'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% haste 900 3'
+      - '[message] &a✔ You purchased &eHaste III&a for 15 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 🎯 NIGHT VISION - Slot 19
+  # =========================
+  night_vision:
+    material: GOLDEN_CARROT
+    slot: 29
+    display_name: '&f&l🎯 NIGHT VISION'
+    lore:
+      - '&7See clearly in the dark'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fNight Vision &7- 45 minutes'
+      - '&7• &fSee like it is daytime'
+      - '&7• &fNo more torches needed'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% night_vision 2700 1'
+      - '[message] &a✔ You purchased &fNight Vision&a for 45 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 💚 REGENERATION - Slot 20
+  # =========================
+  regen_effect:
+    material: GHAST_TEAR
+    slot: 30
+    display_name: '&d&l💚 REGENERATION'
+    lore:
+      - '&7Slowly heal over time'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fRegeneration II &7- 10 minutes'
+      - '&7• &fHeal 1 heart every 2 seconds'
+      - '&7• &fPerfect for long fights'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% regeneration 600 2'
+      - '[message] &a✔ You purchased &dRegeneration II&a for 10 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 👻 INVISIBILITY - Slot 21
+  # =========================
+  invisibility:
+    material: FERMENTED_SPIDER_EYE
+    slot: 31
+    display_name: '&8&l👻 INVISIBILITY'
+    lore:
+      - '&7Become invisible to others'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fInvisibility &7- 15 minutes'
+      - '&7• &fArmor and held items still visible'
+      - '&7• &fGreat for PvP surprises'
+      - ''
+      - '&aPrice: &6⛁5'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] coins take %player_name% 5'
+      - '[console] effect give %player_name% invisibility 900 1'
+      - '[message] &a✔ You purchased &8Invisibility&a for 15 minutes!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 💎 KEEP INVENTORY - Slot 22
+  # =========================
+  keep_inventory:
+    material: TOTEM_OF_UNDYING
+    slot: 32
+    display_name: '&6&l💎 KEEP INVENTORY'
+    lore:
+      - '&7Keep your items when you die'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fKeep Inventory &7- 30 minutes'
+      - '&7• &fItems stay in inventory'
+      - '&7• &fNo XP loss on death'
+      - '&7• &fSingle use effect'
+      - ''
+      - '&aPrice: &6⛁30'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] vault eco take %player_name% 1 day'
+      - '[console] lp user %player_name% permission settemp essentials.keepinv true 1d'
+      - '[message] &a✔ You purchased &6Keep Inventory&a for 1 day!'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 🛡️ FLIGHT - Slot 25
+  # =========================
+  flight:
+    material: ELYTRA
+    slot: 33
+    display_name: '&f&l🛡️ TEMPORARY FLIGHT'
+    lore:
+      - '&7Fly freely for a limited time'
+      - ''
+      - '&d&l★ EFFECT DETAILS:'
+      - '&7• &fFlight &7- 15 minutes'
+      - '&7• &fDouble jump to fly'
+      - '&7• &fGreat for building'
+      - ''
+      - '&aPrice: &6⛁5.99'
+      - '&eClick to purchase!'
+    left_click_commands:
+      - '[console] vault eco take %player_name% 5.99'
+      - '[console] lp user %player_name% permission settemp essentials.fly true 15m'
+      - '[message] &a✔ You purchased &fFlight&a for 15 minutes! use /fly'
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[close]'
+
+  # =========================
+  # 💰 BALANCE & INFO
+  # =========================
+  back_button:
+    material: ARROW
+    slot: 0
+    display_name: '&c&l◀ BACK'
+    lore:
+      - '&7Click to return to'
+      - '&7the main shop!'
+      - ''
+      - '&eClick to go back'
+    left_click_commands:
+      - '[sound] BLOCK_NOTE_BLOCK_PLING'
+      - '[openguimenu] store'
+
+  info:
+    material: BOOK
+    slot: 49
+    display_name: '&a&l✦ EFFECT INFO ✦'
+    lore:
+      - '&7All effects are temporary'
+      - '&7and activate immediately!'
+      - ''
+      - '&d&l★ AVAILABLE EFFECTS:'
+      - '&7• &bSpeed &7- 30 min'
+      - '&7• &cStrength &7- 15 min'
+      - '&7• &7Resistance &7- 20 min'
+      - '&7• &eJump Boost &7- 15 min'
+      - '&7• &bWater Breathing &7- 30 min'
+      - '&7• &6Fire Resistance &7- 20 min'
+      - '&7• &eHaste &7- 15 min'
+      - '&7• &fNight Vision &7- 45 min'
+      - '&7• &dRegeneration &7- 10 min'
+      - '&7• &8Invisibility &7- 15 min'
+      - '&7• &6Keep Inventory &7- 1 death'
+      - '&7• &fFlight &7- 15 min'
+      - ''
+      - '&eClick to see effect list'

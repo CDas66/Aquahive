@@ -1,0 +1,12 @@
+material: SHULKER_BOX
+glow: true
+config_5: true
+config_update: true
+itemModel: ei:stinger_crate
+hiders:
+  hideUsage: true
+  hideEnchants: true
+name: "<#FFD700>Stinger Crate"
+lore:
+  - "<#FFA500>Sharp as a bee's stinger!"
+  - "<#FF8C00>Contains dangerous rewards"

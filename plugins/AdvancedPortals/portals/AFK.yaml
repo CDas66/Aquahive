@@ -1,0 +1,17 @@
+args:
+  name:
+  - AFK
+  destination:
+  - AFK
+  triggerblock:
+  - NETHER_PORTAL
+maxLoc:
+  posX: 10
+  posY: 0
+  posZ: -61
+  worldName: spawn
+minLoc:
+  posX: 8
+  posY: -3
+  posZ: -61
+  worldName: spawn

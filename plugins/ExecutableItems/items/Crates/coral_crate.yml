@@ -1,0 +1,12 @@
+material: SHULKER_BOX
+glow: true
+config_5: true
+config_update: true
+itemModel: ei:coral_crate
+hiders:
+  hideUsage: true
+  hideEnchants: true
+name: "<#FF7F50>Coral Crate"
+lore:
+  - "<#FF6B6B>Ocean treasures await!"
+  - "<#4ECDC4>Straight from the reef"

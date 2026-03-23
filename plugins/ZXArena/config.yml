@@ -1,0 +1,20 @@
+settings:
+  wand-item: GOLDEN_AXE
+  broadcast-reset: true
+  normal-reset-delay: 0
+  extreme-reset-delay: 0
+
+messages:
+  prefix: '&#FFD700[ZXArena] '
+  pos1-set: '&aFirst position set at &f{x}, {y}, {z}'
+  pos2-set: '&aSecond position set at &f{x}, {y}, {z}'
+  arena-saved: '&aArena &f{name} &asaved successfully! &7({blocks} blocks)'
+  arena-reset: '&aArena &f{name} &areset in &f{time}ms &7({mode} mode)'
+  arena-deleted: '&cArena &f{name} &chas been deleted'
+  spawn-set: '&aSpawn location set for arena &f{name}'
+  no-selection: '&cYou must select both positions first!'
+  arena-not-found: '&cArena &f{name} &cnot found!'
+  no-permission: '&cYou do not have permission to use this command!'
+  config-reloaded: '&aConfiguration reloaded successfully!'
+  wand-given: '&aYou have been given the arena selection wand!'
+  invalid-mode: '&cInvalid mode! Use: normal or extreme'

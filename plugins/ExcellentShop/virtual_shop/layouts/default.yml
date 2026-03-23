@@ -1,0 +1,182 @@
+# ==================== [SECTION] SETTINGS ====================
+# > [MenuType] : String | Represents the menu type. Allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/MenuType.html
+# > [Title] : String | Sets menu title.
+# > [Auto_Refresh] : Integer | Defines menu refresh rate in seconds. Set 0 to disable.
+# > [PlaceholderAPI -> Enabled] : Boolean | When enabled, applies PlaceholderAPI placeholders for all items in the menu per player.
+#  
+# ==================== [SECTION] CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# > [Item] : Section | Item to display.
+#     [*] Navigate to https://nightexpressdev.com/nightcore/configuration/item-formation/ for a list of available options.
+# > [Priority] : Integer | Item priority. Higher values will override other item(s) in the same slot(s).
+# > [Slots] : Int Array | Item slots, starts from 0. Split with commas.
+#     Slots: '0,4,9,10'
+# > [Type] : String | Defines item click action.
+#     [*] Available types: ['close', 'user_skin', 'return', 'page_next', 'page_previous', 'sell_all']
+# > [Click_Commands] : Section | Executes commands on click with PlaceholderAPI support.
+#     [*] Works only if [Type] is not set (null).
+#     [*] Available click types: [LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, DRAG_N_DROP]
+#     [*] Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: warp shop
+# ==================================================
+Settings:
+  MenuType: minecraft:generic_9x6
+  Title: <c:#3E3E3E>⟁ <c:#06b6d4>AQUA HIVE</c> <c:#3E3E3E>⟁ &8→ &f%shop_name% (<white>%page%</white>/<white>%pages%</white>)</c>
+  Auto_Refresh: -1
+  PlaceholderAPI:
+    Enabled: true
+
+# ==================== [SECTION] CONTENT ====================
+Content:
+  # ============ BACKGROUND ============
+  gray_stained_glass_pane:
+    Priority: -1
+    Item:
+      Material: minecraft:gray_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 0-53
+    Type: 'null'
+  
+  # ============ DECORATIVE BORDERS ============
+  top_border:
+    Priority: 5
+    Item:
+      Material: minecraft:cyan_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 0-8
+    Type: 'null'
+  
+  bottom_border:
+    Priority: 5
+    Item:
+      Material: minecraft:cyan_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 45-53
+    Type: 'null'
+  
+  left_border:
+    Priority: 5
+    Item:
+      Material: minecraft:cyan_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 9,18,27,36
+    Type: 'null'
+  
+  right_border:
+    Priority: 5
+    Item:
+      Material: minecraft:cyan_stained_glass_pane
+      Lore: []
+      Hide_Tooltip: true
+    Slots: 17,26,35,44
+    Type: 'null'
+  
+  # ============ NAVIGATION BUTTONS ============
+  return_button:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_door
+      Display_Name: <c:#f97316><b>◀ BACK TO MAIN MENU</b></c>
+      Lore:
+      - <gray>Click to return to the main shop</gray>
+    Slots: 49
+    Type: return
+  
+  page_next:
+    Priority: 10
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <c:#fbbf24><b><u>Next Page</u> →</b></c>
+      Lore:
+      - <gray>Go to the next page</gray>
+    Slots: 50
+    Type: page_next
+  
+  page_previous:
+    Priority: 10
+    Item:
+      Material: minecraft:arrow
+      Display_Name: <c:#fbbf24><b>← <u>Previous Page</u></b></c>
+      Lore:
+      - <gray>Go to the previous page</gray>
+    Slots: 48
+    Type: page_previous
+  
+  # ============ UTILITY BUTTONS ============
+  # sell_all:
+  #   Priority: 10
+  #   Item:
+  #     Material: minecraft:player_head
+  #     Display_Name: <c:#ebd12a><b>SELL ALL</b></c>
+  #     Lore:
+  #     - <lgray>Sells everything from your inventory to all available shops.</lgray>
+  #     - '<lgray><c:#ebd12a>➥</c> Sell Multiplier: <c:#ebd12a>x%sell_multiplier%</c></lgray>'
+  #     - ''
+  #     - <c:#ebd12a>→ <b><u>CLICK</u></b> to sell</c>
+  #   Slots: 52
+  #   Type: sell_all
+
+    # balance:
+  #   Priority: 10
+  #   Item:
+  #     Material: minecraft:player_head
+  #     Display_Name: <c:#7cf1de><b>BALANCE</b></c>
+  #     Lore:
+  #     - <lgray>Here is displayed how much money you have.</lgray>
+  #     - ''
+  #     - <c:#7cf1de>➥</c> <white>%coinsengine_balance_formatted%</white>
+  #   Slots: 46
+  #   Type: 'null'
+  #   Click_Commands:
+  #     LEFT:
+  #     - 'player: coins balance'
+
+  player_head:
+    Priority: 10
+    Item:
+      Material: minecraft:player_head
+      Display_Name: <c:#7cf1de><b>%player_name%</b></c>
+      Lore:
+      - <gray>Welcome to Aqua Hive Shop!</gray>
+      - ''
+      - <c:#fbbf24>➥</c> <white>Your Rank:</white> <c:#06b6d4>%luckperms_primary_group_name%</c>
+      - <c:#fbbf24>➥</c> <white>Your Balance:</white> <c:#7cf1de>%coinsengine_balance_formatted%</c>
+      - ''
+      - <gray><c:#7cf1de>●</c> Click to refresh</gray>
+    Slots: 4
+    Type: 'null'
+    Click_Commands:
+      LEFT:
+      - 'player: coins balance'
+      - 'player: shop refresh'
+
+# info_button:
+#   Priority: 10
+#   Item:
+#     Material: minecraft:book
+#     Display_Name: <c:#06b6d4><b>✦ SHOP INFO ✦</b></c>
+#     Lore:
+#     - <gray>Welcome to Aqua Hive Shop!</gray>
+#     - ''
+#     - <c:#fbbf24>➥</c> <white>Buy and sell items with coins</white>
+#     - <c:#fbbf24>➥</c> <white>Use /sell all to sell inventory</white>
+#     - <c:#fbbf24>➥</c> <white>Right-click items to sell</white>
+#     - ''
+#     - <c:#06b6d4>Click for commands list!</c>
+#   Slots: 40
+#   Type: 'null'
+#   Click_Commands:
+#     LEFT:
+#     - 'player: msg <c:#06b6d4>=== Aqua Hive Shop Commands ===</c>'
+#     - 'player: msg <c:#fbbf24>/shop</c> <gray>- Open main shop</gray>'
+#     - 'player: msg <c:#fbbf24>/shop open [category]</c> <gray>- Open specific shop</gray>'
+#     - 'player: msg <c:#fbbf24>/sell all</c> <gray>- Sell everything</gray>'
+#     - 'player: msg <c:#fbbf24>/coins</c> <gray>- Check balance</gray>'

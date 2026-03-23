@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "keys:item/honeycomb.json"
+  }
+}

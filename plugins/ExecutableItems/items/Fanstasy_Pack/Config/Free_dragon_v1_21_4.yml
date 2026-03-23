@@ -1,0 +1,310 @@
+# The name or display name
+name: <gradient:#ff4500:#ffa500><bold>Wyrmcall</bold></gradient>
+# The lore of the item
+lore:
+- <red><italic>From the ashes of ancient tyrants,</italic></red>
+- <red><italic>a single ember still breathes wrath into the world.</italic></red>
+- ''
+- <gold>▶ <bold>Right-click</bold> to summon the fury of a skyborn beast</gold>
+- <gray>• Unleashes searing flame wings and vertical blaze</gray>
+- <gray>• Calls down <yellow>three lightning bolts</yellow> amid circles of fire</gray>
+- ''
+- <dark_red><italic>“Its roar is heard in thunder. Its breath is flame.”</italic></dark_red>
+config_5: true
+config_update: false
+itemModel: ei:dragon
+# The material
+material: STICK
+# Item Glowing effect
+glow: true
+# Disable the enchant glide effect
+disableEnchantGlide: true
+# Disable item stacking ?
+disableStack: false
+# Keep the item on death ?
+keepItemOnDeath: false
+# Can be used only by the owner
+# ⚠ Require Store item info on true
+canBeUsedOnlyByTheOwner: false
+# Cancel event if not owner
+cancelEventIfNotOwner: false
+# BlackListed Activators
+# (can be used by everyone even if
+# the only owner feature is set to true)
+onlyOwnerBlackListedActivators: []
+# Store item info ?
+# Store the item info like the owner
+storeItemInfo: false
+# Item unbreakable ?
+unbreakable: false
+# The durability feature
+# will be ignored, and the usage
+# feature will be used as durability
+isDurabilityBasedOnUsage: true
+# Cancel the event if the player has no permission
+cancelEventIfNoPermission: false
+# The whitelisted worlds features
+whitelistedWorlds: []
+# The glider
+glider: false
+# Keep the default attributes
+# Only for 1.19+
+keepDefaultAttributes: false
+# For new item LET IT FALSE PLS
+# Otherwise you can let it true
+# if you want to update your old items turn it FALSE
+# But be careful the item tags may change
+# it can impact shopkeeper or custom craft recipe
+# Only for 1.19+
+ignoreKeepDefaultAttributesFeature: true
+# Max durability feature
+maxDurability: 20
+# The durability of the item
+durability: 20
+# The usage features
+# Increase or Decrease this usage with
+# UsageModification in your activators
+usageFeatures:
+  # The usage of the item
+  # -1 = Infinite
+  # Increase or Decrease this usage with
+  # UsageModification in your activators
+  usage: -1
+  # Is refreshable clean
+  isRefreshableClean: true
+  # The usage limit of the item
+  # Usage can't be increased above this value
+  usageLimit: -1
+# The drop features
+dropFeatures:
+  # Glow drop
+  glowDrop: false
+  # The color of the glow
+  glowDropColor: WHITE
+  # Display custom name above the item
+  displayNameDrop: false
+# The enchantments of the item
+enchantments: {}
+# The hiders features
+# Hiders to hide:
+# Attributes, Enchants, ...
+hiders:
+  # Hide enchantments
+  hideEnchantments: false
+  # Hide unbreakable
+  hideUnbreakable: false
+  # Hide attributes
+  hideAttributes: false
+  # Hide usage
+  hideUsage: true
+  # Hide destroys
+  hideDestroys: false
+  # Hide placed on
+  hidePlacedOn: false
+  # Hide dye
+  hideDye: false
+  # Hides armor trim details in
+  # armor. Does not hide armor
+  # trim item details
+  hideArmorTrim: false
+  # Hide additional tooltip
+  # This option can no longer hide
+  # armor trim item details in 1.21.5+
+  hideAdditionalTooltip: false
+  # Hide tool tip
+  hideToolTip: false
+# The give first join features
+giveFirstJoinFeatures:
+  # Enable the feature
+  giveFirstJoin: false
+  # The amount to give
+  giveFirstJoinAmount: 1
+  # Slot between 0 and 8 includes
+  giveFirstJoinSlot: 0
+# The restrictions features
+restrictions:
+  # The item can't be
+  # moved of the inventory
+  locked-in-inventory: false
+# The variables
+# Variables are used to store data like kills / deaths ...
+variables: {}
+# The activators / triggers
+activators:
+  activator0:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    # Usage modification
+    usageModification: -1
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 60
+      # Pause the cooldown when the player is offline?
+      pauseWhenOffline: true
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - -1
+    playerCommands:
+    - score particles shape:square location:%player_world_initial%,%player_x_initial%,%player_y_initial%,%player_z_initial%
+      color:RED,ORANGE height:1.2 length:15 time:30 density:4 offsetPitch:0 offsetYaw:%player_yaw_initial%+45
+      directionYaw:%player_yaw_initial%+45 verticalOrder:up horizontalOrder:near offsetDistance:1.5
+    - score particles shape:square location:%player_world_initial%,%player_x_initial%,%player_y_initial%,%player_z_initial%
+      color:RED,ORANGE height:1.2 length:15 time:30 density:4 offsetPitch:0 offsetYaw:%player_yaw_initial%-45
+      directionYaw:%player_yaw_initial%-45 verticalOrder:up horizontalOrder:near offsetDistance:1.5
+    - score particles shape:square location:%player_world_initial%,%player_x_initial%,%player_y_initial%,%player_z_initial%
+      color:RED,ORANGE height:15 length:2 density:4 offsetPitch:0 offsetYaw:%player_yaw_initial%
+      directionYaw:%player_yaw_initial% verticalOrder:down horizontalOrder:near offsetDistance:6
+      time:10
+    - DELAYTICK 10
+    - SPAWN_ENTITY entity:LIGHTNING_BOLT offsetPitch:0 offsetYaw:%player_yaw_initial%
+      offsetDistance:7 x:%player_x_initial% y:%player_y_initial% z:%player_z_initial%
+      world:%player_world_initial%
+    - score particles shape:circle location:%player_world_initial%,%player_x_initial%,%player_y_initial%,%player_z_initial%
+      color:RED,ORANGE radius:3 density:100 time:10 drawMode:clockwise plane:xz offsetDistance:7
+      offsetPitch:0 offsetYaw:%player_yaw_initial%  directionYaw:%player_yaw_initial%
+      fillMode:disk directionPitch:-90 offsetY:-1
+    - DELAYTICK 10
+    - SPAWN_ENTITY entity:LIGHTNING_BOLT offsetPitch:0 offsetYaw:%player_yaw_initial%+20
+      offsetDistance:9 x:%player_x_initial% y:%player_y_initial% z:%player_z_initial%
+      world:%player_world_initial%
+    - score particles shape:circle location:%player_world_initial%,%player_x_initial%,%player_y_initial%,%player_z_initial%
+      color:RED,ORANGE radius:3 density:100 timeToDisplay:10 drawMode:clockwise plane:xz
+      offsetDistance:9 offsetPitch:0 offsetYaw:%player_yaw_initial%+20  directionYaw:%player_yaw_initial%+20
+      fillMode:disk directionPitch:-90 offsetY:-1
+    - DELAYTICK 10
+    - SPAWN_ENTITY entity:LIGHTNING_BOLT offsetPitch:0 offsetYaw:%player_yaw_initial%-20
+      offsetDistance:9 x:%player_x_initial% y:%player_y_initial% z:%player_z_initial%
+      world:%player_world_initial%
+    - score particles shape:circle location:%player_world_initial%,%player_x_initial%,%player_y_initial%,%player_z_initial%
+      color:RED,ORANGE radius:3 density:100 timeToDisplay:10 drawMode:clockwise plane:xz
+      offsetDistance:9 offsetPitch:0 offsetYaw:%player_yaw_initial%-20  directionYaw:%player_yaw_initial%-20
+      fillMode:disk directionPitch:-90 offsetY:-1
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+# Display conditions in the lore
+displayConditions:
+  # Add player conditions to determine
+  # when the 
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # The placeholders conditions
+  placeholdersConditions: {}
+  # Enable or disable this feature
+  enableFeature: false
+# Food features
+foodFeatures:
+  # Is the food meat?
+  isMeat: false
+  # The nutrition of the food
+  nutrition: 1
+  # The saturation of the food
+  saturation: 1
+  # Can the player always eat this food?
+  canAlwaysEat: false
+# Consumable Features
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # The animation
+  animation: EAT
+  # Has consume particles
+  hasConsumeParticles: false
+  # The consume seconds
+  consumeSeconds: 3
+# The weapon features
+weaponFeatures:
+  # Enable this features
+  enable: false
+  # The amount of time the target's
+  # shield will not work in seconds
+  disableBlockingTime: 0
+  # The amount of durability reduced per attack
+  damagePerAttack: 5
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# The rarity of the item
+itemRarity:
+  # Enable or disable the rarity feature
+  enableRarity: false
+  # The rarity of the item
+  rarity: UNCOMMON
+# The repairable features
+repairableFeatures:
+  # Enable this features
+  enable: false
+  # The repair cost
+  repairCost: 2
+  # Items that can repair this item in an anvil
+  # (Paper 1.21.4+ only)
+  repairableItems: []
+# The equippable features
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # The slot
+  slot: BODY
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  # The item will take damage when the player is hurt
+  damageableOnHurt: false
+  # The item can be dispensed
+  dispensable: true
+  # The item can be swapped
+  swappable: true
+  # The allowed entities
+  allowedEntities:
+  - PLAYER
+# The attributes
+attributes: {}

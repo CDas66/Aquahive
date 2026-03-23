@@ -1,0 +1,18 @@
+crafted: true
+remove_normal_spear_recipes: false
+
+messages:
+  craft: '&d%player% has crafted the only Spear'
+  already_crafted: '&cSomeone has already crafted the only Spear on this SMP'
+
+
+custom_spear-recipe:
+  enabled: false
+  spear: NETHERITE_SPEAR
+  shape:
+  - '  N'
+  - ' S '
+  - 'S  '
+  ingredients:
+    N: NETHERITE_INGOT
+    S: STICK

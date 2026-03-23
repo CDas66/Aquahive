@@ -1,0 +1,54 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:enchanted_golden_apple": 2,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:stone_sword": 1,
+      "minecraft:totem_of_undying": 7,
+      "minecraft:stone_axe": 1,
+      "minecraft:blue_candle": 890,
+      "minecraft:netherite_leggings": 3,
+      "minecraft:suspicious_stew": 1,
+      "minecraft:netherite_chestplate": 2,
+      "minecraft:netherite_helmet": 9,
+      "minecraft:stone_shovel": 1,
+      "minecraft:netherite_boots": 8
+    },
+    "minecraft:used": {
+      "minecraft:enchanted_golden_apple": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:totem_of_undying": 77,
+      "minecraft:stone_shovel": 2,
+      "minecraft:suspicious_stew": 2,
+      "minecraft:stone_sword": 2,
+      "minecraft:heart_of_the_sea": 4,
+      "minecraft:netherite_helmet": 42,
+      "minecraft:netherite_leggings": 18,
+      "minecraft:netherite_chestplate": 2,
+      "minecraft:blue_candle": 1627,
+      "minecraft:netherite_boots": 29,
+      "minecraft:enchanted_golden_apple": 2,
+      "minecraft:stone_axe": 2,
+      "minecraft:stone_pickaxe": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 48421,
+      "minecraft:walk_one_cm": 34815,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_dealt": 498,
+      "minecraft:play_time": 48421,
+      "minecraft:jump": 98,
+      "minecraft:time_since_death": 48421,
+      "minecraft:drop": 210,
+      "minecraft:sprint_one_cm": 15575,
+      "minecraft:fall_one_cm": 2912,
+      "minecraft:total_world_time": 48421,
+      "minecraft:fly_one_cm": 33428,
+      "minecraft:crouch_one_cm": 231,
+      "minecraft:sneak_time": 213,
+      "minecraft:player_kills": 2
+    }
+  },
+  "DataVersion": 4671
+}

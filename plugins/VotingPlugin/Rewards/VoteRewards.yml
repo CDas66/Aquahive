@@ -1,0 +1,187 @@
+# Vote Rewards Configuration
+# This file controls what players get when they vote
+
+# Main reward configuration using AdvancedPriority
+# This will check each reward in order and give the first one that succeeds
+AdvancedPriority:
+  # 5% chance - Lifesteal Heart (Rarest)
+  LifestealHeart:
+    Chance: 5
+    Messages:
+      Player: '&d&l❤️ LUCKY! &dYou received a Lifesteal Heart!'
+      Broadcast: '&d&l❤️ %player% got a Lifesteal Heart from voting!'
+    Items:
+      LifestealHeart:
+        Material: NETHER_STAR
+        Name: '&d&lLifesteal Heart'
+        Lore:
+          - '&7Increases your max health'
+          - '&7Right-click to consume'
+        Amount: 1
+    Commands:
+      - 'lsz hearts add %player_name% 1'
+    Sound:
+      Enabled: true
+      Sound: 'entity.player.levelup'
+      Volume: 1.0
+      Pitch: 1.5
+
+  # 10% chance - Coins
+  Coins:
+    Chance: 10
+    Messages:
+      Player: '&6&l💰 &6You received &e$500&6 from voting!'
+    Commands:
+      - 'eco give %player_name% 100'
+    Sound:
+      Enabled: true
+      Sound: 'entity.experience_orb.pickup'
+      Volume: 0.5
+      Pitch: 1.2
+    Firework:
+      Enabled: true
+      Power: 1
+      Colors:
+      - YELLOW
+      - ORANGE
+      Types:
+      - STAR
+
+  # 30% chance - Random Crate Key
+  CrateKey:
+    Chance: 30
+    Messages:
+      Player: '&a&l📦 &aYou received a random crate key!'
+    # Adjust these commands based on your crate plugin
+    # ExcellentCrates example:
+    Commands:
+      - 'crate key give %player_name% vote 1'  # Vote crate key
+    Sound:
+      Enabled: true
+      Sound: 'block.chest.open'
+      Volume: 0.7
+      Pitch: 1.0
+
+  # 60% chance - Emeralds (Most Common)
+  Emeralds:
+    Chance: 60
+    Messages:
+      Player: '&2&l✅ &2You received &a5 Emeralds&2 for voting!'
+    Items:
+      Emeralds:
+        Material: EMERALD
+        Amount: 5
+    Sound:
+      Enabled: true
+      Sound: 'block.note_block.pling'
+      Volume: 0.5
+      Pitch: 2.0
+
+  # Fallback (100% chance - should never reach here if chances add to 100)
+  Fallback:
+    Messages:
+      Player: '&7Thanks for voting!'
+    Items:
+      ThanksItem:
+        Material: EMERALD
+        Amount: 1
+        Name: '&eVote Reward'
+        Lore:
+          - '&7Thanks for supporting the server!'
+
+# Lucky bonus - extra chance when getting main rewards
+Lucky:
+  '20':
+    Messages:
+      Player: '&e&l✨ LUCKY! &eYou found extra emeralds!'
+    Items:
+      ExtraEmeralds:
+        Material: EMERALD
+        Amount: 16
+  '50':
+    Messages:
+      Player: '&6&l⚡ JACKPOT! &6Double rewards!'
+    Commands:
+      - 'eco give %player% 250'
+
+# Sound configuration for votes (plays when voting)
+Sound:
+  Enabled: true
+  Sound: 'entity.player.levelup'
+  Volume: 0.7
+  Pitch: 1.2
+
+# Firework effect when voting
+Firework:
+  Enabled: true
+  Power: 1
+  Colors:
+  - GREEN
+  - LIME
+  - YELLOW
+  FadeOutColor: 
+  - WHITE
+  Trail: true
+  Flicker: false
+  Types:
+  - BALL
+  - BURST
+
+# Action bar message when voting
+ActionBar:
+  Message: '&a&l✓ &aThanks for voting, &e%player%&a! &a&l✓'
+  Delay: 60
+
+# Title message when voting
+Title:
+  Enabled: true
+  Title: '&a&lVOTE REWARD'
+  SubTitle: '&7You received &e%reward%'
+  FadeIn: 10
+  ShowTime: 40
+  FadeOut: 10
+
+# Potion effects when voting (optional)
+Potions:
+  SPEED:
+    Duration: 30
+    Amplifier: 0
+  REGENERATION:
+    Duration: 10
+    Amplifier: 0
+
+# Display item for GUIs
+DisplayItem:
+  Material: SUNFLOWER
+  Name: '&6&lVote Rewards'
+  Lore:
+    - '&7Chances when you vote:'
+    - '&a60% - 32 Emeralds'
+    - '&a30% - Random Crate Key'
+    - '&a10% - $500 Coins'
+    - '&d&l5% - Lifesteal Heart'
+    - ''
+    - '&e&l✨ Lucky Bonus:'
+    - '&e20% chance for extra 16 emeralds'
+    - '&e50% chance for double coins'
+
+# Configuration for voting websites
+# This helps track votes from different sites
+AdvancedWorld:
+  all:
+    AdvancedPriority:
+      DefaultReward:
+        Messages:
+          Player: '&aThanks for voting on %ServiceSite%!'
+
+# Date-based special rewards (example - extra rewards on weekends)
+Date:
+  WeekDay: SATURDAY
+AdvancedPriority:
+  WeekendBonus:
+    Messages:
+      Player: '&d&l🎉 WEEKEND BONUS! &dDouble items!'
+    Items:
+      BonusEmeralds:
+        Material: EMERALD
+        Amount: 16

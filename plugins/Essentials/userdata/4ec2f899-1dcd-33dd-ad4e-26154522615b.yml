@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1774246294702
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774260538846
+  login: 1774252802352
+  kits:
+    color: 1773812902491
+    dtools: 1774079247514
+    firework: 1773821821733
+    notch: 1773679538967
+    tools: 1774123581299
+    daily: 1774123574495
+    nova: 0
+    aeon: 0
+    echo: 0
+    spark: 0
+    flux: 0
+    vex: 0
+    umbra: 0
+    zenith: 0
+money: '81060.0'
+last-account-name: Charon_VV
+logoutlocation:
+  world: eccef47b-2cc9-45c0-b5ac-52470f8d5827
+  world-name: spawn
+  x: 5.6959176452298665
+  y: -3.0
+  z: -47.424173505808874
+  yaw: 57.90008544921875
+  pitch: 16.49998664855957
+lastlocation:
+  world: eccef47b-2cc9-45c0-b5ac-52470f8d5827
+  world-name: spawn
+  x: 1.5
+  y: 5.0
+  z: -43.5
+  yaw: 78.90003967285156
+  pitch: 42.44997024536133
+homes:
+  home:
+    world: eccef47b-2cc9-45c0-b5ac-52470f8d5827
+    world-name: spawn
+    x: -0.30638905960869284
+    y: -3.0
+    z: -37.03415555868245
+    yaw: -179.15672302246094
+    pitch: 21.600006103515625
+nickname: Charon_VV

@@ -1,0 +1,9 @@
+XreatOptimizer Hourly Performance Report
+Generated at: 2026-03-23 12:00:04
+========================================
+
+TPS Average: 19.95468269617748
+Memory Usage Peak: 26.03236607142857%
+Max Entities: 485
+Max Chunks Loaded: 1444
+Max Players Online: 2

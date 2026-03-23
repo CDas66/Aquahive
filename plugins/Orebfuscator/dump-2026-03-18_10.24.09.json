@@ -1,0 +1,858 @@
+{
+  "timestamp": "2026-03-18T10:24:09.4980767Z",
+  "versions": {
+    "java": "21",
+    "nms": "v1_21_R7",
+    "server": "1.21.11-117-79c77f5 (MC: 1.21.11)",
+    "bukkit": "1.21.11-R0.1-SNAPSHOT",
+    "protocolLib": "ProtocolLib v5.4.0",
+    "orebfuscator": "Orebfuscator v5.5.7"
+  },
+  "statistics": {
+    "cacheHitCountMemory": 0,
+    "cacheHitCountDisk": 0,
+    "cacheMissCount": 0,
+    "cacheEstimatedSize": 0,
+    "memoryCacheSize": 0,
+    "diskCacheQueueLength": 0,
+    "obfuscationQueueLength": 0,
+    "obfuscationWaitTime": 0,
+    "obfuscationProcessTime": 0,
+    "proximityWaitTime": 49000000,
+    "proximityProcessTime": 269697,
+    "originalChunkSize": 0,
+    "obfuscatedChunkSize": 0
+  },
+  "plugins": {
+    "ViaVersion": {
+      "version": "5.7.2",
+      "author": "[_MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01]"
+    },
+    "PlaceholderAPI": {
+      "version": "2.12.2",
+      "author": "[HelpChat]"
+    },
+    "LuckPerms": {
+      "version": "5.5.37",
+      "author": "[Luck]"
+    },
+    "Vault": {
+      "version": "1.5.4",
+      "author": "[]"
+    },
+    "FastAsyncWorldEdit": {
+      "version": "2.15.0+59372c5",
+      "author": "[Empire92, MattBDev, IronApollo, dordsor21, NotMyFault]"
+    },
+    "WorldGuard": {
+      "version": "7.0.15+2347-5fafea6",
+      "author": "[]"
+    },
+    "Multiverse-Core": {
+      "version": "5.5.3",
+      "author": "[dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110, Zax71]"
+    },
+    "ProtocolLib": {
+      "version": "5.4.0",
+      "author": "[dmulloy2, comphenix]"
+    },
+    "VotifierPlus": {
+      "version": "1.4.3",
+      "author": "[BenCodez]"
+    },
+    "nightcore": {
+      "version": "2.14.0",
+      "author": "[NightExpress]"
+    },
+    "SCore": {
+      "version": "5.26.3.11",
+      "author": "[Ssomar]"
+    },
+    "Essentials": {
+      "version": "2.22.0-dev+74-d7452bf",
+      "author": "[Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally, drtshock, vemacs, SupaHam, mdcfe, JRoy, pop4959]"
+    },
+    "VotingPlugin": {
+      "version": "7.0",
+      "author": "[BenCodez]"
+    },
+    "ExecutableItems": {
+      "version": "7.26.3.11",
+      "author": "[Ssomar]"
+    },
+    "CoinsEngine": {
+      "version": "2.7.0",
+      "author": "[NightExpress]"
+    },
+    "EssentialsChat": {
+      "version": "2.22.0-dev+74-d7452bf",
+      "author": "[Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Okamosy, Iaccidentally, mdcfe, JRoy, triagonal]"
+    },
+    "ViaBackwards": {
+      "version": "5.7.2",
+      "author": "[Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD]"
+    },
+    "ShopGUIPlus": {
+      "version": "1.113.0",
+      "author": "[brc]"
+    },
+    "Multiverse-Portals": {
+      "version": "5.2.1",
+      "author": "[Rigby, fernferret, benwoo1110]"
+    },
+    "FancyNpcs": {
+      "version": "2.9.2",
+      "author": "[]"
+    },
+    "EssentialsDiscord": {
+      "version": "2.22.0-dev+74-d7452bf",
+      "author": "[mdcfe, JRoy, pop4959, Glare]"
+    },
+    "SkinsRestorer": {
+      "version": "15.11.0",
+      "author": "[knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls]"
+    },
+    "WildRTP": {
+      "version": "3.2.2",
+      "author": "[LasaJoni]"
+    },
+    "Vanish": {
+      "version": "0.1",
+      "author": "[]"
+    },
+    "UltimateAutoRestart": {
+      "version": "2025.12",
+      "author": "[Norska]"
+    },
+    "TAB": {
+      "version": "5.5.0",
+      "author": "[NEZNAMY]"
+    },
+    "SmartSpawner": {
+      "version": "1.6.2",
+      "author": "[https://github.com/NighterDevelopment/SmartSpawner]"
+    },
+    "RedstoneAntiLag": {
+      "version": "${project.version}",
+      "author": "[AntiLag Team]"
+    },
+    "Orebfuscator": {
+      "version": "5.5.7",
+      "author": "[Ingrim4, NgLoader, lishid, SydMontague, ProgrammerDan, Aleksey-Terzi]"
+    },
+    "OneSpear": {
+      "version": "1.0.0",
+      "author": "[Doomwen]"
+    },
+    "onemace": {
+      "version": "1.06",
+      "author": "[]"
+    },
+    "NeoChat": {
+      "version": "1.0",
+      "author": "[Aquiles]"
+    },
+    "Multiverse-NetherPortals": {
+      "version": "5.0.4",
+      "author": "[Rigby, fernferret, benwoo1110]"
+    },
+    "Multiverse-Inventories": {
+      "version": "5.3.2",
+      "author": "[dumptruckman, benwoo1110]"
+    },
+    "MinerTrack": {
+      "version": "1.10.0",
+      "author": "[Author87668]"
+    },
+    "LoginTo": {
+      "version": "2.8",
+      "author": "[Yager400]"
+    },
+    "LifeStealZ": {
+      "version": "2.20.7",
+      "author": "[Kartoffelchipss]"
+    },
+    "LagFixer": {
+      "version": "1.5.1.9 [build 140]",
+      "author": "[lychee]"
+    },
+    "ItemEdit": {
+      "version": "3.7.8",
+      "author": "[emanon]"
+    },
+    "GrimAC": {
+      "version": "2.3.73",
+      "author": "[GrimAC]"
+    },
+    "FixLag": {
+      "version": "3.10",
+      "author": "[Earth1283]"
+    },
+    "FancyHolograms": {
+      "version": "2.9.1",
+      "author": "[]"
+    },
+    "ExcellentCrates": {
+      "version": "6.6.1",
+      "author": "[NightExpress]"
+    },
+    "EssentialsSpawn": {
+      "version": "2.22.0-dev+74-d7452bf",
+      "author": "[Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, SupaHam, mdcfe, DoNotSpamPls, JRoy]"
+    },
+    "EssentialsDiscordLink": {
+      "version": "2.22.0-dev+74-d7452bf",
+      "author": "[JRoy]"
+    },
+    "EntityClearer": {
+      "version": "4.1.3",
+      "author": "[JasonHorkles]"
+    },
+    "DeluxeMenus": {
+      "version": "1.14.1-Release",
+      "author": "[HelpChat]"
+    },
+    "ConsoleSpamFixReborn": {
+      "version": "1.11.9",
+      "author": "[CraftersLand, Author87668]"
+    },
+    "ClearLag": {
+      "version": "1.6.25",
+      "author": "[fernsehheft]"
+    },
+    "Chunky": {
+      "version": "1.4.40",
+      "author": "[pop4959]"
+    },
+    "ChunkLoader": {
+      "version": "1.0.5",
+      "author": "[Imperialroma10]"
+    },
+    "CaptchaVerifyZ": {
+      "version": "1.3",
+      "author": "[Mateitaa1]"
+    },
+    "BlockSigningPlugin": {
+      "version": "3.0",
+      "author": "[]"
+    },
+    "AxVaults": {
+      "version": "2.12.1",
+      "author": "[]"
+    },
+    "AxTrade": {
+      "version": "1.23.0",
+      "author": "[]"
+    },
+    "AxRewards": {
+      "version": "3.7.0",
+      "author": "[]"
+    },
+    "AxGraves": {
+      "version": "1.26.2",
+      "author": "[]"
+    },
+    "AxAFKZone": {
+      "version": "1.9.0",
+      "author": "[]"
+    },
+    "AuctionHouse": {
+      "version": "1.4.3",
+      "author": "[ElaineQheart]"
+    },
+    "ajLeaderboards": {
+      "version": "2.10.1",
+      "author": "[ajgeiss0702]"
+    },
+    "AdvancedPortals": {
+      "version": "2.6.1",
+      "author": "[sekwah41]"
+    }
+  },
+  "worlds": {
+    "world": {
+      "uuid": "ab0e4fcc-a7c0-424e-8535-cc6a4b6d589d",
+      "heightAccessor": "[world, minY=-64, maxY=320]"
+    },
+    "world_nether": {
+      "uuid": "1f5e94e5-36d3-4e02-83d3-911648cc738c",
+      "heightAccessor": "[world_nether, minY=0, maxY=256]"
+    },
+    "world_the_end": {
+      "uuid": "1b5ccf63-25ff-4934-b898-cc75a5ad7eea",
+      "heightAccessor": "[world_the_end, minY=0, maxY=256]"
+    },
+    "spawn": {
+      "uuid": "eccef47b-2cc9-45c0-b5ac-52470f8d5827",
+      "heightAccessor": "[spawn, minY=-64, maxY=320]"
+    }
+  },
+  "listeners": {
+    "class com.ssomar.executableitems.usedapi.ProtocolibAPI$1@426042416": {
+      "plugin": "ExecutableItems v7.26.3.11",
+      "receivingWhitelist": "EMPTY_WHITELIST",
+      "sendingWhitelist": "EMPTY_WHITELIST"
+    },
+    "class com.ssomar.score.utils.display.PacketManager$1@1697572297": {
+      "plugin": "SCore v5.26.3.11",
+      "receivingWhitelist": "ListeningWhitelist[priority=HIGH, packets=[WINDOW_ITEMS[class=ClientboundContainerSetContentPacket, id=18]], gamephase=PLAYING, options=[]]",
+      "sendingWhitelist": "ListeningWhitelist[priority=HIGH, packets=[WINDOW_ITEMS[class=ClientboundContainerSetContentPacket, id=18]], gamephase=PLAYING, options=[]]"
+    },
+    "class com.comphenix.protocol.async.NullPacketListener@1841652639": {
+      "plugin": "Orebfuscator v5.5.7",
+      "receivingWhitelist": "ListeningWhitelist[priority=LOW, packets=[LIGHT_UPDATE[class=ClientboundLightUpdatePacket, id=42], UNLOAD_CHUNK[class=ClientboundForgetLevelChunkPacket, id=33], TILE_ENTITY_DATA[class=ClientboundBlockEntityDataPacket, id=6], MAP_CHUNK[class=ClientboundLevelChunkWithLightPacket, id=39]], gamephase=PLAYING, options=[ASYNC]]",
+      "sendingWhitelist": "ListeningWhitelist[priority=LOW, packets=[LIGHT_UPDATE[class=ClientboundLightUpdatePacket, id=42], UNLOAD_CHUNK[class=ClientboundForgetLevelChunkPacket, id=33], TILE_ENTITY_DATA[class=ClientboundBlockEntityDataPacket, id=6], MAP_CHUNK[class=ClientboundLevelChunkWithLightPacket, id=39]], gamephase=PLAYING, options=[ASYNC]]"
+    },
+    "public class net.imprex.orebfuscator.proximity.ProximityPacketListener@2061869387": {
+      "plugin": "Orebfuscator v5.5.7",
+      "receivingWhitelist": "ListeningWhitelist[priority=NORMAL, packets=[UNLOAD_CHUNK[class=ClientboundForgetLevelChunkPacket, id=33]], gamephase=PLAYING, options=[]]",
+      "sendingWhitelist": "ListeningWhitelist[priority=NORMAL, packets=[UNLOAD_CHUNK[class=ClientboundForgetLevelChunkPacket, id=33]], gamephase=PLAYING, options=[]]"
+    },
+    "class com.ssomar.score.hardness.HardnessesHandler$1@889641049": {
+      "plugin": "SCore v5.26.3.11",
+      "receivingWhitelist": "EMPTY_WHITELIST",
+      "sendingWhitelist": "EMPTY_WHITELIST"
+    }
+  },
+  "blocks": {
+    "obfuscation-overworld": {
+      "hiddenBlocks": {
+        "minecraft:barrel": "valid",
+        "minecraft:bedrock": "valid",
+        "minecraft:chest": "valid",
+        "minecraft:crafter": "valid",
+        "minecraft:dispenser": "valid",
+        "minecraft:dropper": "valid",
+        "minecraft:ender_chest": "valid",
+        "minecraft:hopper": "valid",
+        "minecraft:raw_copper_block": "valid",
+        "minecraft:raw_gold_block": "valid",
+        "minecraft:raw_iron_block": "valid",
+        "minecraft:trapped_chest": "valid",
+        "tag(minecraft:base_stone_overworld)": [
+          "minecraft:andesite",
+          "minecraft:tuff",
+          "minecraft:granite",
+          "minecraft:stone",
+          "minecraft:diorite",
+          "minecraft:deepslate"
+        ],
+        "tag(minecraft:coal_ores)": [
+          "minecraft:coal_ore",
+          "minecraft:deepslate_coal_ore"
+        ],
+        "tag(minecraft:copper_chests)": [
+          "minecraft:waxed_oxidized_copper_chest",
+          "minecraft:copper_chest",
+          "minecraft:oxidized_copper_chest",
+          "minecraft:exposed_copper_chest",
+          "minecraft:waxed_weathered_copper_chest",
+          "minecraft:waxed_exposed_copper_chest",
+          "minecraft:weathered_copper_chest",
+          "minecraft:waxed_copper_chest"
+        ],
+        "tag(minecraft:copper_ores)": [
+          "minecraft:copper_ore",
+          "minecraft:deepslate_copper_ore"
+        ],
+        "tag(minecraft:diamond_ores)": [
+          "minecraft:diamond_ore",
+          "minecraft:deepslate_diamond_ore"
+        ],
+        "tag(minecraft:emerald_ores)": [
+          "minecraft:deepslate_emerald_ore",
+          "minecraft:emerald_ore"
+        ],
+        "tag(minecraft:gold_ores)": [
+          "minecraft:nether_gold_ore",
+          "minecraft:gold_ore",
+          "minecraft:deepslate_gold_ore"
+        ],
+        "tag(minecraft:iron_ores)": [
+          "minecraft:iron_ore",
+          "minecraft:deepslate_iron_ore"
+        ],
+        "tag(minecraft:lapis_ores)": [
+          "minecraft:lapis_ore",
+          "minecraft:deepslate_lapis_ore"
+        ],
+        "tag(minecraft:redstone_ores)": [
+          "minecraft:redstone_ore",
+          "minecraft:deepslate_redstone_ore"
+        ],
+        "tag(minecraft:shulker_boxes)": [
+          "minecraft:purple_shulker_box",
+          "minecraft:yellow_shulker_box",
+          "minecraft:light_gray_shulker_box",
+          "minecraft:brown_shulker_box",
+          "minecraft:lime_shulker_box",
+          "minecraft:orange_shulker_box",
+          "minecraft:green_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:black_shulker_box",
+          "minecraft:magenta_shulker_box",
+          "minecraft:blue_shulker_box",
+          "minecraft:gray_shulker_box",
+          "minecraft:shulker_box",
+          "minecraft:light_blue_shulker_box",
+          "minecraft:red_shulker_box",
+          "minecraft:pink_shulker_box",
+          "minecraft:cyan_shulker_box"
+        ]
+      },
+      "randomBlocks": {
+        "section-global": {
+          "minecraft:cave_air": "valid",
+          "minecraft:cobblestone": "valid",
+          "minecraft:mossy_cobblestone": "valid",
+          "minecraft:obsidian": "valid"
+        },
+        "section-stone": {
+          "minecraft:coal_ore": "valid",
+          "minecraft:copper_ore": "valid",
+          "minecraft:diamond_ore": "valid",
+          "minecraft:emerald_ore": "valid",
+          "minecraft:gold_ore": "valid",
+          "minecraft:iron_ore": "valid",
+          "minecraft:lapis_ore": "valid",
+          "minecraft:redstone_ore": "valid",
+          "minecraft:stone": "valid"
+        },
+        "section-deepslate": {
+          "minecraft:deepslate": "valid",
+          "minecraft:deepslate_coal_ore": "valid",
+          "minecraft:deepslate_copper_ore": "valid",
+          "minecraft:deepslate_diamond_ore": "valid",
+          "minecraft:deepslate_emerald_ore": "valid",
+          "minecraft:deepslate_gold_ore": "valid",
+          "minecraft:deepslate_iron_ore": "valid",
+          "minecraft:deepslate_lapis_ore": "valid",
+          "minecraft:deepslate_redstone_ore": "valid"
+        },
+        "section-bedrock": {
+          "minecraft:bedrock": "valid"
+        }
+      }
+    },
+    "obfuscation-nether": {
+      "hiddenBlocks": {
+        "minecraft:ancient_debris": "valid",
+        "minecraft:barrel": "valid",
+        "minecraft:bedrock": "valid",
+        "minecraft:chest": "valid",
+        "minecraft:crafter": "valid",
+        "minecraft:dispenser": "valid",
+        "minecraft:dropper": "valid",
+        "minecraft:ender_chest": "valid",
+        "minecraft:hopper": "valid",
+        "minecraft:nether_gold_ore": "valid",
+        "minecraft:nether_quartz_ore": "valid",
+        "minecraft:trapped_chest": "valid",
+        "tag(minecraft:base_stone_nether)": [
+          "minecraft:blackstone",
+          "minecraft:basalt",
+          "minecraft:netherrack"
+        ],
+        "tag(minecraft:copper_chests)": [
+          "minecraft:waxed_oxidized_copper_chest",
+          "minecraft:copper_chest",
+          "minecraft:oxidized_copper_chest",
+          "minecraft:exposed_copper_chest",
+          "minecraft:waxed_weathered_copper_chest",
+          "minecraft:waxed_exposed_copper_chest",
+          "minecraft:weathered_copper_chest",
+          "minecraft:waxed_copper_chest"
+        ],
+        "tag(minecraft:shulker_boxes)": [
+          "minecraft:purple_shulker_box",
+          "minecraft:yellow_shulker_box",
+          "minecraft:light_gray_shulker_box",
+          "minecraft:brown_shulker_box",
+          "minecraft:lime_shulker_box",
+          "minecraft:orange_shulker_box",
+          "minecraft:green_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:black_shulker_box",
+          "minecraft:magenta_shulker_box",
+          "minecraft:blue_shulker_box",
+          "minecraft:gray_shulker_box",
+          "minecraft:shulker_box",
+          "minecraft:light_blue_shulker_box",
+          "minecraft:red_shulker_box",
+          "minecraft:pink_shulker_box",
+          "minecraft:cyan_shulker_box"
+        ],
+        "tag(minecraft:soul_fire_base_blocks)": [
+          "minecraft:soul_sand",
+          "minecraft:soul_soil"
+        ]
+      },
+      "randomBlocks": {
+        "section-global": {
+          "minecraft:ancient_debris": "valid",
+          "minecraft:nether_gold_ore": "valid",
+          "minecraft:nether_quartz_ore": "valid",
+          "minecraft:netherrack": "valid"
+        },
+        "section-bedrock-top": {
+          "minecraft:bedrock": "valid"
+        },
+        "section-bedrock-bottom": {
+          "minecraft:bedrock": "valid"
+        }
+      }
+    },
+    "obfuscation-end": {
+      "hiddenBlocks": {
+        "minecraft:barrel": "valid",
+        "minecraft:chest": "valid",
+        "minecraft:crafter": "valid",
+        "minecraft:dispenser": "valid",
+        "minecraft:dropper": "valid",
+        "minecraft:end_stone": "valid",
+        "minecraft:ender_chest": "valid",
+        "minecraft:hopper": "valid",
+        "minecraft:trapped_chest": "valid",
+        "tag(minecraft:copper_chests)": [
+          "minecraft:waxed_oxidized_copper_chest",
+          "minecraft:copper_chest",
+          "minecraft:oxidized_copper_chest",
+          "minecraft:exposed_copper_chest",
+          "minecraft:waxed_weathered_copper_chest",
+          "minecraft:waxed_exposed_copper_chest",
+          "minecraft:weathered_copper_chest",
+          "minecraft:waxed_copper_chest"
+        ],
+        "tag(minecraft:shulker_boxes)": [
+          "minecraft:purple_shulker_box",
+          "minecraft:yellow_shulker_box",
+          "minecraft:light_gray_shulker_box",
+          "minecraft:brown_shulker_box",
+          "minecraft:lime_shulker_box",
+          "minecraft:orange_shulker_box",
+          "minecraft:green_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:black_shulker_box",
+          "minecraft:magenta_shulker_box",
+          "minecraft:blue_shulker_box",
+          "minecraft:gray_shulker_box",
+          "minecraft:shulker_box",
+          "minecraft:light_blue_shulker_box",
+          "minecraft:red_shulker_box",
+          "minecraft:pink_shulker_box",
+          "minecraft:cyan_shulker_box"
+        ]
+      },
+      "randomBlocks": {
+        "section-global": {
+          "minecraft:bedrock": "valid",
+          "minecraft:end_stone": "valid",
+          "minecraft:end_stone_bricks": "valid",
+          "minecraft:obsidian": "valid",
+          "minecraft:purpur_block": "valid"
+        }
+      }
+    },
+    "proximity-overworld": {
+      "hiddenBlocks": {
+        "minecraft:barrel": "valid",
+        "minecraft:blast_furnace": "valid",
+        "minecraft:brewing_stand": "valid",
+        "minecraft:cartography_table": "valid",
+        "minecraft:chest": "valid",
+        "minecraft:composter": "valid",
+        "minecraft:crafter": "valid",
+        "minecraft:crafting_table": "valid",
+        "minecraft:dispenser": "valid",
+        "minecraft:dropper": "valid",
+        "minecraft:enchanting_table": "valid",
+        "minecraft:ender_chest": "valid",
+        "minecraft:fletching_table": "valid",
+        "minecraft:furnace": "valid",
+        "minecraft:grindstone": "valid",
+        "minecraft:hopper": "valid",
+        "minecraft:lectern": "valid",
+        "minecraft:loom": "valid",
+        "minecraft:mossy_cobblestone": "valid",
+        "minecraft:smithing_table": "valid",
+        "minecraft:smoker": "valid",
+        "minecraft:spawner": "valid",
+        "minecraft:stonecutter": "valid",
+        "minecraft:trapped_chest": "valid",
+        "tag(minecraft:anvil)": [
+          "minecraft:anvil",
+          "minecraft:chipped_anvil",
+          "minecraft:damaged_anvil"
+        ],
+        "tag(minecraft:beds)": [
+          "minecraft:cyan_bed",
+          "minecraft:orange_bed",
+          "minecraft:pink_bed",
+          "minecraft:brown_bed",
+          "minecraft:yellow_bed",
+          "minecraft:blue_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:white_bed",
+          "minecraft:black_bed",
+          "minecraft:lime_bed",
+          "minecraft:green_bed",
+          "minecraft:purple_bed",
+          "minecraft:gray_bed",
+          "minecraft:red_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed"
+        ],
+        "tag(minecraft:beehives)": [
+          "minecraft:beehive",
+          "minecraft:bee_nest"
+        ],
+        "tag(minecraft:cauldrons)": [
+          "minecraft:water_cauldron",
+          "minecraft:lava_cauldron",
+          "minecraft:powder_snow_cauldron",
+          "minecraft:cauldron"
+        ],
+        "tag(minecraft:copper_chests)": [
+          "minecraft:waxed_oxidized_copper_chest",
+          "minecraft:copper_chest",
+          "minecraft:oxidized_copper_chest",
+          "minecraft:exposed_copper_chest",
+          "minecraft:waxed_weathered_copper_chest",
+          "minecraft:waxed_exposed_copper_chest",
+          "minecraft:weathered_copper_chest",
+          "minecraft:waxed_copper_chest"
+        ],
+        "tag(minecraft:diamond_ores)": [
+          "minecraft:diamond_ore",
+          "minecraft:deepslate_diamond_ore"
+        ],
+        "tag(minecraft:emerald_ores)": [
+          "minecraft:deepslate_emerald_ore",
+          "minecraft:emerald_ore"
+        ],
+        "tag(minecraft:shulker_boxes)": [
+          "minecraft:purple_shulker_box",
+          "minecraft:yellow_shulker_box",
+          "minecraft:light_gray_shulker_box",
+          "minecraft:brown_shulker_box",
+          "minecraft:lime_shulker_box",
+          "minecraft:orange_shulker_box",
+          "minecraft:green_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:black_shulker_box",
+          "minecraft:magenta_shulker_box",
+          "minecraft:blue_shulker_box",
+          "minecraft:gray_shulker_box",
+          "minecraft:shulker_box",
+          "minecraft:light_blue_shulker_box",
+          "minecraft:red_shulker_box",
+          "minecraft:pink_shulker_box",
+          "minecraft:cyan_shulker_box"
+        ]
+      },
+      "randomBlocks": {
+        "section-stone": {
+          "minecraft:stone": "valid"
+        },
+        "section-deepslate": {
+          "minecraft:deepslate": "valid"
+        }
+      }
+    },
+    "proximity-nether": {
+      "hiddenBlocks": {
+        "minecraft:ancient_debris": "valid",
+        "minecraft:barrel": "valid",
+        "minecraft:blast_furnace": "valid",
+        "minecraft:brewing_stand": "valid",
+        "minecraft:cartography_table": "valid",
+        "minecraft:chest": "valid",
+        "minecraft:composter": "valid",
+        "minecraft:crafter": "valid",
+        "minecraft:crafting_table": "valid",
+        "minecraft:dispenser": "valid",
+        "minecraft:dropper": "valid",
+        "minecraft:enchanting_table": "valid",
+        "minecraft:ender_chest": "valid",
+        "minecraft:fletching_table": "valid",
+        "minecraft:furnace": "valid",
+        "minecraft:grindstone": "valid",
+        "minecraft:hopper": "valid",
+        "minecraft:lectern": "valid",
+        "minecraft:lodestone": "valid",
+        "minecraft:loom": "valid",
+        "minecraft:nether_gold_ore": "valid",
+        "minecraft:respawn_anchor": "valid",
+        "minecraft:smithing_table": "valid",
+        "minecraft:smoker": "valid",
+        "minecraft:spawner": "valid",
+        "minecraft:stonecutter": "valid",
+        "minecraft:trapped_chest": "valid",
+        "tag(minecraft:anvil)": [
+          "minecraft:anvil",
+          "minecraft:chipped_anvil",
+          "minecraft:damaged_anvil"
+        ],
+        "tag(minecraft:beds)": [
+          "minecraft:cyan_bed",
+          "minecraft:orange_bed",
+          "minecraft:pink_bed",
+          "minecraft:brown_bed",
+          "minecraft:yellow_bed",
+          "minecraft:blue_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:white_bed",
+          "minecraft:black_bed",
+          "minecraft:lime_bed",
+          "minecraft:green_bed",
+          "minecraft:purple_bed",
+          "minecraft:gray_bed",
+          "minecraft:red_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed"
+        ],
+        "tag(minecraft:beehives)": [
+          "minecraft:beehive",
+          "minecraft:bee_nest"
+        ],
+        "tag(minecraft:cauldrons)": [
+          "minecraft:water_cauldron",
+          "minecraft:lava_cauldron",
+          "minecraft:powder_snow_cauldron",
+          "minecraft:cauldron"
+        ],
+        "tag(minecraft:copper_chests)": [
+          "minecraft:waxed_oxidized_copper_chest",
+          "minecraft:copper_chest",
+          "minecraft:oxidized_copper_chest",
+          "minecraft:exposed_copper_chest",
+          "minecraft:waxed_weathered_copper_chest",
+          "minecraft:waxed_exposed_copper_chest",
+          "minecraft:weathered_copper_chest",
+          "minecraft:waxed_copper_chest"
+        ],
+        "tag(minecraft:shulker_boxes)": [
+          "minecraft:purple_shulker_box",
+          "minecraft:yellow_shulker_box",
+          "minecraft:light_gray_shulker_box",
+          "minecraft:brown_shulker_box",
+          "minecraft:lime_shulker_box",
+          "minecraft:orange_shulker_box",
+          "minecraft:green_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:black_shulker_box",
+          "minecraft:magenta_shulker_box",
+          "minecraft:blue_shulker_box",
+          "minecraft:gray_shulker_box",
+          "minecraft:shulker_box",
+          "minecraft:light_blue_shulker_box",
+          "minecraft:red_shulker_box",
+          "minecraft:pink_shulker_box",
+          "minecraft:cyan_shulker_box"
+        ]
+      },
+      "randomBlocks": {
+        "section-global": {
+          "minecraft:netherrack": "valid"
+        }
+      }
+    },
+    "proximity-end": {
+      "hiddenBlocks": {
+        "minecraft:barrel": "valid",
+        "minecraft:blast_furnace": "valid",
+        "minecraft:brewing_stand": "valid",
+        "minecraft:cartography_table": "valid",
+        "minecraft:chest": "valid",
+        "minecraft:composter": "valid",
+        "minecraft:crafter": "valid",
+        "minecraft:crafting_table": "valid",
+        "minecraft:dispenser": "valid",
+        "minecraft:dropper": "valid",
+        "minecraft:enchanting_table": "valid",
+        "minecraft:ender_chest": "valid",
+        "minecraft:fletching_table": "valid",
+        "minecraft:furnace": "valid",
+        "minecraft:grindstone": "valid",
+        "minecraft:hopper": "valid",
+        "minecraft:lectern": "valid",
+        "minecraft:loom": "valid",
+        "minecraft:smithing_table": "valid",
+        "minecraft:smoker": "valid",
+        "minecraft:spawner": "valid",
+        "minecraft:stonecutter": "valid",
+        "minecraft:trapped_chest": "valid",
+        "tag(minecraft:anvil)": [
+          "minecraft:anvil",
+          "minecraft:chipped_anvil",
+          "minecraft:damaged_anvil"
+        ],
+        "tag(minecraft:beds)": [
+          "minecraft:cyan_bed",
+          "minecraft:orange_bed",
+          "minecraft:pink_bed",
+          "minecraft:brown_bed",
+          "minecraft:yellow_bed",
+          "minecraft:blue_bed",
+          "minecraft:light_gray_bed",
+          "minecraft:white_bed",
+          "minecraft:black_bed",
+          "minecraft:lime_bed",
+          "minecraft:green_bed",
+          "minecraft:purple_bed",
+          "minecraft:gray_bed",
+          "minecraft:red_bed",
+          "minecraft:magenta_bed",
+          "minecraft:light_blue_bed"
+        ],
+        "tag(minecraft:beehives)": [
+          "minecraft:beehive",
+          "minecraft:bee_nest"
+        ],
+        "tag(minecraft:cauldrons)": [
+          "minecraft:water_cauldron",
+          "minecraft:lava_cauldron",
+          "minecraft:powder_snow_cauldron",
+          "minecraft:cauldron"
+        ],
+        "tag(minecraft:copper_chests)": [
+          "minecraft:waxed_oxidized_copper_chest",
+          "minecraft:copper_chest",
+          "minecraft:oxidized_copper_chest",
+          "minecraft:exposed_copper_chest",
+          "minecraft:waxed_weathered_copper_chest",
+          "minecraft:waxed_exposed_copper_chest",
+          "minecraft:weathered_copper_chest",
+          "minecraft:waxed_copper_chest"
+        ],
+        "tag(minecraft:shulker_boxes)": [
+          "minecraft:purple_shulker_box",
+          "minecraft:yellow_shulker_box",
+          "minecraft:light_gray_shulker_box",
+          "minecraft:brown_shulker_box",
+          "minecraft:lime_shulker_box",
+          "minecraft:orange_shulker_box",
+          "minecraft:green_shulker_box",
+          "minecraft:white_shulker_box",
+          "minecraft:black_shulker_box",
+          "minecraft:magenta_shulker_box",
+          "minecraft:blue_shulker_box",
+          "minecraft:gray_shulker_box",
+          "minecraft:shulker_box",
+          "minecraft:light_blue_shulker_box",
+          "minecraft:red_shulker_box",
+          "minecraft:pink_shulker_box",
+          "minecraft:cyan_shulker_box"
+        ]
+      },
+      "randomBlocks": {
+        "section-global": {
+          "minecraft:end_stone": "valid"
+        }
+      }
+    }
+  },
+  "verboseLog": "SGVpZ2h0QWNjZXNzb3IgZm91bmQgbWV0aG9kOiBXb3JsZDo6Z2V0TWF4SGVpZ2h0KCkKSGVpZ2h0QWNjZXNzb3IgZm91bmQgbWV0aG9kOiBXb3JsZDo6Z2V0TWluSGVpZ2h0KCkKYWR2YW5jZWQub2JmdXNjYXRpb25UaHJlYWRzID0gMTYKYWR2YW5jZWQucHJveGltaXR5VGhyZWFkcyA9IDgKVXNpbmcgJ0M6XFVzZXJzXENEXzU1XERlc2t0b3BcTUMgc2VydmVyXHRyaWFsXG9yZWJmdXNjYXRvcl9jYWNoZScgYXMgY2h1bmsgY2FjaGUgcGF0aAp1c2luZyAnb2JmdXNjYXRpb24tb3ZlcndvcmxkJyBvYmZ1c2NhdGlvbiBjb25maWcgZm9yIHdvcmxkICd3b3JsZCcKdXNpbmcgJ3Byb3hpbWl0eS1vdmVyd29ybGQnIHByb3hpbWl0eSBjb25maWcgZm9yIHdvcmxkICd3b3JsZCcKQ3JlYXRpbmcgd2VpZ2h0ZWQgcmFuZG9tcyBmb3Igb2JmdXNjYXRpb24tb3ZlcndvcmxkIGZvciB3b3JsZCBbd29ybGQsIG1pblk9LTY0LCBtYXhZPTMyMF06ClN1Y2Nlc3NmdWxseSBjcmVhdGVkIDQgd2VpZ2h0ZWQgcmFuZG9tcwpDcmVhdGluZyB3ZWlnaHRlZCByYW5kb21zIGZvciBwcm94aW1pdHktb3ZlcndvcmxkIGZvciB3b3JsZCBbd29ybGQsIG1pblk9LTY0LCBtYXhZPTMyMF06ClN1Y2Nlc3NmdWxseSBjcmVhdGVkIDMgd2VpZ2h0ZWQgcmFuZG9tcwp1c2luZyAnbnVsbCcgb2JmdXNjYXRpb24gY29uZmlnIGZvciB3b3JsZCAnc3Bhd24nCnVzaW5nICdudWxsJyBwcm94aW1pdHkgY29uZmlnIGZvciB3b3JsZCAnc3Bhd24nCnVzaW5nICdvYmZ1c2NhdGlvbi1lbmQnIG9iZnVzY2F0aW9uIGNvbmZpZyBmb3Igd29ybGQgJ3dvcmxkX3RoZV9lbmQnCnVzaW5nICdwcm94aW1pdHktZW5kJyBwcm94aW1pdHkgY29uZmlnIGZvciB3b3JsZCAnd29ybGRfdGhlX2VuZCcKQ3JlYXRpbmcgd2VpZ2h0ZWQgcmFuZG9tcyBmb3Igb2JmdXNjYXRpb24tZW5kIGZvciB3b3JsZCBbd29ybGRfdGhlX2VuZCwgbWluWT0wLCBtYXhZPTI1Nl06ClN1Y2Nlc3NmdWxseSBjcmVhdGVkIDEgd2VpZ2h0ZWQgcmFuZG9tcwpDcmVhdGluZyB3ZWlnaHRlZCByYW5kb21zIGZvciBwcm94aW1pdHktZW5kIGZvciB3b3JsZCBbd29ybGRfdGhlX2VuZCwgbWluWT0wLCBtYXhZPTI1Nl06ClN1Y2Nlc3NmdWxseSBjcmVhdGVkIDEgd2VpZ2h0ZWQgcmFuZG9tcwp1c2luZyAnb2JmdXNjYXRpb24tbmV0aGVyJyBvYmZ1c2NhdGlvbiBjb25maWcgZm9yIHdvcmxkICd3b3JsZF9uZXRoZXInCnVzaW5nICdwcm94aW1pdHktbmV0aGVyJyBwcm94aW1pdHkgY29uZmlnIGZvciB3b3JsZCAnd29ybGRfbmV0aGVyJwpDcmVhdGluZyB3ZWlnaHRlZCByYW5kb21zIGZvciBvYmZ1c2NhdGlvbi1uZXRoZXIgZm9yIHdvcmxkIFt3b3JsZF9uZXRoZXIsIG1pblk9MCwgbWF4WT0yNTZdOgpTdWNjZXNzZnVsbHkgY3JlYXRlZCA0IHdlaWdodGVkIHJhbmRvbXMKQ3JlYXRpbmcgd2VpZ2h0ZWQgcmFuZG9tcyBmb3IgcHJveGltaXR5LW5ldGhlciBmb3Igd29ybGQgW3dvcmxkX25ldGhlciwgbWluWT0wLCBtYXhZPTI1Nl06ClN1Y2Nlc3NmdWxseSBjcmVhdGVkIDEgd2VpZ2h0ZWQgcmFuZG9tcwpMb2FkaW5nIGNvbXBhdGliaWxpdHkgbGF5ZXIgZm9yOiBuZXQuaW1wcmV4Lm9yZWJmdXNjYXRvci5jb21wYXRpYmlsaXR5LnBhcGVyLlBhcGVyQ29tcGF0aWJpbGl0eUxheWVyCkNvbXBhdGliaWxpdHkgbGF5ZXIgc3VjY2Vzc2Z1bGx5IGxvYWRlZApVcGRhdGVTeXN0ZW0gLSBTdGFydGluZyB0byBjaGVjayBmb3IgdXBkYXRlcwpVcGRhdGVTeXN0ZW0gLSBGZXRjaGVkIGxhdGVzdCB2ZXJzaW9uIDUuNS43",
+  "config": "dmVyc2lvbjogNQpnZW5lcmFsOgogIGNoZWNrRm9yVXBkYXRlczogdHJ1ZQogIHVwZGF0ZU9uQmxvY2tEYW1hZ2U6IHRydWUKICBieXBhc3NOb3RpZmljYXRpb246IHRydWUKICBpZ25vcmVTcGVjdGF0b3I6IGZhbHNlCiAgdXBkYXRlUmFkaXVzOiAyCmFkdmFuY2VkOgogIHZlcmJvc2U6IGZhbHNlCiAgb2JmdXNjYXRpb246CiAgICB0aHJlYWRzOiAtMQogICAgdGltZW91dDogMTAwMDAKICAgIG1heE1pbGxpc2Vjb25kc1BlclRpY2s6IDEwCiAgcHJveGltaXR5OgogICAgdGhyZWFkczogLTEKICAgIGRlZmF1bHRCdWNrZXRTaXplOiA1MAogICAgdGhyZWFkQ2hlY2tJbnRlcnZhbDogNTAKICAgIHBsYXllckNoZWNrSW50ZXJ2YWw6IDUwMDAKY2FjaGU6CiAgZW5hYmxlZDogdHJ1ZQogIG1lbW9yeUNhY2hlOgogICAgbWF4aW11bVNpemU6IDMyNzY4CiAgICBleHBpcmVBZnRlckFjY2VzczogNjAwMDAKICBkaXNrQ2FjaGU6CiAgICBlbmFibGVkOiB0cnVlCiAgICBkaXJlY3Rvcnk6IG9yZWJmdXNjYXRvcl9jYWNoZQogICAgbWF4aW11bU9wZW5GaWxlczogMjU2CiAgICBkZWxldGVGaWxlc0FmdGVyQWNjZXNzOiAxNzI4MDAwMDAKICAgIG1heGltdW1UYXNrUXVldWVTaXplOiAzMjc2OApvYmZ1c2NhdGlvbjoKICBvYmZ1c2NhdGlvbi1vdmVyd29ybGQ6CiAgICBlbmFibGVkOiB0cnVlCiAgICBtaW5ZOiAtMjAzMgogICAgbWF4WTogMjAzMQogICAgd29ybGRzOgogICAgLSB3b3JsZAogICAgbGF5ZXJPYmZ1c2NhdGlvbjogZmFsc2UKICAgIGhpZGRlbkJsb2NrczoKICAgIC0gdGFnKG1pbmVjcmFmdDpiYXNlX3N0b25lX292ZXJ3b3JsZCkKICAgIC0gdGFnKG1pbmVjcmFmdDpjb2FsX29yZXMpCiAgICAtIHRhZyhtaW5lY3JhZnQ6Y29wcGVyX29yZXMpCiAgICAtIHRhZyhtaW5lY3JhZnQ6ZGlhbW9uZF9vcmVzKQogICAgLSB0YWcobWluZWNyYWZ0OmVtZXJhbGRfb3JlcykKICAgIC0gdGFnKG1pbmVjcmFmdDpnb2xkX29yZXMpCiAgICAtIHRhZyhtaW5lY3JhZnQ6aXJvbl9vcmVzKQogICAgLSB0YWcobWluZWNyYWZ0OmxhcGlzX29yZXMpCiAgICAtIHRhZyhtaW5lY3JhZnQ6cmVkc3RvbmVfb3JlcykKICAgIC0gbWluZWNyYWZ0OmJlZHJvY2sKICAgIC0gbWluZWNyYWZ0OnJhd19jb3BwZXJfYmxvY2sKICAgIC0gbWluZWNyYWZ0OnJhd19nb2xkX2Jsb2NrCiAgICAtIG1pbmVjcmFmdDpyYXdfaXJvbl9ibG9jawogICAgLSB0YWcobWluZWNyYWZ0OmNvcHBlcl9jaGVzdHMpCiAgICAtIHRhZyhtaW5lY3JhZnQ6c2h1bGtlcl9ib3hlcykKICAgIC0gbWluZWNyYWZ0OmJhcnJlbAogICAgLSBtaW5lY3JhZnQ6Y2hlc3QKICAgIC0gbWluZWNyYWZ0OmNyYWZ0ZXIKICAgIC0gbWluZWNyYWZ0OmRpc3BlbnNlcgogICAgLSBtaW5lY3JhZnQ6ZHJvcHBlcgogICAgLSBtaW5lY3JhZnQ6ZW5kZXJfY2hlc3QKICAgIC0gbWluZWNyYWZ0OmhvcHBlcgogICAgLSBtaW5lY3JhZnQ6dHJhcHBlZF9jaGVzdAogICAgcmFuZG9tQmxvY2tzOgogICAgICBzZWN0aW9uLWdsb2JhbDoKICAgICAgICBtaW5ZOiAtMjAzMgogICAgICAgIG1heFk6IDIwMzEKICAgICAgICBibG9ja3M6CiAgICAgICAgICBtaW5lY3JhZnQ6Y2F2ZV9haXI6IDUKICAgICAgICAgIG1pbmVjcmFmdDpjb2JibGVzdG9uZTogMQogICAgICAgICAgbWluZWNyYWZ0Om1vc3N5X2NvYmJsZXN0b25lOiAxCiAgICAgICAgICBtaW5lY3JhZnQ6b2JzaWRpYW46IDEKICAgICAgc2VjdGlvbi1zdG9uZToKICAgICAgICBtaW5ZOiAtNQogICAgICAgIG1heFk6IDIwMzEKICAgICAgICBibG9ja3M6CiAgICAgICAgICBtaW5lY3JhZnQ6c3RvbmU6IDE1CiAgICAgICAgICBtaW5lY3JhZnQ6ZGlhbW9uZF9vcmU6IDEwCiAgICAgICAgICBtaW5lY3JhZnQ6ZW1lcmFsZF9vcmU6IDUKICAgICAgICAgIG1pbmVjcmFmdDpnb2xkX29yZTogNQogICAgICAgICAgbWluZWNyYWZ0Omlyb25fb3JlOiA1CiAgICAgICAgICBtaW5lY3JhZnQ6Y29wcGVyX29yZTogNQogICAgICAgICAgbWluZWNyYWZ0OmNvYWxfb3JlOiA1CiAgICAgICAgICBtaW5lY3JhZnQ6bGFwaXNfb3JlOiA1CiAgICAgICAgICBtaW5lY3JhZnQ6cmVkc3RvbmVfb3JlOiA1CiAgICAgIHNlY3Rpb24tZGVlcHNsYXRlOgogICAgICAgIG1pblk6IC0yMDMyCiAgICAgICAgbWF4WTogNQogICAgICAgIGJsb2NrczoKICAgICAgICAgIG1pbmVjcmFmdDpkZWVwc2xhdGU6IDE1CiAgICAgICAgICBtaW5lY3JhZnQ6ZGVlcHNsYXRlX2RpYW1vbmRfb3JlOiAxMAogICAgICAgICAgbWluZWNyYWZ0OmRlZXBzbGF0ZV9lbWVyYWxkX29yZTogNQogICAgICAgICAgbWluZWNyYWZ0OmRlZXBzbGF0ZV9nb2xkX29yZTogNQogICAgICAgICAgbWluZWNyYWZ0OmRlZXBzbGF0ZV9pcm9uX29yZTogNQogICAgICAgICAgbWluZWNyYWZ0OmRlZXBzbGF0ZV9jb3BwZXJfb3JlOiA1CiAgICAgICAgICBtaW5lY3JhZnQ6ZGVlcHNsYXRlX2NvYWxfb3JlOiA1CiAgICAgICAgICBtaW5lY3JhZnQ6ZGVlcHNsYXRlX2xhcGlzX29yZTogNQogICAgICAgICAgbWluZWNyYWZ0OmRlZXBzbGF0ZV9yZWRzdG9uZV9vcmU6IDUKICAgICAgc2VjdGlvbi1iZWRyb2NrOgogICAgICAgIG1pblk6IC02NAogICAgICAgIG1heFk6IC02MAogICAgICAgIGJsb2NrczoKICAgICAgICAgIG1pbmVjcmFmdDpiZWRyb2NrOiAyMAogIG9iZnVzY2F0aW9uLW5ldGhlcjoKICAgIGVuYWJsZWQ6IHRydWUKICAgIG1pblk6IC0yMDMyCiAgICBtYXhZOiAyMDMxCiAgICB3b3JsZHM6CiAgICAtIHdvcmxkX25ldGhlcgogICAgbGF5ZXJPYmZ1c2NhdGlvbjogZmFsc2UKICAgIGhpZGRlbkJsb2NrczoKICAgIC0gdGFnKG1pbmVjcmFmdDpiYXNlX3N0b25lX25ldGhlcikKICAgIC0gdGFnKG1pbmVjcmFmdDpzb3VsX2ZpcmVfYmFzZV9ibG9ja3MpCiAgICAtIG1pbmVjcmFmdDphbmNpZW50X2RlYnJpcwogICAgLSBtaW5lY3JhZnQ6YmVkcm9jawogICAgLSBtaW5lY3JhZnQ6bmV0aGVyX2dvbGRfb3JlCiAgICAtIG1pbmVjcmFmdDpuZXRoZXJfcXVhcnR6X29yZQogICAgLSB0YWcobWluZWNyYWZ0OmNvcHBlcl9jaGVzdHMpCiAgICAtIHRhZyhtaW5lY3JhZnQ6c2h1bGtlcl9ib3hlcykKICAgIC0gbWluZWNyYWZ0OmJhcnJlbAogICAgLSBtaW5lY3JhZnQ6Y2hlc3QKICAgIC0gbWluZWNyYWZ0OmNyYWZ0ZXIKICAgIC0gbWluZWNyYWZ0OmRpc3BlbnNlcgogICAgLSBtaW5lY3JhZnQ6ZHJvcHBlcgogICAgLSBtaW5lY3JhZnQ6ZW5kZXJfY2hlc3QKICAgIC0gbWluZWNyYWZ0OmhvcHBlcgogICAgLSBtaW5lY3JhZnQ6dHJhcHBlZF9jaGVzdAogICAgcmFuZG9tQmxvY2tzOgogICAgICBzZWN0aW9uLWdsb2JhbDoKICAgICAgICBtaW5ZOiAtMjAzMgogICAgICAgIG1heFk6IDIwMzEKICAgICAgICBibG9ja3M6CiAgICAgICAgICBtaW5lY3JhZnQ6bmV0aGVycmFjazogNAogICAgICAgICAgbWluZWNyYWZ0Om5ldGhlcl9xdWFydHpfb3JlOiAxCiAgICAgICAgICBtaW5lY3JhZnQ6bmV0aGVyX2dvbGRfb3JlOiAxCiAgICAgICAgICBtaW5lY3JhZnQ6YW5jaWVudF9kZWJyaXM6IDEKICAgICAgc2VjdGlvbi1iZWRyb2NrLXRvcDoKICAgICAgICBtaW5ZOiAxMjMKICAgICAgICBtYXhZOiAxMjcKICAgICAgICBibG9ja3M6CiAgICAgICAgICBtaW5lY3JhZnQ6YmVkcm9jazogMjAKICAgICAgc2VjdGlvbi1iZWRyb2NrLWJvdHRvbToKICAgICAgICBtaW5ZOiAwCiAgICAgICAgbWF4WTogNAogICAgICAgIGJsb2NrczoKICAgICAgICAgIG1pbmVjcmFmdDpiZWRyb2NrOiAyMAogIG9iZnVzY2F0aW9uLWVuZDoKICAgIGVuYWJsZWQ6IHRydWUKICAgIG1pblk6IC0yMDMyCiAgICBtYXhZOiAyMDMxCiAgICB3b3JsZHM6CiAgICAtIHdvcmxkX3RoZV9lbmQKICAgIGxheWVyT2JmdXNjYXRpb246IGZhbHNlCiAgICBoaWRkZW5CbG9ja3M6CiAgICAtIG1pbmVjcmFmdDplbmRfc3RvbmUKICAgIC0gdGFnKG1pbmVjcmFmdDpjb3BwZXJfY2hlc3RzKQogICAgLSB0YWcobWluZWNyYWZ0OnNodWxrZXJfYm94ZXMpCiAgICAtIG1pbmVjcmFmdDpiYXJyZWwKICAgIC0gbWluZWNyYWZ0OmNoZXN0CiAgICAtIG1pbmVjcmFmdDpjcmFmdGVyCiAgICAtIG1pbmVjcmFmdDpkaXNwZW5zZXIKICAgIC0gbWluZWNyYWZ0OmRyb3BwZXIKICAgIC0gbWluZWNyYWZ0OmVuZGVyX2NoZXN0CiAgICAtIG1pbmVjcmFmdDpob3BwZXIKICAgIC0gbWluZWNyYWZ0OnRyYXBwZWRfY2hlc3QKICAgIHJhbmRvbUJsb2NrczoKICAgICAgc2VjdGlvbi1nbG9iYWw6CiAgICAgICAgbWluWTogLTIwMzIKICAgICAgICBtYXhZOiAyMDMxCiAgICAgICAgYmxvY2tzOgogICAgICAgICAgbWluZWNyYWZ0OmVuZF9zdG9uZTogMQogICAgICAgICAgbWluZWNyYWZ0OmVuZF9zdG9uZV9icmlja3M6IDEKICAgICAgICAgIG1pbmVjcmFmdDpiZWRyb2NrOiAxCiAgICAgICAgICBtaW5lY3JhZnQ6b2JzaWRpYW46IDEKICAgICAgICAgIG1pbmVjcmFmdDpwdXJwdXJfYmxvY2s6IDEKcHJveGltaXR5OgogIHByb3hpbWl0eS1vdmVyd29ybGQ6CiAgICBlbmFibGVkOiB0cnVlCiAgICBtaW5ZOiAtMjAzMgogICAgbWF4WTogMjAzMQogICAgd29ybGRzOgogICAgLSB3b3JsZAogICAgZGlzdGFuY2U6IDI0CiAgICBmcnVzdHVtQ3VsbGluZzoKICAgICAgZW5hYmxlZDogdHJ1ZQogICAgICBtaW5EaXN0YW5jZTogMy4wCiAgICAgIGZvdjogODAuMAogICAgcmF5Q2FzdENoZWNrOgogICAgICBlbmFibGVkOiBmYWxzZQogICAgICBvbmx5Q2hlY2tDZW50ZXI6IGZhbHNlCiAgICB1c2VCbG9ja0JlbG93OiB0cnVlCiAgICBoaWRkZW5CbG9ja3M6CiAgICAgIHRhZyhtaW5lY3JhZnQ6ZGlhbW9uZF9vcmVzKToge30KICAgICAgdGFnKG1pbmVjcmFmdDplbWVyYWxkX29yZXMpOiB7fQogICAgICBtaW5lY3JhZnQ6bW9zc3lfY29iYmxlc3RvbmU6IHt9CiAgICAgIHRhZyhtaW5lY3JhZnQ6YW52aWwpOiB7fQogICAgICB0YWcobWluZWNyYWZ0OmJlZWhpdmVzKToge30KICAgICAgdGFnKG1pbmVjcmFmdDpiZWRzKToge30KICAgICAgdGFnKG1pbmVjcmFmdDpjYXVsZHJvbnMpOiB7fQogICAgICBtaW5lY3JhZnQ6Ymxhc3RfZnVybmFjZToge30KICAgICAgbWluZWNyYWZ0OmJyZXdpbmdfc3RhbmQ6IHt9CiAgICAgIG1pbmVjcmFmdDpjYXJ0b2dyYXBoeV90YWJsZToge30KICAgICAgbWluZWNyYWZ0OmNvbXBvc3Rlcjoge30KICAgICAgbWluZWNyYWZ0OmNyYWZ0aW5nX3RhYmxlOiB7fQogICAgICBtaW5lY3JhZnQ6ZW5jaGFudGluZ190YWJsZToge30KICAgICAgbWluZWNyYWZ0OmZsZXRjaGluZ190YWJsZToge30KICAgICAgbWluZWNyYWZ0OmZ1cm5hY2U6IHt9CiAgICAgIG1pbmVjcmFmdDpncmluZHN0b25lOiB7fQogICAgICBtaW5lY3JhZnQ6bGVjdGVybjoge30KICAgICAgbWluZWNyYWZ0Omxvb206IHt9CiAgICAgIG1pbmVjcmFmdDpzbWl0aGluZ190YWJsZToge30KICAgICAgbWluZWNyYWZ0OnNtb2tlcjoge30KICAgICAgbWluZWNyYWZ0OnN0b25lY3V0dGVyOiB7fQogICAgICBtaW5lY3JhZnQ6c3Bhd25lcjoge30KICAgICAgdGFnKG1pbmVjcmFmdDpjb3BwZXJfY2hlc3RzKToge30KICAgICAgdGFnKG1pbmVjcmFmdDpzaHVsa2VyX2JveGVzKToge30KICAgICAgbWluZWNyYWZ0OmJhcnJlbDoge30KICAgICAgbWluZWNyYWZ0OmNoZXN0OiB7fQogICAgICBtaW5lY3JhZnQ6Y3JhZnRlcjoge30KICAgICAgbWluZWNyYWZ0OmRpc3BlbnNlcjoge30KICAgICAgbWluZWNyYWZ0OmRyb3BwZXI6IHt9CiAgICAgIG1pbmVjcmFmdDplbmRlcl9jaGVzdDoge30KICAgICAgbWluZWNyYWZ0OmhvcHBlcjoge30KICAgICAgbWluZWNyYWZ0OnRyYXBwZWRfY2hlc3Q6IHt9CiAgICByYW5kb21CbG9ja3M6CiAgICAgIHNlY3Rpb24tc3RvbmU6CiAgICAgICAgbWluWTogLTUKICAgICAgICBtYXhZOiAyMDMxCiAgICAgICAgYmxvY2tzOgogICAgICAgICAgbWluZWNyYWZ0OnN0b25lOiAxCiAgICAgIHNlY3Rpb24tZGVlcHNsYXRlOgogICAgICAgIG1pblk6IC0yMDMyCiAgICAgICAgbWF4WTogNQogICAgICAgIGJsb2NrczoKICAgICAgICAgIG1pbmVjcmFmdDpkZWVwc2xhdGU6IDEKICBwcm94aW1pdHktbmV0aGVyOgogICAgZW5hYmxlZDogdHJ1ZQogICAgbWluWTogLTIwMzIKICAgIG1heFk6IDIwMzEKICAgIHdvcmxkczoKICAgIC0gd29ybGRfbmV0aGVyCiAgICBkaXN0YW5jZTogMjQKICAgIGZydXN0dW1DdWxsaW5nOgogICAgICBlbmFibGVkOiB0cnVlCiAgICAgIG1pbkRpc3RhbmNlOiAzLjAKICAgICAgZm92OiA4MC4wCiAgICByYXlDYXN0Q2hlY2s6CiAgICAgIGVuYWJsZWQ6IGZhbHNlCiAgICAgIG9ubHlDaGVja0NlbnRlcjogZmFsc2UKICAgIHVzZUJsb2NrQmVsb3c6IHRydWUKICAgIGhpZGRlbkJsb2NrczoKICAgICAgbWluZWNyYWZ0OmFuY2llbnRfZGVicmlzOiB7fQogICAgICBtaW5lY3JhZnQ6bG9kZXN0b25lOiB7fQogICAgICBtaW5lY3JhZnQ6bmV0aGVyX2dvbGRfb3JlOiB7fQogICAgICBtaW5lY3JhZnQ6cmVzcGF3bl9hbmNob3I6IHt9CiAgICAgIHRhZyhtaW5lY3JhZnQ6YW52aWwpOiB7fQogICAgICB0YWcobWluZWNyYWZ0OmJlZWhpdmVzKToge30KICAgICAgdGFnKG1pbmVjcmFmdDpiZWRzKToge30KICAgICAgdGFnKG1pbmVjcmFmdDpjYXVsZHJvbnMpOiB7fQogICAgICBtaW5lY3JhZnQ6Ymxhc3RfZnVybmFjZToge30KICAgICAgbWluZWNyYWZ0OmJyZXdpbmdfc3RhbmQ6IHt9CiAgICAgIG1pbmVjcmFmdDpjYXJ0b2dyYXBoeV90YWJsZToge30KICAgICAgbWluZWNyYWZ0OmNvbXBvc3Rlcjoge30KICAgICAgbWluZWNyYWZ0OmNyYWZ0aW5nX3RhYmxlOiB7fQogICAgICBtaW5lY3JhZnQ6ZW5jaGFudGluZ190YWJsZToge30KICAgICAgbWluZWNyYWZ0OmZsZXRjaGluZ190YWJsZToge30KICAgICAgbWluZWNyYWZ0OmZ1cm5hY2U6IHt9CiAgICAgIG1pbmVjcmFmdDpncmluZHN0b25lOiB7fQogICAgICBtaW5lY3JhZnQ6bGVjdGVybjoge30KICAgICAgbWluZWNyYWZ0Omxvb206IHt9CiAgICAgIG1pbmVjcmFmdDpzbWl0aGluZ190YWJsZToge30KICAgICAgbWluZWNyYWZ0OnNtb2tlcjoge30KICAgICAgbWluZWNyYWZ0OnN0b25lY3V0dGVyOiB7fQogICAgICBtaW5lY3JhZnQ6c3Bhd25lcjoge30KICAgICAgdGFnKG1pbmVjcmFmdDpjb3BwZXJfY2hlc3RzKToge30KICAgICAgdGFnKG1pbmVjcmFmdDpzaHVsa2VyX2JveGVzKToge30KICAgICAgbWluZWNyYWZ0OmJhcnJlbDoge30KICAgICAgbWluZWNyYWZ0OmNoZXN0OiB7fQogICAgICBtaW5lY3JhZnQ6Y3JhZnRlcjoge30KICAgICAgbWluZWNyYWZ0OmRpc3BlbnNlcjoge30KICAgICAgbWluZWNyYWZ0OmRyb3BwZXI6IHt9CiAgICAgIG1pbmVjcmFmdDplbmRlcl9jaGVzdDoge30KICAgICAgbWluZWNyYWZ0OmhvcHBlcjoge30KICAgICAgbWluZWNyYWZ0OnRyYXBwZWRfY2hlc3Q6IHt9CiAgICByYW5kb21CbG9ja3M6CiAgICAgIHNlY3Rpb24tZ2xvYmFsOgogICAgICAgIG1pblk6IC0yMDMyCiAgICAgICAgbWF4WTogMjAzMQogICAgICAgIGJsb2NrczoKICAgICAgICAgIG1pbmVjcmFmdDpuZXRoZXJyYWNrOiAxCiAgcHJveGltaXR5LWVuZDoKICAgIGVuYWJsZWQ6IHRydWUKICAgIG1pblk6IC0yMDMyCiAgICBtYXhZOiAyMDMxCiAgICB3b3JsZHM6CiAgICAtIHdvcmxkX3RoZV9lbmQKICAgIGRpc3RhbmNlOiAyNAogICAgZnJ1c3R1bUN1bGxpbmc6CiAgICAgIGVuYWJsZWQ6IHRydWUKICAgICAgbWluRGlzdGFuY2U6IDMuMAogICAgICBmb3Y6IDgwLjAKICAgIHJheUNhc3RDaGVjazoKICAgICAgZW5hYmxlZDogZmFsc2UKICAgICAgb25seUNoZWNrQ2VudGVyOiBmYWxzZQogICAgdXNlQmxvY2tCZWxvdzogdHJ1ZQogICAgaGlkZGVuQmxvY2tzOgogICAgICB0YWcobWluZWNyYWZ0OmFudmlsKToge30KICAgICAgdGFnKG1pbmVjcmFmdDpiZWVoaXZlcyk6IHt9CiAgICAgIHRhZyhtaW5lY3JhZnQ6YmVkcyk6IHt9CiAgICAgIHRhZyhtaW5lY3JhZnQ6Y2F1bGRyb25zKToge30KICAgICAgbWluZWNyYWZ0OmJsYXN0X2Z1cm5hY2U6IHt9CiAgICAgIG1pbmVjcmFmdDpicmV3aW5nX3N0YW5kOiB7fQogICAgICBtaW5lY3JhZnQ6Y2FydG9ncmFwaHlfdGFibGU6IHt9CiAgICAgIG1pbmVjcmFmdDpjb21wb3N0ZXI6IHt9CiAgICAgIG1pbmVjcmFmdDpjcmFmdGluZ190YWJsZToge30KICAgICAgbWluZWNyYWZ0OmVuY2hhbnRpbmdfdGFibGU6IHt9CiAgICAgIG1pbmVjcmFmdDpmbGV0Y2hpbmdfdGFibGU6IHt9CiAgICAgIG1pbmVjcmFmdDpmdXJuYWNlOiB7fQogICAgICBtaW5lY3JhZnQ6Z3JpbmRzdG9uZToge30KICAgICAgbWluZWNyYWZ0OmxlY3Rlcm46IHt9CiAgICAgIG1pbmVjcmFmdDpsb29tOiB7fQogICAgICBtaW5lY3JhZnQ6c21pdGhpbmdfdGFibGU6IHt9CiAgICAgIG1pbmVjcmFmdDpzbW9rZXI6IHt9CiAgICAgIG1pbmVjcmFmdDpzdG9uZWN1dHRlcjoge30KICAgICAgbWluZWNyYWZ0OnNwYXduZXI6IHt9CiAgICAgIHRhZyhtaW5lY3JhZnQ6Y29wcGVyX2NoZXN0cyk6IHt9CiAgICAgIHRhZyhtaW5lY3JhZnQ6c2h1bGtlcl9ib3hlcyk6IHt9CiAgICAgIG1pbmVjcmFmdDpiYXJyZWw6IHt9CiAgICAgIG1pbmVjcmFmdDpjaGVzdDoge30KICAgICAgbWluZWNyYWZ0OmNyYWZ0ZXI6IHt9CiAgICAgIG1pbmVjcmFmdDpkaXNwZW5zZXI6IHt9CiAgICAgIG1pbmVjcmFmdDpkcm9wcGVyOiB7fQogICAgICBtaW5lY3JhZnQ6ZW5kZXJfY2hlc3Q6IHt9CiAgICAgIG1pbmVjcmFmdDpob3BwZXI6IHt9CiAgICAgIG1pbmVjcmFmdDp0cmFwcGVkX2NoZXN0OiB7fQogICAgcmFuZG9tQmxvY2tzOgogICAgICBzZWN0aW9uLWdsb2JhbDoKICAgICAgICBtaW5ZOiAtMjAzMgogICAgICAgIG1heFk6IDIwMzEKICAgICAgICBibG9ja3M6CiAgICAgICAgICBtaW5lY3JhZnQ6ZW5kX3N0b25lOiAx",
+  "configReport": ""
+}

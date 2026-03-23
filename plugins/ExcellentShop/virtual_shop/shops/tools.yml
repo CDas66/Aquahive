@@ -1,0 +1,1056 @@
+# Tools Shop
+Settings:
+  Icon:
+    Material: minecraft:diamond_pickaxe
+    Name: <c:#fbbf24><b>✦ TOOLS SHOP ✦</b></c>
+    Lore:
+    - <gray>Mine faster and better!</gray>
+    - ''
+    - <c:#fbbf24>➥</c> <white>Stone Tools</white> <c:#3E3E3E>→</c> <white>$15</white>
+    - <c:#fbbf24>➥</c> <white>Iron Tools</white> <c:#3E3E3E>→</c> <white>$50</white>
+    - <c:#fbbf24>➥</c> <white>Diamond Tools</white> <c:#3E3E3E>→</c> <white>$200</white>
+    - <c:#fbbf24>➥</c> <white>Netherite Tools</white> <c:#3E3E3E>→</c> <white>$800</white>
+    Display_Name: <c:#fbbf24><b>✦ TOOLS SHOP ✦</b></c>
+  Layout:
+    Paginated: true
+    ByPage:
+      '0': default
+  Aliases: []
+  Name: 'Null'
+  Description: []
+  Permission_Required: false
+  Buying: true
+  Selling: true
+  Pages: 1
+  MainMenu:
+    Slot: '24'
+
+Content:
+  # Stone Tools
+  stone_pickaxe:
+    Priority: 10
+    Item:
+      Material: minecraft:stone_pickaxe
+      Display_Name: <white>Stone Pickaxe</white>
+      Lore:
+      - '<gray>Mining Speed: Normal</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$15</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$7</white>
+    Slots: 11
+    Shop_Item:
+      Buy_Price: 15
+      Sell_Price: 7
+  
+  stone_axe:
+    Priority: 10
+    Item:
+      Material: minecraft:stone_axe
+      Display_Name: <white>Stone Axe</white>
+      Lore:
+      - '<gray>Chopping Speed: Normal</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$15</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$7</white>
+    Slots: 12
+    Shop_Item:
+      Buy_Price: 15
+      Sell_Price: 7
+  
+  stone_shovel:
+    Priority: 10
+    Item:
+      Material: minecraft:stone_shovel
+      Display_Name: <white>Stone Shovel</white>
+      Lore:
+      - '<gray>Digging Speed: Normal</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$12</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$6</white>
+    Slots: 13
+    Shop_Item:
+      Buy_Price: 12
+      Sell_Price: 6
+  
+  # Iron Tools
+  iron_pickaxe:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_pickaxe
+      Display_Name: <white>Iron Pickaxe</white>
+      Lore:
+      - '<gray>Mining Speed: Fast</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$50</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$25</white>
+    Slots: 20
+    Shop_Item:
+      Buy_Price: 50
+      Sell_Price: 25
+  
+  iron_axe:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_axe
+      Display_Name: <white>Iron Axe</white>
+      Lore:
+      - '<gray>Chopping Speed: Fast</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$50</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$25</white>
+    Slots: 21
+    Shop_Item:
+      Buy_Price: 50
+      Sell_Price: 25
+  
+  iron_shovel:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_shovel
+      Display_Name: <white>Iron Shovel</white>
+      Lore:
+      - '<gray>Digging Speed: Fast</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$40</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$20</white>
+    Slots: 22
+    Shop_Item:
+      Buy_Price: 40
+      Sell_Price: 20
+  
+  # Diamond Tools
+  diamond_pickaxe:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond_pickaxe
+      Display_Name: <c:#3b82f6>Diamond Pickaxe</c>
+      Lore:
+      - '<gray>Mining Speed: Very Fast</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$200</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$100</white>
+    Slots: 29
+    Shop_Item:
+      Buy_Price: 200
+      Sell_Price: 100
+  
+  diamond_axe:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond_axe
+      Display_Name: <c:#3b82f6>Diamond Axe</c>
+      Lore:
+      - '<gray>Chopping Speed: Very Fast</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$200</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$100</white>
+    Slots: 30
+    Shop_Item:
+      Buy_Price: 200
+      Sell_Price: 100
+  
+  diamond_shovel:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond_shovel
+      Display_Name: <c:#3b82f6>Diamond Shovel</c>
+      Lore:
+      - '<gray>Digging Speed: Very Fast</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$160</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$80</white>
+    Slots: 31
+    Shop_Item:
+      Buy_Price: 160
+      Sell_Price: 80
+  
+  # Netherite Tools
+  netherite_pickaxe:
+    Priority: 10
+    Item:
+      Material: minecraft:netherite_pickaxe
+      Display_Name: <c:#a855f7>Netherite Pickaxe</c>
+      Lore:
+      - '<gray>Mining Speed: Extreme</gray>'
+      - '<gray>Durability: Infinite</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$800</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$400</white>
+    Slots: 38
+    Shop_Item:
+      Buy_Price: 800
+      Sell_Price: 400
+  
+  netherite_axe:
+    Priority: 10
+    Item:
+      Material: minecraft:netherite_axe
+      Display_Name: <c:#a855f7>Netherite Axe</c>
+      Lore:
+      - '<gray>Chopping Speed: Extreme</gray>'
+      - '<gray>Durability: Infinite</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$800</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$400</white>
+    Slots: 39
+    Shop_Item:
+      Buy_Price: 800
+      Sell_Price: 400
+  
+  netherite_shovel:
+    Priority: 10
+    Item:
+      Material: minecraft:netherite_shovel
+      Display_Name: <c:#a855f7>Netherite Shovel</c>
+      Lore:
+      - '<gray>Digging Speed: Extreme</gray>'
+      - '<gray>Durability: Infinite</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$640</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$320</white>
+    Slots: 40
+    Shop_Item:
+      Buy_Price: 640
+      Sell_Price: 320
+Items:
+  diamond_sword:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_sword"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 7
+      Page: 1
+  stone_shovel:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:stone_shovel"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 10
+      Page: 1
+  stone_pickaxe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:stone_pickaxe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  stone_axe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:stone_axe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  stone_hoe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:stone_hoe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  stone_sword:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:stone_sword"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  fishing_rod:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:fishing_rod"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  diamond_shovel:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_shovel"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 16
+      Page: 1
+  copper_shovel:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_shovel"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 19
+      Page: 1
+  copper_pickaxe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_pickaxe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  copper_axe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_axe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  copper_hoe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_hoe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  copper_sword:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_sword"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  bucket:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:16,id:"minecraft:bucket"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  diamond_axe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_axe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 1
+  iron_shovel:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_shovel"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 28
+      Page: 1
+  iron_pickaxe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_pickaxe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 1
+  iron_axe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_axe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  iron_hoe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_hoe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  iron_sword:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_sword"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1
+  shield:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:shield"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  diamond_pickaxe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_pickaxe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 34
+      Page: 1
+  golden_shovel:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_shovel"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 37
+      Page: 1
+  golden_pickaxe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_pickaxe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 38
+      Page: 1
+  golden_axe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_axe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 39
+      Page: 1
+  golden_hoe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_hoe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 40
+      Page: 1
+  golden_sword:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_sword"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 41
+      Page: 1
+  bow:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:bow"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 42
+      Page: 1
+  diamond_hoe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_hoe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: -1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 43
+      Page: 1

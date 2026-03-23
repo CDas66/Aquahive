@@ -1,0 +1,54 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Charon_VV",
+      "uniqueId": "4ec2f899-1dcd-33dd-ad4e-26154522615b"
+    },
+    "time": 1773916730100,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/j35KgBFq4n"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Charon_VV",
+      "uniqueId": "4ec2f899-1dcd-33dd-ad4e-26154522615b"
+    },
+    "time": 1773916610764,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/BOSZ2dzs9O"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Charon_VV",
+      "uniqueId": "4ec2f899-1dcd-33dd-ad4e-26154522615b"
+    },
+    "time": 1773686898432,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/B2ZUa5gFiP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Charon_VV",
+      "uniqueId": "4ec2f899-1dcd-33dd-ad4e-26154522615b"
+    },
+    "time": 1773686890469,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/unVhYT1GLN"
+    }
+  }
+]

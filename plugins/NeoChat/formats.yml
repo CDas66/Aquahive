@@ -1,0 +1,12 @@
+# ========================================== #
+#         CHAT FORMATS & PERMISSIONS         #
+# ========================================== #
+
+formats:
+  default:
+    groups:
+      - default
+    priority: 99
+    permission: "neochat.format.default"
+    chat-format: "%luckperms_prefix%%player_name% &8» &r<message>"
+    hover-message: ""

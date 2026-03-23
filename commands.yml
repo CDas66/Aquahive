@@ -1,0 +1,27 @@
+# This is the Bukkit commands configuration file for Paper.
+#
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
+#
+# File Reference: https://docs.papermc.io/paper/reference/bukkit-commands-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
+
+command-block-overrides: []
+ignore-vanilla-permissions: false
+aliases:
+  ranks:
+  - dm open ranks
+  keys:
+  - dm open keys
+  effects:
+  - dm open effects
+  store:
+  - dm open store
+  rules:
+  - dm open rules
+  work:
+  - jobs browse
+  icanhasbukkit:
+  - version $1-

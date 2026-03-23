@@ -1,0 +1,71 @@
+# LightAuth Plugin Configuration
+
+# Timeout in seconds for login or register actions before a player gets kicked.
+timeout: 60
+
+# Maximum number of incorrect login attempts before punishment.
+login:
+  max-attempts: 3
+  punishment-command: "kick %player% maximium password attempt"  # Command to execute upon too many failures. "%player%" is replaced with the player's name.
+  # Enables or disables the IP-based login bypass feature
+  ip-login-bypass-enabled: false
+  # Duration for IP-based login bypass. Supported formats: "s","m","h"
+  ip-login-bypass-duration: "30m"
+
+
+# List of commands that unauthenticated players are allowed to use.
+whitelisted-commands:
+  - register
+  - reg
+  - r
+  - login
+  - log
+  - l
+
+# Whether to block unauthenticated players from sending chat messages.
+block-chat: true
+
+# Interval in seconds between warning messages for unauthenticated players.
+warning-interval: 10
+settings:
+  ip-limit-enabled: true # Enable IP limit check (true/false)
+  max-accounts-per-ip: 3 # Maximum number of accounts allowed per IP address
+  # Checks online player names and prevents duplicate logins with the same name.
+  # Example: If "player1" is online, no one else can log in as "player1".
+  active-name-check: true
+
+  password:
+    min-length: 3 # Minimum number of characters allowed in the password
+    max-length: 16 # Maximum number of characters allowed in the password
+    allow-name-as-password: false # Can the player use their name as the password? (true/false)
+    require-uppercase: false # Is an uppercase letter required in the password? (true/false)
+    min-uppercase: 2 # Minimum number of uppercase letters required (if require-uppercase is true)
+    require-special: false # Is a special character required in the password? (true/false)
+    allowed-special-chars: "*#@$!" # Allowed special characters (if require-special is true)
+    min-special: 1 # Minimum number of special characters required (if require-special is true)
+    require-number: false # Is a number required in the password? (true/false)
+    min-number: 2 # Minimum number of numbers required (if require-number is true)
+# Spawn settings
+Spawn:
+  # Determines whether players are teleported to the spawn point.
+  Enabled: false # Example: false -> Players are NOT teleported to the spawn point.
+  # Determines whether players return to their previous location after logging in.
+  Restore: true # Example: true -> Players return to their previous location after logging in.
+
+# World spawn settings
+WorldSpawn:
+  # Determines whether players are teleported to the world spawn point (e.g., hub).
+  Enabled: true # Example: true -> Players are teleported directly to the world spawn point.
+
+# Commands executed after authentication
+commands-after-auth:
+  # Commands to run after registration
+  register:
+    enabled: false
+    commands:
+      - "spawn %player%"
+  # Commands to run after login
+  login:
+    enabled: false
+    commands:
+      - "spawn %player%"

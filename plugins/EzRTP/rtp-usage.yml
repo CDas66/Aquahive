@@ -1,0 +1,12 @@
+players:
+  4ec2f899-1dcd-33dd-ad4e-26154522615b:
+    world_the_end:
+      lastRtp: 1774162523038
+      usage:
+        daily: 0
+        weekly: 1
+    world:
+      lastRtp: 1774163738466
+      usage:
+        daily: 0
+        weekly: 2

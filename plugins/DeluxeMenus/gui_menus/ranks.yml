@@ -1,0 +1,528 @@
+# Aqua Hive Rank Store - FIXED VERSION
+# Now checks for both "default" and "spark" as the starting rank
+
+menu_title: '&8&l⟁ &d&lAQUA HIVE RANK STORE &8&l⟁'
+open_command:
+  - rank
+  - ranks
+size: 54
+items:
+
+  # =========================
+  # 🟣 BACKGROUND
+  # =========================
+  background:
+    material: PURPLE_STAINED_GLASS_PANE
+    slots:
+      - 0-9
+      - 17-18
+      - 26-27
+      - 35-36
+      - 44-53
+    display_name: ' '
+
+  # =========================
+  # 👤 PLAYER INFO
+  # =========================
+  player_head:
+    material: PLAYER_HEAD
+    slot: 4
+    display_name: '&d&l%player_name%'
+    lore:
+
+      - '&7Your Balance: &6$%vault_eco_balance%'
+      - ''
+      - '&eClick to refresh'
+
+  # =========================
+  # ⭐Ranks⭐
+  # =========================
+
+  Noupgrade:
+    material: BOOK
+    priority: 1
+    slot: 49
+    display_name: '&d&l✦ RANK UPGRADE ✦'
+    lore:
+      - '&7 permenent upgrade'
+      - ' '
+      - '&7Ranks :'
+      - '&7• &4Zenith &f◀'
+      - '&7• &7&mAeon'
+      - '&7• &7&mUmbra'
+      - '&7• &7&mNova'
+      - '&7• &7&mVex'
+      - '&7• &7&mFlux'
+      - '&7• &7&mEcho'
+      - '&7• &7&mSpark'
+      - ''
+      - '&7Max Rank Reached'
+    view_requirement:
+      requirements:
+        has_flux:
+          type: string equals
+          input: '%luckperms_primary_group_name%'
+          output: 'Zenith'
+    left_click_commands:
+      - '[message] &3You are at the deepst dept'
+
+  upgrade_zenith:
+    material: BOOK
+    priority: 2
+    slot: 49
+    display_name: '&d&l✦ RANK UPGRADE ✦'
+    lore:
+      - '&7 permenent upgrade'
+      - ' '
+      - '&7Ranks :'
+      - '&7• &4Zenith &f⬆&6⛁1499'
+      - '&7• &6Aeon &f◀'
+      - '&7• &7&mUmbra'
+      - '&7• &7&mNova'
+      - '&7• &7&mVex'
+      - '&7• &7&mFlux'
+      - '&7• &7&mEcho'
+      - '&7• &7&mSpark'
+      - ''
+      - '&7Next Rank: &4Zenith'
+      - ''
+      - '&D&lCLICK TO UPGRADE'
+      - '&7• Cost : &6⛁1499'
+    view_requirement:
+      requirements:
+        has_flux:
+          type: string equals
+          input: '%luckperms_primary_group_name%'
+          output: 'Aeon'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 1499
+      deny_commands:
+        - '[message] &cYou need ⛁1499 to buy this!'
+    left_click_commands:
+      - '[console] lp user %player_name% parent set zenith'
+      - '[refresh]'
+      - '[console] coins take %player_name% 1499'
+      - '[message] &aYou Bought &6Aeon Rank'
+
+  upgrade_aeon:
+    material: BOOK
+    priority: 3
+    slot: 49
+    display_name: '&d&l✦ RANK UPGRADE ✦'
+    lore:
+      - '&7 permenent upgrade'
+      - ' '
+      - '&7Ranks :'
+      - '&7• &4Zenith &f⬆&6⛁1499'
+      - '&7• &6Aeon &f⬆&6⛁999'
+      - '&7• &8Umbra &f◀'
+      - '&7• &7&mNova'
+      - '&7• &7&mVex'
+      - '&7• &7&mFlux'
+      - '&7• &7&mEcho'
+      - '&7• &7&mSpark'
+      - ''
+      - '&7Next Rank: &6Aeon'
+      - ''
+      - '&D&lCLICK TO UPGRADE'
+      - '&7• Cost : &6⛁999'
+    view_requirement:
+      requirements:
+        has_flux:
+          type: string equals
+          input: '%luckperms_primary_group_name%'
+          output: 'Umbra'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 999
+      deny_commands:
+        - '[message] &cYou need ⛁999 to buy this!'
+    left_click_commands:
+      - '[console] lp user %player_name% parent set aeon'
+      - '[refresh]'
+      - '[console] coins take %player_name% 999'
+      - '[message] &aYou Bought &6Aeon Rank'
+
+  upgrade_umbra:
+    material: BOOK
+    priority: 4
+    slot: 49
+    display_name: '&d&l✦ RANK UPGRADE ✦'
+    lore:
+      - '&7 permenent upgrade'
+      - ' '
+      - '&7Ranks :'
+      - '&7• &4Zenith &f⬆&6⛁1499'
+      - '&7• &6Aeon &f⬆&6⛁999'
+      - '&7• &8Umbra &f⬆&6⛁799'
+      - '&7• &dNova &f◀'
+      - '&7• &7&mVex'
+      - '&7• &7&mFlux'
+      - '&7• &7&mEcho'
+      - '&7• &7&mSpark'
+      - ''
+      - '&7Next Rank: &d8Umbra'
+      - ''
+      - '&D&lCLICK TO UPGRADE'
+      - '&7• Cost : &6⛁799'
+    view_requirement:
+      requirements:
+        has_flux:
+          type: string equals
+          input: '%luckperms_primary_group_name%'
+          output: 'Nova'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 799
+      deny_commands:
+        - '[message] &cYou need ⛁799 to buy this!'
+    left_click_commands:
+      - '[console] lp user %player_name% parent set umbra'
+      - '[refresh]'
+      - '[console] coins take %player_name% 799'
+      - '[message] &aYou Bought &8Umbra Rank'
+
+  upgrade_nova:
+    material: BOOK
+    priority: 5
+    slot: 49
+    display_name: '&d&l✦ RANK UPGRADE ✦'
+    lore:
+      - '&7 permenent upgrade'
+      - ' '
+      - '&7Ranks :'
+      - '&7• &4Zenith &f⬆&6⛁1499'
+      - '&7• &6Aeon &f⬆&6⛁999'
+      - '&7• &8Umbra &f⬆&6⛁799'
+      - '&7• &dNova &f⬆&6⛁599'
+      - '&7• &5Vex &f◀'
+      - '&7• &7&mFlux'
+      - '&7• &7&mEcho'
+      - '&7• &7&mSpark'
+      - ''
+      - '&7Next Rank: &dNova'
+      - ''
+      - '&D&lCLICK TO UPGRADE'
+      - '&7• Cost : &6⛁599'
+    view_requirement:
+      requirements:
+        has_flux:
+          type: string equals
+          input: '%luckperms_primary_group_name%'
+          output: 'Vex'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 599
+      deny_commands:
+        - '[message] &cYou need ⛁499 to buy this!'
+    left_click_commands:
+      - '[console] lp user %player_name% parent set nova'
+      - '[refresh]'
+      - '[console] coins take %player_name% 599'
+      - '[message] &aYou Bought &dNova Rank'
+
+  upgrade_vex:
+    material: BOOK
+    priority: 6
+    slot: 49
+    display_name: '&d&l✦ RANK UPGRADE ✦'
+    lore:
+      - '&7 permenent upgrade'
+      - ' '
+      - '&7Ranks :'
+      - '&7• &4Zenith &f⬆&6⛁1499'
+      - '&7• &6Aeon &f⬆&6⛁999'
+      - '&7• &8Umbra &f⬆&6⛁799'
+      - '&7• &dNova &f⬆&6⛁599'
+      - '&7• &5Vex &f⬆&6⛁499'
+      - '&7• &eFlux &f◀'
+      - '&7• &7&mEcho'
+      - '&7• &7&mSpark'
+      - ''
+      - '&7Next Rank: &5Vex'
+      - ''
+      - '&D&lCLICK TO UPGRADE'
+      - '&7• Cost : &6⛁499'
+    view_requirement:
+      requirements:
+        has_flux:
+          type: string equals
+          input: '%luckperms_primary_group_name%'
+          output: 'Flux'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 499
+      deny_commands:
+        - '[message] &cYou need ⛁499 to buy this!'
+    left_click_commands:
+      - '[console] lp user %player_name% parent set vex'
+      - '[refresh]'
+      - '[console] coins take %player_name% 499'
+      - '[message] &aYou Bought &b5Vex Rank'
+
+  upgrade_flux:
+    material: BOOK
+    priority: 7
+    slot: 49
+    display_name: '&d&l✦ RANK UPGRADE ✦'
+    lore:
+      - '&7 permenent upgrade'
+      - ' '
+      - '&7Ranks :'
+      - '&7• &4Zenith &f⬆&6⛁1499'
+      - '&7• &6Aeon &f⬆&6⛁999'
+      - '&7• &8Umbra &f⬆&6⛁799'
+      - '&7• &dNova &f⬆&6⛁599'
+      - '&7• &5Vex &f⬆&6⛁499'
+      - '&7• &eFlux &f⬆&6⛁399'
+      - '&7• &bEcho &f◀'
+      - '&7• &7&mSpark'
+      - ''
+      - '&7Next Rank: &eFlux'
+      - ''
+      - '&D&lCLICK TO UPGRADE'
+      - '&7• Cost : &6⛁399'
+    view_requirement:
+      requirements:
+        has_flux:
+          type: string equals
+          input: '%luckperms_primary_group_name%'
+          output: 'Echo'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 399
+      deny_commands:
+        - '[message] &cYou need ⛁399 to buy this!'
+    left_click_commands:
+      - '[console] lp user %player_name% parent set flux'
+      - '[refresh]'
+      - '[console] coins take %player_name% 399'
+      - '[message] &aYou Bought &beFlux Rank'
+
+  upgrade_echo:
+    material: BOOK
+    priority: 8
+    slot: 49
+    display_name: '&d&l✦ RANK UPGRADE ✦'
+    lore:
+      - '&7 permenent upgrade'
+      - ' '
+      - '&7Ranks :'
+      - '&7• &4Zenith &f⬆&6⛁1499'
+      - '&7• &6Aeon &f⬆&6⛁999'
+      - '&7• &8Umbra &f⬆&6⛁799'
+      - '&7• &dNova &f⬆&6⛁599'
+      - '&7• &5Vex &f⬆&6⛁499'
+      - '&7• &eFlux &f⬆&6⛁399'
+      - '&7• &bEcho &f⬆&6⛁299'
+      - '&7• &fSpark &f◀'
+      - ''
+      - '&7Next Rank: &bEcho'
+      - ''
+      - '&D&lCLICK TO UPGRADE'
+      - '&7• Cost : &6⛁299'
+    view_requirement:
+      requirements:
+        has_echo:
+          type: string equals
+          input: '%luckperms_primary_group_name%'
+          output: 'Spark'
+    left_click_requirement:
+      requirements:
+        has_enough_coins:
+          type: '>='
+          input: '%coinsengine_balance_raw_coins%'
+          output: 299
+      deny_commands:
+        - '[message] &cYou need ⛁299 to buy this!'
+    left_click_commands:
+      - '[console] lp user %player_name% parent set echo'
+      - '[refresh]'
+      - '[console] coins take %player_name% 299'
+      - '[message] &aYou Bought &bEcho Rank'
+
+
+  # =========================
+  # RANKS INFO
+  # =========================
+  spark:
+    material: BARRIER
+    slot: 10
+    display_name: '&7&lSPARK'
+    lore:
+      - '&7The beginning of your journey'
+      - ''
+      - '&d&l★ PERKS:'
+      - '&7• &f/jobs &7- Can join upto 1 jobs'
+      - '&7• &f/rules &7- View guidelines'
+      - '&7• &f/spawn &7- Return to spawn'
+      - '&7• &f/tpa &7- Request teleport'
+      - '&7• &f/sethome &71 &7- Set 1 home'
+      - '&7• &f/bal &7- Check balance'
+
+  # FALLBACK for Echo
+  echo:
+    material: LEATHER_CHESTPLATE
+    slot: 12
+    priority: 1
+    display_name: '&b&lECHO'
+    lore:
+      - '&7Your actions echo through the server'
+      - ''
+      - '&d&l★ PERKS:'
+      - '&7• &fAll echo perks'
+      - '&7• &f/anvil &7- Virtual Anvil'
+      - '&7• &f/compass &7- virtual compass'
+      - '&7• &f/getpos &7- Get the position'
+      - '&7• &f/grindstone &7- Virtual Grindstone'
+      - '&7• &f/hat &7- set a item as hat on your head'
+      - '&7• &f/ice &7- freez yourself'
+      - '&7• &f/kits echo &7- get a special echo kit'
+      - ''
+
+  flux:
+    material: COPPER_CHESTPLATE
+    slot: 14
+    priority: 1
+    display_name: '&3&lFLUX'
+    lore:
+      - '&7Energy flows through you!'
+      - ''
+      - '&d&l★ PERKS:'
+      - '&7• &fAll flux perks'
+      - '&7• &f/craft &7- virtual crafting table'
+      - '&7• &f/jobs &7- can join upto 3 jobs at a time'
+      - '&7• &f/kits flux &7- Access flux kit'
+      - ''
+
+  vex:
+    material: CHAINMAIL_CHESTPLATE
+    slot: 16
+    priority: 1
+    display_name: '&5&lVEX'
+    lore:
+      - '&7Mysterious and mischievous!'
+      - ''
+      - '&d&l★ PERKS:'
+      - '&7• &fAll vex perks'
+      - '&7• &f/back &7- teleport back to your death location'
+      - '&7• &f/cartographytable &7- a virtual cartography table'
+      - '&7• &f/heal &7- can heal yourself'
+      - '&7• &f/nick &7- nick anyone'
+      - '&7• &f/kits vex &7- access vex kit'
+      - ''
+
+  nova:
+    material: IRON_CHESTPLATE
+    slot: 28
+    priority: 1
+    display_name: '&d&lNOVA'
+    lore:
+      - '&7Celestial power awakens!'
+      - ''
+      - '&d&l★ PERKS:'
+      - '&7• &fAll nova perks'
+      - '&7• &f/kits nova &7- Access Nova kit '
+      - '&7• &f/jobs &7- can join upto 4 jobs'
+      - ''
+
+
+  umbra:
+    material: GOLDEN_CHESTPLATE
+    slot: 30
+    priority: 1
+    display_name: '&8&lUMBRA'
+    lore:
+      - '&7Shadow and darkness obey you!'
+      - ''
+      - '&d&l★ PERKS:'
+      - '&7• &fAll Nova perks'
+      - '&7• &f/beezooka &7- spawn a beezooka !!!'
+      - '&7• &f/burn &7- burh anyone into ashes'
+      - '&7• &f/condence &7- condence anyone'
+      - '&7• &f/feed &7- u can feed 😋'
+      - '&7• &f/jump &7- jump to any place you are lokking at in no time'
+      - '&7• &f/kits umbra &7- Access umbra kit'
+      - ''
+
+  aeon:
+    material: DIAMOND_CHESTPLATE
+    slot: 32
+    priority: 1
+    display_name: '&6&lAEON'
+    lore:
+      - '&7Eternal and immortal!'
+      - ''
+      - '&d&l★ PERKS:'
+      - '&7• &fAll Umbra perks'
+      - '&7• &f/heal &7- now you can heal others too'
+      - '&7• &f/repair &7- repair your items in a new way ✨'
+      - '&7• &f/revive &7- revive your friends and foe 🥰'
+      - '&7• &f/reload &7- Reload configs'
+      - '&7• &f/customrtp <playername> world <mindist> <maxdist> 0 0 &7- now you can customize your rtp x_x'
+      - '&7• &f/memory &7- View memory'
+      - ''
+
+  
+  zenith:
+    material: NETHERITE_CHESTPLATE
+    slot: 34
+    priority: 1
+    display_name: '&e&lZENITH'
+    lore:
+      - '&7The peak of power!'
+      - ''
+      - '&d&l★ PERKS:'
+      - '&7• &fAll Aeon perks'
+      - '&7• &f/bigtree &7- plant trees'
+      - '&7• &f/fireball &7- you can summon a big fireball'
+      - '&7• &f/god &7- enter god mode'
+      - '&7• &f/kits zenith &7- Access zenith kit'
+      - ''
+
+  # =========================
+  # 💰 BALANCE & HELP
+  # =========================
+  back_button:
+    material: ARROW
+    slot: 45
+    display_name: '&c&l◀ BACK'
+    lore:
+      - '&7Click to return to'
+      - '&7the main shop!'
+      - ''
+      - '&eClick to go back'
+    left_click_commands:
+      - '[sound] BLOCK_NOTE_BLOCK_PLING'
+      - '[openguimenu] store'
+
+  help:
+    material: MAP
+    slot: 53
+    display_name: '&d&lHOW TO RANK UP'
+    lore:
+      - '&71. Click on the upgrade rank'
+      - '&72. Make sure you have enough coins'
+      - '&73. Confirm the purchase'
+      - '&74. Enjoy your new perks!'
+      - ''
+      - '&eRanks are permanent!'

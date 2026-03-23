@@ -1,0 +1,905 @@
+# Armor Shop
+Settings:
+  Icon:
+    Material: minecraft:diamond_chestplate
+    Name: <c:#06b6d4><b>✦ ARMOR SHOP ✦</b></c>
+    Lore:
+    - <gray>Protect yourself with the best gear!</gray>
+    - ''
+    - <c:#fbbf24>➥</c> <white>Leather Set</white> <c:#3E3E3E>→</c> <white>$10-20</white>
+    - <c:#fbbf24>➥</c> <white>Iron Set</white> <c:#3E3E3E>→</c> <white>$50-100</white>
+    - <c:#fbbf24>➥</c> <white>Diamond Set</white> <c:#3E3E3E>→</c> <white>$200-400</white>
+    - <c:#fbbf24>➥</c> <white>Netherite Set</white> <c:#3E3E3E>→</c> <white>$800-1600</white>
+    Display_Name: <c:#06b6d4><b>✦ ARMOR SHOP ✦</b></c>
+  Layout:
+    Paginated: true
+    ByPage:
+      '0': default
+  Aliases: []
+  Name: Armour
+  Description: []
+  Permission_Required: false
+  Buying: true
+  Selling: false
+  Pages: 1
+  MainMenu:
+    Slot: '11'
+
+Content:
+  # Leather Armor
+  leather_helmet:
+    Priority: 10
+    Item:
+      Material: minecraft:leather_helmet
+      Display_Name: <white>Leather Helmet</white>
+      Lore:
+      - '<gray>Protection: +1</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$10</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$5</white>
+    Slots: 11
+    Shop_Item:
+      Buy_Price: 10
+      Sell_Price: 5
+  
+  leather_chestplate:
+    Priority: 10
+    Item:
+      Material: minecraft:leather_chestplate
+      Display_Name: <white>Leather Chestplate</white>
+      Lore:
+      - '<gray>Protection: +3</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$20</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$10</white>
+    Slots: 12
+    Shop_Item:
+      Buy_Price: 20
+      Sell_Price: 10
+  
+  leather_leggings:
+    Priority: 10
+    Item:
+      Material: minecraft:leather_leggings
+      Display_Name: <white>Leather Leggings</white>
+      Lore:
+      - '<gray>Protection: +2</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$15</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$7</white>
+    Slots: 13
+    Shop_Item:
+      Buy_Price: 15
+      Sell_Price: 7
+  
+  leather_boots:
+    Priority: 10
+    Item:
+      Material: minecraft:leather_boots
+      Display_Name: <white>Leather Boots</white>
+      Lore:
+      - '<gray>Protection: +1</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$8</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$4</white>
+    Slots: 14
+    Shop_Item:
+      Buy_Price: 8
+      Sell_Price: 4
+  
+  # Iron Armor
+  iron_helmet:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_helmet
+      Display_Name: <white>Iron Helmet</white>
+      Lore:
+      - '<gray>Protection: +2</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$50</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$25</white>
+    Slots: 20
+    Shop_Item:
+      Buy_Price: 50
+      Sell_Price: 25
+  
+  iron_chestplate:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_chestplate
+      Display_Name: <white>Iron Chestplate</white>
+      Lore:
+      - '<gray>Protection: +6</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$100</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$50</white>
+    Slots: 21
+    Shop_Item:
+      Buy_Price: 100
+      Sell_Price: 50
+  
+  iron_leggings:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_leggings
+      Display_Name: <white>Iron Leggings</white>
+      Lore:
+      - '<gray>Protection: +5</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$75</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$37</white>
+    Slots: 22
+    Shop_Item:
+      Buy_Price: 75
+      Sell_Price: 37
+  
+  iron_boots:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_boots
+      Display_Name: <white>Iron Boots</white>
+      Lore:
+      - '<gray>Protection: +2</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$40</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$20</white>
+    Slots: 23
+    Shop_Item:
+      Buy_Price: 40
+      Sell_Price: 20
+  
+  # Diamond Armor
+  diamond_helmet:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond_helmet
+      Display_Name: <c:#3b82f6>Diamond Helmet</c>
+      Lore:
+      - '<gray>Protection: +3</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$200</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$100</white>
+    Slots: 29
+    Shop_Item:
+      Buy_Price: 200
+      Sell_Price: 100
+  
+  diamond_chestplate:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond_chestplate
+      Display_Name: <c:#3b82f6>Diamond Chestplate</c>
+      Lore:
+      - '<gray>Protection: +8</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$400</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$200</white>
+    Slots: 30
+    Shop_Item:
+      Buy_Price: 400
+      Sell_Price: 200
+  
+  diamond_leggings:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond_leggings
+      Display_Name: <c:#3b82f6>Diamond Leggings</c>
+      Lore:
+      - '<gray>Protection: +6</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$300</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$150</white>
+    Slots: 31
+    Shop_Item:
+      Buy_Price: 300
+      Sell_Price: 150
+  
+  diamond_boots:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond_boots
+      Display_Name: <c:#3b82f6>Diamond Boots</c>
+      Lore:
+      - '<gray>Protection: +3</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$160</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$80</white>
+    Slots: 32
+    Shop_Item:
+      Buy_Price: 160
+      Sell_Price: 80
+  
+  # Netherite Armor
+  netherite_helmet:
+    Priority: 10
+    Item:
+      Material: minecraft:netherite_helmet
+      Display_Name: <c:#a855f7>Netherite Helmet</c>
+      Lore:
+      - '<gray>Protection: +3</gray>'
+      - '<gray>Knockback Resistance: +10%</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$800</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$400</white>
+    Slots: 38
+    Shop_Item:
+      Buy_Price: 800
+      Sell_Price: 400
+  
+  netherite_chestplate:
+    Priority: 10
+    Item:
+      Material: minecraft:netherite_chestplate
+      Display_Name: <c:#a855f7>Netherite Chestplate</c>
+      Lore:
+      - '<gray>Protection: +8</gray>'
+      - '<gray>Knockback Resistance: +10%</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$1600</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$800</white>
+    Slots: 39
+    Shop_Item:
+      Buy_Price: 1600
+      Sell_Price: 800
+  
+  netherite_leggings:
+    Priority: 10
+    Item:
+      Material: minecraft:netherite_leggings
+      Display_Name: <c:#a855f7>Netherite Leggings</c>
+      Lore:
+      - '<gray>Protection: +6</gray>'
+      - '<gray>Knockback Resistance: +10%</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$1200</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$600</white>
+    Slots: 40
+    Shop_Item:
+      Buy_Price: 1200
+      Sell_Price: 600
+  
+  netherite_boots:
+    Priority: 10
+    Item:
+      Material: minecraft:netherite_boots
+      Display_Name: <c:#a855f7>Netherite Boots</c>
+      Lore:
+      - '<gray>Protection: +3</gray>'
+      - '<gray>Knockback Resistance: +10%</gray>'
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$640</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$320</white>
+    Slots: 41
+    Shop_Item:
+      Buy_Price: 640
+      Sell_Price: 320
+# Aqua Hive Armor Shop - Optimized Economy
+# Balanced armor prices based on material value and protection
+
+# Aqua Hive Armor Shop - CRAFTING-BASED PRICES
+# Prices calculated from raw material costs to prevent inflation
+
+Items:
+  # ==================== HELMETS ====================
+  # Copper Helmet: 5 Copper Ingots ($5 each) = $25 material cost
+  copper_helmet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_helmet"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 38.0
+      SELL: 12.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  
+  # Chainmail Helmet: Not craftable, rare drop/trade
+  chainmail_helmet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:chainmail_helmet"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 60.0
+      SELL: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  
+  # Iron Helmet: 5 Iron Ingots ($15 each) = $75 material cost
+  iron_helmet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_helmet"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 112.0
+      SELL: 37.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  
+  # Golden Helmet: 5 Gold Ingots ($25 each) = $125 material cost
+  golden_helmet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_helmet"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 188.0
+      SELL: 62.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  
+  # Diamond Helmet: 5 Diamonds ($100 each) = $500 material cost
+  diamond_helmet:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_helmet"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 750.0
+      SELL: 250.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  
+  # ==================== CHESTPLATES ====================
+  # Copper Chestplate: 8 Copper Ingots ($5 each) = $40 material cost
+  copper_chestplate:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_chestplate"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 60.0
+      SELL: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  
+  # Chainmail Chestplate: Not craftable, rare drop/trade
+  chainmail_chestplate:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:chainmail_chestplate"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 105.0
+      SELL: 35.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  
+  # Iron Chestplate: 8 Iron Ingots ($15 each) = $120 material cost
+  iron_chestplate:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_chestplate"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 180.0
+      SELL: 60.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  
+  # Golden Chestplate: 8 Gold Ingots ($25 each) = $200 material cost
+  golden_chestplate:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_chestplate"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 300.0
+      SELL: 100.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  
+  # Diamond Chestplate: 8 Diamonds ($100 each) = $800 material cost
+  diamond_chestplate:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_chestplate"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 1200.0
+      SELL: 400.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  
+  # ==================== LEGGINGS ====================
+  # Copper Leggings: 7 Copper Ingots ($5 each) = $35 material cost
+  copper_leggings:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_leggings"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 53.0
+      SELL: 17.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 1
+  
+  # Chainmail Leggings: Not craftable, rare drop/trade
+  chainmail_leggings:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:chainmail_leggings"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 90.0
+      SELL: 30.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  
+  # Iron Leggings: 7 Iron Ingots ($15 each) = $105 material cost
+  iron_leggings:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_leggings"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 157.0
+      SELL: 52.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  
+  # Golden Leggings: 7 Gold Ingots ($25 each) = $175 material cost
+  golden_leggings:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_leggings"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 262.0
+      SELL: 87.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1
+  
+  # Diamond Leggings: 7 Diamonds ($100 each) = $700 material cost
+  diamond_leggings:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_leggings"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 1050.0
+      SELL: 350.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  
+  # ==================== BOOTS ====================
+  # Copper Boots: 4 Copper Ingots ($5 each) = $20 material cost
+  copper_boots:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:copper_boots"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 30.0
+      SELL: 10.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 38
+      Page: 1
+  
+  # Chainmail Boots: Not craftable, rare drop/trade
+  chainmail_boots:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:chainmail_boots"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 51.0
+      SELL: 17.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 39
+      Page: 1
+  
+  # Iron Boots: 4 Iron Ingots ($15 each) = $60 material cost
+  iron_boots:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:iron_boots"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 90.0
+      SELL: 30.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 40
+      Page: 1
+  
+  # Golden Boots: 4 Gold Ingots ($25 each) = $100 material cost
+  golden_boots:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:golden_boots"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 150.0
+      SELL: 50.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 41
+      Page: 1
+  
+  # Diamond Boots: 4 Diamonds ($100 each) = $400 material cost
+  diamond_boots:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_boots"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 600.0
+      SELL: 200.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 42
+      Page: 1

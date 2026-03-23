@@ -1,0 +1,287 @@
+####################################################################################################
+# VotingPlugin – Special Rewards Configuration (SpecialRewards.yml)
+#
+# Quick-disable rule:
+#   - To disable any reward section: set it to {} (single line) or remove it.
+#     Example: FirstVote: {}
+#
+# VoteMilestones (NEW / Recommended):
+#   - Each entry is evaluated on every vote.
+#   - Triggers:
+#       • At: <number|list|range>   (exact totals; supports ranges like 10..50 step 10)
+#       • Every: <number>          (fires at multiples: 10,20,30,...)
+#   - First vote note:
+#       • The first vote total is 1, so use At: 1 for “first vote”.
+#
+# Limits (optional, per milestone):
+#   - NONE (default)           : can trigger whenever it matches
+#   - WINDOW_DAY/WEEK/MONTH    : only once per calendar window
+#   - COOLDOWN                 : once per duration (30m, 12h, 2w, 1mo, 5000ms)
+#
+# Groups (optional):
+#   - Use Group: <id> on a milestone to put multiple milestones into a selection bucket.
+#   - Selection modes per group are configured under VoteMilestonesOptions.Groups:
+#       • ALL     : execute all matched milestones in that group
+#       • FIRST   : execute first matched milestone (file order)
+#       • HIGHEST : execute “best” matched milestone (prefers AT > EVERY; higher values win)
+####################################################################################################
+
+# -----------------------------
+# VoteMilestones global options
+# -----------------------------
+VoteMilestonesOptions:
+  Groups:
+    # Group id and setting
+    # Set group id on each votemilestone (default id is default if not set)
+    # Valid options:
+    #   ALL      - Allow giving all vote milestones
+    #   FIRST    - Only give the first vote milestone that is met
+    #   HIGHEST  - Only give the highest vote milestone that is met
+    Default: ALL
+    ExampleId: FIRST
+
+
+# -----------------------------
+# VoteMilestones
+# -----------------------------
+VoteMilestones:
+
+  # First vote ever (all-time)
+  # Total becomes 1 on the player's first vote.
+  FirstVoteAllTime:
+    Enabled: true
+    Total: AllTime        # also works: ALLTIME_VOTES, ALLTIME, AllTime, etc
+    At: 1
+    Group: first
+    Rewards:
+      Messages:
+        Player: "&aThanks for your first vote ever!"
+
+  # Every 25 all-time votes
+  Every25Votes:
+    Enabled: false
+    Total: ALLTIME_VOTES
+    Every: 25
+    Rewards:
+      Commands:
+        - "say %player% hit %amount% votes!"
+
+  # Exact milestones + range expansion
+  MilestoneMix:
+    Enabled: true
+    Total: Daily          # Daily / DAILY / DAILY_VOTES all work
+    At:
+      - 5
+      - 10..50 step 10
+      - 100
+    Rewards:
+      Messages:
+        Player: "&bDaily milestone reached: %amount%!"
+
+  # Points milestones
+  Every10Points:
+    Enabled: false
+    Total: POINTS
+    Every: 10
+    Rewards:
+      Commands:
+        - "give %player% diamond 1"
+
+  # AllSitesToday
+  # Rewards when the player votes on ALL sites in one day.
+  AllSitesToday_AllDone:
+    Enabled: true
+    Total: ALLSITES_TODAY
+    At: 5                 # <-- set this to YOUR number of vote sites
+    Limit:
+      Type: WINDOW_DAY
+    Rewards:
+      Messages:
+        Player: "&eYou voted on all sites today!"
+
+  # Cooldown example
+  # Rewards every 3 votes, but only once every 12 hours.
+  SomeCooldownExample:
+    Enabled: false
+    Total: ALLTIME_VOTES
+    Every: 3
+    Limit:
+      Type: COOLDOWN
+      Duration: 12h        # supports: 30m, 12h, 1d, 2w, 1mo, 5000ms
+    Rewards:
+      Messages:
+        Player: "&aYou hit another %amount% votes, but only once every 12 hours!"
+
+
+# -----------------------------
+# Vote party configuration
+# -----------------------------
+VoteParty:
+  # Whether or not vote party is enabled
+  Enabled: false
+  # Number of votes required to give rewards
+  VotesRequired: 20
+  # Increase the amount of votes required on each vote party reached
+  #IncreaseVotesRequired: 10
+  # If true, players who did not vote to reach the votes required will
+  # receive the reward
+  # If false, only players who voted get rewards
+  GiveAllPlayers: false
+  # If true, give online players the vote party reward
+  # Can also use RewardType: ONLINE if you wanted
+  GiveOnlinePlayersOnly: true
+  # If true, the vote count will reset each day
+  ResetEachDay: false
+  # If true, the vote count will reset each week
+  ResetWeekly: false
+  # Reset at the end of the month
+  ResetMonthly: false
+  # If true, will give voteparty only once per day
+  OnlyOncePerDay: false
+  # If true, will give voteparty once per week only
+  OnlyOncePerWeek: false
+  # Reset extra votes weekly
+  ResetExtraVotesWeekly: false
+  # Reset extra votes monthly
+  ResetExtraVotesMonthly: false
+  # Count votes from /av vote?
+  CountFakeVotes: true
+  # Number of user votes that apply to vote party total the user needs to get rewards
+  UserVotesRequired: 0
+  # Count offline votes
+  CountOfflineVotes: true
+  # Broadcast when vote party reached
+  Broadcast: '&cReached the vote party amount!'
+  # Send a broadcast at a certain number of votes left and send a vote reminder
+  VoteReminderBroadcast: '%votesrequired% left to go, go vote!'
+  # Send vote reminder at number of votes to go
+  VoteReminderAtVotes: []
+  # List of commands to execute, these only execute once.
+  # %player% does not work here
+  GlobalCommands: []
+  # List of commands to execute once (picks one randomly)
+  # Only runs once, %player% does not work here
+  GlobalRandomCommand: []
+  # Rewards to give per player
+  Rewards:
+    # Uncomment below for online players to be rewarded only
+    #RewardType: ONLINE
+    Commands:
+    - say %player%
+    Items:
+      DIAMOND:
+        Material: 'DIAMOND'
+        Amount: 1
+
+
+# -----------------------------
+# Vote streak rewards (NEW)
+# -----------------------------
+VoteStreaks:
+  # Id name, data is stored under this name
+  # On proxy setups keep different for each server unless you want one global streak/reward
+  Daily3Votes:
+    Type: DAILY
+    Enabled: false
+    Requirements:
+      Amount: 3
+      VotesRequired: 3
+    AllowMissedAmount: 1
+    AllowMissedPeriod: 7
+    Rewards:
+      Commands:
+      - say test
+
+# -----------------------------
+# Legacy vote rewards (DEPRECATED)
+# -----------------------------
+# These are fully disabled and kept only for reference.
+# VoteMilestones above replace all of this functionality.
+
+FirstVote: {}
+
+FirstVoteToday: {}
+
+AllSites: {}
+
+OnlyOneCumulative: false
+
+Cumulative:
+  '20':
+    Enabled: false
+    TotalToUse: AllTime
+    Rewards:
+      Messages:
+        Player: '&aYou got %cumulative% cumulative votes!'
+
+ResetMilestonesMonthly: false
+
+MileStones:
+  '20':
+    Enabled: false
+    Rewards:
+      Messages:
+        Player: '&aYou got %milestone% milestone votes!'
+
+VoteStreak:
+  Day:
+    '2':
+      Enabled: false
+      Rewards:
+        Messages:
+          Player: "&aYou voted for %Streak% %Type%'s in a row!"
+  Week:
+    '2':
+      Enabled: false
+      Rewards:
+        Messages:
+          Player: "&aYou voted for %Streak% %Type%'s in a row!"
+  Month:
+    '2':
+      Enabled: false
+      Rewards:
+        Messages:
+          Player: "&aYou voted for %Streak% %Type%'s in a row!"
+  Requirement:
+    UsePercentage: false
+    Day: 50
+    Week: 50
+    Month: 50
+
+
+# -----------------------------
+# Top voter awards
+# -----------------------------
+EnableMonthlyAwards: true
+
+MonthlyAwards:
+  1:
+    Rewards:
+      Messages:
+        Player: '&aYou came in first place in %TopVoter%!'
+  2:
+    Rewards:
+      Messages:
+        Player: '&aYou came in second place in %TopVoter%!'
+
+EnableWeeklyAwards: false
+WeeklyAwards:
+  1:
+    Rewards:
+      Messages:
+        Player: '&aYou came in first place in %TopVoter%!'
+  2:
+    Rewards:
+      Messages:
+        Player: '&aYou came in second place in %TopVoter%!'
+
+EnableDailyRewards: false
+DailyAwards:
+  1:
+    Rewards:
+      Messages:
+        Player: '&aYou came in first place in %TopVoter%!'
+  2:
+    Rewards:
+      Messages:
+        Player: '&aYou came in second place in %TopVoter%!'

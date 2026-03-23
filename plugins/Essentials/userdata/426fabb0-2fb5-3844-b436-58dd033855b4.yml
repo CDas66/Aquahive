@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.140.172.207
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774249991458
+  login: 1774249960204
+money: '0'
+last-account-name: drinkpaintdaily
+lastlocation:
+  world: ab0e4fcc-a7c0-424e-8535-cc6a4b6d589d
+  world-name: world
+  x: -442.0
+  y: 73.0
+  z: 139.0
+  yaw: 176.54913330078125
+  pitch: 89.24999237060547
+logoutlocation:
+  world: ab0e4fcc-a7c0-424e-8535-cc6a4b6d589d
+  world-name: world
+  x: -431.21220827756315
+  y: 69.0
+  z: 137.69999998807907
+  yaw: -74.25061798095703
+  pitch: -3.300020694732666

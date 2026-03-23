@@ -1,0 +1,17 @@
+args:
+  name:
+  - Spawn
+  destination:
+  - wspawn
+  triggerblock:
+  - NETHER_PORTAL
+maxLoc:
+  posX: 2
+  posY: 4
+  posZ: -63
+  worldName: spawn
+minLoc:
+  posX: -2
+  posY: -3
+  posZ: -63
+  worldName: spawn

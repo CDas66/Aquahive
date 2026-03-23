@@ -1,0 +1,35 @@
+Name: Honeycomb Crate
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"Honeycomb Crate",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:tooltip_display":{hidden_components:["minecraft:tropical_fish/pattern","minecraft:intangible_projectile","minecraft:map_decorations","minecraft:bees","minecraft:sheep/color","minecraft:llama/variant","minecraft:container","minecraft:painting/variant","minecraft:recipes","minecraft:use_cooldown","minecraft:map_color","minecraft:can_place_on","minecraft:minimum_attack_charge","minecraft:villager/variant","minecraft:rabbit/variant","minecraft:pig/variant","minecraft:custom_data","minecraft:blocks_attacks","minecraft:unbreakable","minecraft:debug_stick_state","minecraft:shulker/color","minecraft:salmon/size","minecraft:damage","minecraft:provides_trim_material","minecraft:enchantments","minecraft:bucket_entity_data","minecraft:swing_animation","minecraft:glider","minecraft:damage_type","minecraft:tool","minecraft:written_book_content","minecraft:firework_explosion","minecraft:lock","minecraft:chicken/variant","minecraft:consumable","minecraft:tropical_fish/base_color","minecraft:equippable","minecraft:cat/variant","minecraft:map_post_processing","minecraft:block_entity_data","minecraft:ominous_bottle_amplifier","minecraft:jukebox_playable","minecraft:frog/variant","minecraft:max_damage","minecraft:charged_projectiles","minecraft:lodestone_tracker","minecraft:food","minecraft:block_state","minecraft:use_effects","minecraft:note_block_sound","minecraft:enchantable","minecraft:piercing_weapon","minecraft:base_color","minecraft:parrot/variant","minecraft:writable_book_content","minecraft:wolf/collar","minecraft:provides_banner_patterns","minecraft:suspicious_stew_effects","minecraft:cat/collar","minecraft:zombie_nautilus/variant","minecraft:break_sound","minecraft:entity_data","minecraft:enchantment_glint_override","minecraft:profile","minecraft:pot_decorations","minecraft:bundle_contents","minecraft:kinetic_weapon","minecraft:repair_cost","minecraft:axolotl/variant","minecraft:potion_contents","minecraft:banner_patterns","minecraft:can_break","minecraft:tropical_fish/pattern_color","minecraft:rarity","minecraft:attack_range","minecraft:mooshroom/variant","minecraft:death_protection","minecraft:map_id","minecraft:trim","minecraft:max_stack_size","minecraft:wolf/variant","minecraft:stored_enchantments","minecraft:weapon","minecraft:potion_duration_scale","minecraft:fox/variant","minecraft:repairable","minecraft:wolf/sound_variant","minecraft:use_remainder","minecraft:cow/variant","minecraft:dyed_color","minecraft:creative_slot_lock","minecraft:fireworks","minecraft:container_loot","minecraft:instrument","minecraft:attribute_modifiers","minecraft:damage_resistant","minecraft:horse/variant"]}},count:1,id:"minecraft:chest"}'
+    DataVersion: 4671
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: default
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimits:
+  Amount: 0
+Block:
+  Positions: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Enabled: false
+    Model: helix
+    Particle:
+      Name: CLOUD
+Milestones:
+  Repeatable: false

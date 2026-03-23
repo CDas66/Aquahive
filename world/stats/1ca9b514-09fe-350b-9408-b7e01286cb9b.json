@@ -1,0 +1,76 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 1,
+      "minecraft:creeper": 1,
+      "minecraft:spider": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:dark_oak_log": 8,
+      "minecraft:acacia_leaves": 2,
+      "minecraft:oak_leaves": 6,
+      "minecraft:leaf_litter": 2,
+      "minecraft:oak_log": 4,
+      "minecraft:acacia_log": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 30418,
+      "minecraft:walk_one_cm": 35114,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 3,
+      "minecraft:damage_taken": 215,
+      "minecraft:play_time": 30418,
+      "minecraft:damage_dealt": 837,
+      "minecraft:jump": 388,
+      "minecraft:time_since_death": 30418,
+      "minecraft:drop": 120,
+      "minecraft:sprint_one_cm": 56848,
+      "minecraft:fall_one_cm": 17862,
+      "minecraft:total_world_time": 30418,
+      "minecraft:fly_one_cm": 84330,
+      "minecraft:walk_on_water_one_cm": 59,
+      "minecraft:crouch_one_cm": 940,
+      "minecraft:sneak_time": 569
+    },
+    "minecraft:dropped": {
+      "minecraft:stone_shovel": 3,
+      "minecraft:oak_planks": 48,
+      "minecraft:gunpowder": 1,
+      "minecraft:stone_sword": 3,
+      "minecraft:dark_oak_planks": 84,
+      "minecraft:stone_axe": 4,
+      "minecraft:stone_pickaxe": 3,
+      "minecraft:stick": 8,
+      "minecraft:acacia_planks": 12
+    },
+    "minecraft:crafted": {
+      "minecraft:dark_oak_planks": 28,
+      "minecraft:oak_planks": 16,
+      "minecraft:acacia_planks": 4
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 26,
+      "minecraft:stone_sword": 5,
+      "minecraft:leaf_litter": 5,
+      "minecraft:oak_sapling": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:stick": 10,
+      "minecraft:oak_planks": 48,
+      "minecraft:stone_shovel": 3,
+      "minecraft:oak_sapling": 1,
+      "minecraft:dark_oak_planks": 84,
+      "minecraft:leaf_litter": 5,
+      "minecraft:stone_pickaxe": 3,
+      "minecraft:oak_log": 4,
+      "minecraft:stone_sword": 3,
+      "minecraft:stone_axe": 4,
+      "minecraft:acacia_log": 1,
+      "minecraft:gunpowder": 1,
+      "minecraft:acacia_planks": 12,
+      "minecraft:dark_oak_log": 7
+    }
+  },
+  "DataVersion": 4671
+}

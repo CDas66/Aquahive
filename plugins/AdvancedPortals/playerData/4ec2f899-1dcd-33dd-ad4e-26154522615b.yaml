@@ -1,0 +1,16 @@
+destiVisible: false
+perPortalCooldowns:
+  AFK: 1773836563676
+  rtp: 1773745983475
+portalVisible: false
+pos1:
+  posX: -10
+  posY: -3
+  posZ: -61
+  worldName: spawn
+pos2:
+  posX: -8
+  posY: 0
+  posZ: -61
+  worldName: spawn
+selectedPortal: null

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LightAuth - Player Management</title>
+    <link rel="icon" href="https://8upload.com/image/68fd0d0e73f9e/Quality_Restoration-AI_UHD-lightauthlogo.jpeg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div id="root"></div>
+
+<div id="i18n"
+     data-online="Online"
+     data-offline="Offline"
+     data-never="Never"
+     data-unknown="Unknown"
+     data-days-registered="Days Registered"
+     data-days-since-login="Days Since Login"
+     data-details="Details"
+     data-back-button="Back to Players"
+     data-player-identity="Player Identity"
+     data-uuid="UUID"
+     data-ip-address="IP Address"
+     data-password="Password"
+     data-registration-info="Registration Info"
+     data-registration-date="Registration Date"
+     data-last-login="Last Login"
+     data-unregister="Unregister"
+     data-force-change-password="Force Change Password"
+     data-confirm-unregister-title="Confirm Unregister"
+     data-confirm-unregister-message="Are you sure you want to unregister {player}?"
+     data-cancel-button="Cancel"
+     data-ok-button="OK"
+     data-force-change-password-title="Force Change Password"
+     data-new-password-placeholder="Enter new password"
+     data-password-too-short="Password must be at least 3 characters long"
+     data-enter-password="Please enter a new password"
+     data-unregister-success="Player unregistered successfully!"
+     data-password-change-success="Password changed successfully!"
+     data-no-players-found="No Players Found"
+     data-no-players-message="No registered players found on the server."
+     data-error-loading="Error Loading Players"
+     data-loading-players="Loading players..."
+     data-search-placeholder="Search players by name..."
+     data-search-button="Search"
+     data-title-placeholder="LightAuth - Player Management"
+     data-subtitle-placeholder="Manage and monitor all registered players in your Minecraft server"
+     data-search-no-results="No players found matching"
+     data-show-password="Show password"
+     data-hide-password="Hide password"
+     data-network-error="Network connection failed"
+     data-player-not-found="Player not found"
+     data-refresh="Refresh"
+     data-failed-fetch="Failed to fetch data"
+     data-action-irreversible="This action cannot be undone!"
+     data-search-suggestion="Try searching with a different name or check spelling..."
+     data-load-player-details-error="Failed to load player details"
+     data-search-no-results-prefix="No players found matching"
+     data-new-password-for="New password for"
+     data-search-results-count="Found {count} {player|players}"
+     data-saving="Saving...">
+</div>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="/static/config.js"></script>
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="/static/components.js" type="text/babel"></script>
+<script src="/static/app.js" type="text/babel"></script>
+</body>
+</html>

@@ -1,0 +1,568 @@
+# Farming Shop
+Settings:
+  Icon:
+    Material: minecraft:golden_hoe
+    Name: <c:#4ade80><b>✦ FARMING SHOP ✦</b></c>
+    Lore:
+    - <gray>Grow your empire!</gray>
+    - ''
+    - <c:#fbbf24>➥</c> <white>Seeds</white> <c:#3E3E3E>→</c> <white>$2/stack</white>
+    - <c:#fbbf24>➥</c> <white>Tools</white> <c:#3E3E3E>→</c> <white>$10-200</white>
+    - <c:#fbbf24>➥</c> <white>Bone Meal</white> <c:#3E3E3E>→</c> <white>$10/stack</white>
+    Display_Name: <c:#4ade80><b>✦ FARMING SHOP ✦</b></c>
+  Layout:
+    Paginated: true
+    ByPage:
+      '0': default
+  Aliases: []
+  Name: Farming
+  Description: []
+  Permission_Required: false
+  Buying: true
+  Selling: true
+  Pages: 1
+  MainMenu:
+    Slot: '15'
+
+Content:
+  # Seeds
+  wheat_seeds:
+    Priority: 10
+    Item:
+      Material: minecraft:wheat_seeds
+      Display_Name: <white>Wheat Seeds</white>
+      Lore:
+      - <gray>Grow wheat for bread</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$2/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$1/stack</white>
+    Slots: 11
+    Shop_Item:
+      Buy_Price: 2
+      Sell_Price: 1
+      Amount: 64
+  
+  carrot:
+    Priority: 10
+    Item:
+      Material: minecraft:carrot
+      Display_Name: <white>Carrots</white>
+      Lore:
+      - <gray>Grow carrots for food</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$3/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$1/stack</white>
+    Slots: 12
+    Shop_Item:
+      Buy_Price: 3
+      Sell_Price: 1
+      Amount: 64
+  
+  potato:
+    Priority: 10
+    Item:
+      Material: minecraft:potato
+      Display_Name: <white>Potatoes</white>
+      Lore:
+      - <gray>Grow potatoes for food</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$3/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$1/stack</white>
+    Slots: 13
+    Shop_Item:
+      Buy_Price: 3
+      Sell_Price: 1
+      Amount: 64
+  
+  beetroot_seeds:
+    Priority: 10
+    Item:
+      Material: minecraft:beetroot_seeds
+      Display_Name: <white>Beetroot Seeds</white>
+      Lore:
+      - <gray>Grow beetroot for soup</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$2/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$1/stack</white>
+    Slots: 14
+    Shop_Item:
+      Buy_Price: 2
+      Sell_Price: 1
+      Amount: 64
+  
+  melon_seeds:
+    Priority: 10
+    Item:
+      Material: minecraft:melon_seeds
+      Display_Name: <white>Melon Seeds</white>
+      Lore:
+      - <gray>Grow juicy melons</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$5/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$2/stack</white>
+    Slots: 15
+    Shop_Item:
+      Buy_Price: 5
+      Sell_Price: 2
+      Amount: 64
+  
+  pumpkin_seeds:
+    Priority: 10
+    Item:
+      Material: minecraft:pumpkin_seeds
+      Display_Name: <white>Pumpkin Seeds</white>
+      Lore:
+      - <gray>Grow pumpkins for pies</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$5/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$2/stack</white>
+    Slots: 16
+    Shop_Item:
+      Buy_Price: 5
+      Sell_Price: 2
+      Amount: 64
+  
+  # Farming Tools
+  wooden_hoe:
+    Priority: 10
+    Item:
+      Material: minecraft:wooden_hoe
+      Display_Name: <white>Wooden Hoe</white>
+      Lore:
+      - <gray>Basic farming tool</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$10</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$5</white>
+    Slots: 20
+    Shop_Item:
+      Buy_Price: 10
+      Sell_Price: 5
+  
+  stone_hoe:
+    Priority: 10
+    Item:
+      Material: minecraft:stone_hoe
+      Display_Name: <white>Stone Hoe</white>
+      Lore:
+      - <gray>Standard farming tool</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$20</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$10</white>
+    Slots: 21
+    Shop_Item:
+      Buy_Price: 20
+      Sell_Price: 10
+  
+  iron_hoe:
+    Priority: 10
+    Item:
+      Material: minecraft:iron_hoe
+      Display_Name: <white>Iron Hoe</white>
+      Lore:
+      - <gray>Durable farming tool</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$50</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$25</white>
+    Slots: 22
+    Shop_Item:
+      Buy_Price: 50
+      Sell_Price: 25
+  
+  diamond_hoe:
+    Priority: 10
+    Item:
+      Material: minecraft:diamond_hoe
+      Display_Name: <c:#3b82f6>Diamond Hoe</c>
+      Lore:
+      - <gray>Elite farming tool</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$200</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$100</white>
+    Slots: 23
+    Shop_Item:
+      Buy_Price: 200
+      Sell_Price: 100
+  
+  # Fertilizer
+  bone_meal:
+    Priority: 10
+    Item:
+      Material: minecraft:bone_meal
+      Display_Name: <white>Bone Meal</white>
+      Lore:
+      - <gray>Instantly grow crops</gray>
+      - ''
+      - <c:#fbbf24>Buy Price:</c> <white>$10/stack</white>
+      - <c:#fbbf24>Sell Price:</c> <white>$5/stack</white>
+    Slots: 29
+    Shop_Item:
+      Buy_Price: 10
+      Sell_Price: 5
+      Amount: 64
+# Aqua Hive Farming Shop - Optimized Economy
+# Seeds, crops, and farming supplies with fair prices
+
+Items:
+  # ==================== CROPS & VEGETABLES ====================
+
+  carrot:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:carrot"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 6.0
+      SELL: 3.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  
+  potato:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:potato"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 6.0
+      SELL: 3.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  
+  wheat:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:wheat"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 8.0
+      SELL: 4.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  
+  hay_block:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:hay_block"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 20.0
+      SELL: 10.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  
+  kelp:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:kelp"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 5.0
+      SELL: 2.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 40
+      Page: 1
+  
+  # ==================== SEEDS ====================
+
+  beetroot_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:beetroot_seeds"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 3.0
+      SELL: 1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  
+  melon_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:melon_seeds"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 8.0
+      SELL: 4.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  
+  wheat_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:wheat_seeds"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 2.0
+      SELL: 1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  
+  pumpkin_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:pumpkin_seeds"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 8.0
+      SELL: 4.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  
+  torchflower_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:torchflower_seeds"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 10.0
+      SELL: 5.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  
+  pitcher_pod:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:pitcher_pod"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 10.0
+      SELL: 5.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 30
+      Page: 1
+  
+  nether_wart:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:nether_wart"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 15.0
+      SELL: 7.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1

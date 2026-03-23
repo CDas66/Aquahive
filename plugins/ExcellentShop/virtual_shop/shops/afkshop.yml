@@ -1,0 +1,577 @@
+Settings:
+  Aliases:
+  - afkstore
+  - afkshop
+  - ashop
+  Name: '&l<light_purple>✦ AFK SHOP ✦</light_purple>'
+  Description: []
+  Icon:
+    Material: minecraft:amethyst_shard
+    Lore: []
+  Permission_Required: false
+  Buying: true
+  Selling: false
+  Pages: 1
+  MainMenu:
+    Slot: ''
+  Layout:
+    Paginated: false
+    ByPage:
+      '0': afk_layout
+Items:
+  abyssal_key:
+    Type: ITEM
+    Item:
+      Provider: excellentcrates_key
+      Data:
+        ID: abyssal
+        Amount: 1
+      CompareNBT: true
+    Rotating: true
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLOAT
+      SELL:
+        Min: -1.0
+        Max: -1.0
+      BUY:
+        Min: 100.0
+        Max: 300.0
+      Refresh:
+        Type: INTERVAL
+        Interval: -1
+        Days: MONDAY,FRIDAY,TUESDAY,WEDNESDAY,SUNDAY,SATURDAY,THURSDAY
+        Times: []
+      Round_Decimals: true
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: -1
+      Page: -1
+  coral_key:
+    Type: ITEM
+    Item:
+      Provider: excellentcrates_key
+      Data:
+        ID: coral
+        Amount: 1
+      CompareNBT: true
+    Rotating: true
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLOAT
+      SELL:
+        Min: -1.0
+        Max: -1.0
+      BUY:
+        Min: 100.0
+        Max: 200.0
+      Refresh:
+        Type: INTERVAL
+        Interval: -1
+        Days: MONDAY,FRIDAY,TUESDAY,WEDNESDAY,SUNDAY,SATURDAY,THURSDAY
+        Times: []
+      Round_Decimals: false
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: -1
+      Page: -1
+  ꜱᴋᴇʟᴇᴛᴏɴ_ꜱᴘᴀᴡɴᴇʀ:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:block_entity_data":{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:skeleton"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"},"minecraft:custom_name":{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ꜱᴋᴇʟᴇᴛᴏɴ ꜱᴘᴀᴡɴᴇʀ",underlined:0b}],text:""},"minecraft:lore":["",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈
+          ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅᴇᴛᴀɪʟꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  ᴇxᴘᴇʀɪᴇɴᴄᴇ ɢɪᴠᴇ: ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"5",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅʀᴏᴘꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-2
+          ᴀʀʀᴏᴡ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(66.7%)",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-2 ʙᴏɴᴇ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(66.7%)",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  1 ʙᴏᴡ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(8.5%)",underlined:0b}],text:""},""],"minecraft:tooltip_display":{hidden_components:["minecraft:enchantments","minecraft:attribute_modifiers","minecraft:unbreakable","minecraft:fireworks","minecraft:written_book_content","minecraft:firework_explosion","minecraft:bundle_contents","minecraft:tropical_fish/pattern","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:pot_decorations","minecraft:bees","minecraft:container","minecraft:instrument","minecraft:painting/variant","minecraft:container_loot","minecraft:banner_patterns","minecraft:block_state","minecraft:map_id","minecraft:charged_projectiles","minecraft:block_entity_data"]}},count:1,id:"minecraft:spawner"}'
+        DataVersion: 4671
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLOAT
+      SELL:
+        Min: -1.0
+        Max: -1.0
+      BUY:
+        Min: 20.0
+        Max: 50.0
+      Refresh:
+        Type: INTERVAL
+        Interval: 200
+        Days: MONDAY,FRIDAY,TUESDAY,WEDNESDAY,SUNDAY,SATURDAY,THURSDAY
+        Times: []
+      Round_Decimals: true
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 11
+      Page: 1
+  ᴢᴏᴍʙɪᴇ_ꜱᴘᴀᴡɴᴇʀ:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:block_entity_data":{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:zombie"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"},"minecraft:custom_name":{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴢᴏᴍʙɪᴇ ꜱᴘᴀᴡɴᴇʀ",underlined:0b}],text:""},"minecraft:lore":["",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈
+          ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅᴇᴛᴀɪʟꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  ᴇxᴘᴇʀɪᴇɴᴄᴇ ɢɪᴠᴇ: ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"5",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅʀᴏᴘꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-1
+          ᴄᴀʀʀᴏᴛ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(0.8%)",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-1 ɪʀᴏɴ ɪɴɢᴏᴛ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(0.8%)",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-1 ᴘᴏᴛᴀᴛᴏ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(0.8%)",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-2
+          ʀᴏᴛᴛᴇɴ ꜰʟᴇꜱʜ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(66.7%)",underlined:0b}],text:""},""],"minecraft:tooltip_display":{hidden_components:["minecraft:enchantments","minecraft:attribute_modifiers","minecraft:unbreakable","minecraft:fireworks","minecraft:written_book_content","minecraft:firework_explosion","minecraft:bundle_contents","minecraft:tropical_fish/pattern","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:pot_decorations","minecraft:bees","minecraft:container","minecraft:instrument","minecraft:painting/variant","minecraft:container_loot","minecraft:banner_patterns","minecraft:block_state","minecraft:map_id","minecraft:charged_projectiles","minecraft:block_entity_data"]}},count:1,id:"minecraft:spawner"}'
+        DataVersion: 4671
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLOAT
+      SELL:
+        Min: -1.0
+        Max: -1.0
+      BUY:
+        Min: 20.0
+        Max: 50.0
+      Refresh:
+        Type: INTERVAL
+        Interval: 120
+        Days: MONDAY,FRIDAY,TUESDAY,WEDNESDAY,SUNDAY,SATURDAY,THURSDAY
+        Times: []
+      Round_Decimals: true
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  ᴄʀᴇᴇᴘᴇʀ_ꜱᴘᴀᴡɴᴇʀ:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:block_entity_data":{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:creeper"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"},"minecraft:custom_name":{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴄʀᴇᴇᴘᴇʀ ꜱᴘᴀᴡɴᴇʀ",underlined:0b}],text:""},"minecraft:lore":["",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈
+          ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅᴇᴛᴀɪʟꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  ᴇxᴘᴇʀɪᴇɴᴄᴇ ɢɪᴠᴇ: ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"5",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅʀᴏᴘꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-2
+          ɢᴜɴᴘᴏᴡᴅᴇʀ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(66.7%)",underlined:0b}],text:""},""],"minecraft:tooltip_display":{hidden_components:["minecraft:enchantments","minecraft:attribute_modifiers","minecraft:unbreakable","minecraft:fireworks","minecraft:written_book_content","minecraft:firework_explosion","minecraft:bundle_contents","minecraft:tropical_fish/pattern","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:pot_decorations","minecraft:bees","minecraft:container","minecraft:instrument","minecraft:painting/variant","minecraft:container_loot","minecraft:banner_patterns","minecraft:block_state","minecraft:map_id","minecraft:charged_projectiles","minecraft:block_entity_data"]}},count:1,id:"minecraft:spawner"}'
+        DataVersion: 4671
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLOAT
+      SELL:
+        Min: -1.0
+        Max: -1.0
+      BUY:
+        Min: 20.0
+        Max: 50.0
+      Refresh:
+        Type: INTERVAL
+        Interval: -1
+        Days: MONDAY,FRIDAY,TUESDAY,WEDNESDAY,SUNDAY,SATURDAY,THURSDAY
+        Times: []
+      Round_Decimals: true
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  honeycomb_key:
+    Type: ITEM
+    Item:
+      Provider: excellentcrates_key
+      Data:
+        ID: honeycomb
+        Amount: 1
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: DYNAMIC
+      BUY:
+        StartValue: 150.0
+        BuyOffset: 5.3
+        SellOffset: 0.0
+        MinOffset: 10.0
+        MaxOffset: 70.0
+      SELL:
+        StartValue: -1.0
+        BuyOffset: 0.0
+        SellOffset: 0.0
+        MinOffset: 0.0
+        MaxOffset: 0.0
+      Stabilization:
+        Interval: 60
+        Amount: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  stinger_key:
+    Type: ITEM
+    Item:
+      Provider: excellentcrates_key
+      Data:
+        ID: stinger
+        Amount: 1
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: DYNAMIC
+      BUY:
+        StartValue: 200.0
+        BuyOffset: 5.3
+        SellOffset: 0.0
+        MinOffset: 20.0
+        MaxOffset: 70.0
+      SELL:
+        StartValue: -1.0
+        BuyOffset: 0.0
+        SellOffset: 0.0
+        MinOffset: 0.0
+        MaxOffset: 0.0
+      Stabilization:
+        Interval: 60
+        Amount: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 23
+      Page: 1
+  ᴇɴᴅᴇʀᴍᴀɴ_ꜱᴘᴀᴡɴᴇʀ:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:block_entity_data":{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:enderman"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"},"minecraft:custom_name":{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴇɴᴅᴇʀᴍᴀɴ ꜱᴘᴀᴡɴᴇʀ",underlined:0b}],text:""},"minecraft:lore":["",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈
+          ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅᴇᴛᴀɪʟꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  ᴇxᴘᴇʀɪᴇɴᴄᴇ ɢɪᴠᴇ: ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"5",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅʀᴏᴘꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-1
+          ᴇɴᴅᴇʀ ᴘᴇᴀʀʟ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(50.0%)",underlined:0b}],text:""},""],"minecraft:tooltip_display":{hidden_components:["minecraft:enchantments","minecraft:attribute_modifiers","minecraft:unbreakable","minecraft:fireworks","minecraft:written_book_content","minecraft:firework_explosion","minecraft:bundle_contents","minecraft:tropical_fish/pattern","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:pot_decorations","minecraft:bees","minecraft:container","minecraft:instrument","minecraft:painting/variant","minecraft:container_loot","minecraft:banner_patterns","minecraft:block_state","minecraft:map_id","minecraft:charged_projectiles","minecraft:block_entity_data"]}},count:1,id:"minecraft:spawner"}'
+        DataVersion: 4671
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLOAT
+      SELL:
+        Min: -1.0
+        Max: -1.0
+      BUY:
+        Min: 40.0
+        Max: 70.0
+      Refresh:
+        Type: INTERVAL
+        Interval: 60
+        Days: MONDAY,FRIDAY,TUESDAY,WEDNESDAY,SUNDAY,SATURDAY,THURSDAY
+        Times: []
+      Round_Decimals: true
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 29
+      Page: 1
+  ᴇᴠᴏᴋᴇʀ_ꜱᴘᴀᴡɴᴇʀ:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:block_entity_data":{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:evoker"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"},"minecraft:custom_name":{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴇᴠᴏᴋᴇʀ ꜱᴘᴀᴡɴᴇʀ",underlined:0b}],text:""},"minecraft:lore":["",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈
+          ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅᴇᴛᴀɪʟꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  ᴇxᴘᴇʀɪᴇɴᴄᴇ ɢɪᴠᴇ: ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"10",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅʀᴏᴘꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  0-1
+          ᴇᴍᴇʀᴀʟᴅ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(50.0%)",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  1 ᴛᴏᴛᴇᴍ ᴏꜰ ᴜɴᴅʏɪɴɢ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"(100.0%)",underlined:0b}],text:""},""],"minecraft:tooltip_display":{hidden_components:["minecraft:enchantments","minecraft:attribute_modifiers","minecraft:unbreakable","minecraft:fireworks","minecraft:written_book_content","minecraft:firework_explosion","minecraft:bundle_contents","minecraft:tropical_fish/pattern","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:pot_decorations","minecraft:bees","minecraft:container","minecraft:instrument","minecraft:painting/variant","minecraft:container_loot","minecraft:banner_patterns","minecraft:block_state","minecraft:map_id","minecraft:charged_projectiles","minecraft:block_entity_data"]}},count:1,id:"minecraft:spawner"}'
+        DataVersion: 4671
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLOAT
+      SELL:
+        Min: -1.0
+        Max: -1.0
+      BUY:
+        Min: 70.0
+        Max: 100.0
+      Refresh:
+        Type: INTERVAL
+        Interval: 300
+        Days: MONDAY,FRIDAY,TUESDAY,WEDNESDAY,SUNDAY,SATURDAY,THURSDAY
+        Times: []
+      Round_Decimals: true
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 31
+      Page: 1
+  ᴠɪʟʟᴀɢᴇʀ_ꜱᴘᴀᴡɴᴇʀ:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:block_entity_data":{Delay:20s,MaxNearbyEntities:6s,MaxSpawnDelay:800s,MinSpawnDelay:200s,RequiredPlayerRange:16s,SpawnCount:4s,SpawnData:{entity:{id:"minecraft:villager"}},SpawnPotentials:[],SpawnRange:4s,id:"minecraft:mob_spawner"},"minecraft:custom_name":{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴠɪʟʟᴀɢᴇʀ ꜱᴘᴀᴡɴᴇʀ",underlined:0b}],text:""},"minecraft:lore":["",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈
+          ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅᴇᴛᴀɪʟꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  ᴇxᴘᴇʀɪᴇɴᴄᴇ ɢɪᴠᴇ: ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"0",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"◈ ",underlined:0b},{bold:0b,color:"#3498DB",italic:0b,obfuscated:0b,strikethrough:0b,text:"ᴅʀᴏᴘꜱ:",underlined:0b}],text:""},{extra:["  ",{bold:0b,color:"#ECF0F1",italic:0b,obfuscated:0b,strikethrough:0b,text:"•  ɴᴏɴᴇ",underlined:0b}],text:""},""],"minecraft:tooltip_display":{hidden_components:["minecraft:enchantments","minecraft:attribute_modifiers","minecraft:unbreakable","minecraft:fireworks","minecraft:written_book_content","minecraft:firework_explosion","minecraft:bundle_contents","minecraft:tropical_fish/pattern","minecraft:jukebox_playable","minecraft:potion_contents","minecraft:pot_decorations","minecraft:bees","minecraft:container","minecraft:instrument","minecraft:painting/variant","minecraft:container_loot","minecraft:banner_patterns","minecraft:block_state","minecraft:map_id","minecraft:charged_projectiles","minecraft:block_entity_data"]}},count:1,id:"minecraft:spawner"}'
+        DataVersion: 4671
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLOAT
+      SELL:
+        Min: -1.0
+        Max: -1.0
+      BUY:
+        Min: 150.0
+        Max: 500.0
+      Refresh:
+        Type: INTERVAL
+        Interval: 48600
+        Days: MONDAY,FRIDAY,TUESDAY,WEDNESDAY,SUNDAY,SATURDAY,THURSDAY
+        Times: []
+      Round_Decimals: true
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  _tri_nitro_toulene_:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{components:{"minecraft:custom_name":{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦ Tri Nitro Toulene ✦",underlined:0b}],text:""}},count:4,id:"minecraft:tnt"}'
+        DataVersion: 4671
+      CompareNBT: true
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 7.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 38
+      Page: 1
+  golden_apple:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:2,id:"minecraft:golden_apple"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLAT
+      SELL: -1.0
+      BUY: 12.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 39
+      Page: 1
+  __heart_:
+    Type: COMMAND
+    PreviewTag:
+      Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:" ✦ Heart ✦",underlined:0b}],text:""}},count:1,id:"minecraft:nether_star"}'
+      DataVersion: 4671
+    Content:
+      Commands:
+      - lsz giveItem %player_name% defaultheart 1
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLAT
+      SELL: 0.0
+      BUY: 7.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 40
+      Page: 1
+    Handler: bukkit_item
+  5_coins:
+    Type: COMMAND
+    PreviewTag:
+      Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"5 coins",underlined:0b}],text:""}},count:1,id:"minecraft:gold_nugget"}'
+      DataVersion: 4671
+    Content:
+      Commands:
+      - coins give %player_name% 5
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLAT
+      SELL: 0.0
+      BUY: 30.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 41
+      Page: 1
+    Handler: bukkit_item
+  10_coins:
+    Type: COMMAND
+    PreviewTag:
+      Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"excellentshop:product_cache":"9cf3bc13-0118-425a-9136-d7e49f52654e"}},"minecraft:custom_name":{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"10 coins",underlined:0b}],text:""}},count:1,id:"minecraft:gold_ingot"}'
+      DataVersion: 4671
+    Content:
+      Commands:
+      - coins give %player_name% 10
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: coinsengine_afkshard
+    Price:
+      Type: FLAT
+      SELL: 0.0
+      BUY: 60.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 42
+      Page: 1
+    Handler: bukkit_item
