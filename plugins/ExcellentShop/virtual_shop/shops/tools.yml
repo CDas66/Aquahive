@@ -212,36 +212,12 @@ Content:
     Shop_Item:
       Buy_Price: 640
       Sell_Price: 320
+# Aqua Hive Tools Shop - CRAFTING-BASED PRICES
+# All tools priced based on material costs + 50% markup
+
 Items:
-  diamond_sword:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:1,id:"minecraft:diamond_sword"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 7
-      Page: 1
+  # ==================== STONE TOOLS ====================
+
   stone_shovel:
     Type: ITEM
     Item:
@@ -257,8 +233,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 0.18
+      SELL: 0.09
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -271,6 +247,7 @@ Items:
     Shop_View:
       Slot: 10
       Page: 1
+  
   stone_pickaxe:
     Type: ITEM
     Item:
@@ -286,8 +263,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 0.39
+      SELL: 0.19
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -300,6 +277,7 @@ Items:
     Shop_View:
       Slot: 11
       Page: 1
+  
   stone_axe:
     Type: ITEM
     Item:
@@ -315,8 +293,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 0.39
+      SELL: 0.19
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -329,6 +307,7 @@ Items:
     Shop_View:
       Slot: 12
       Page: 1
+  
   stone_hoe:
     Type: ITEM
     Item:
@@ -344,8 +323,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 0.36
+      SELL: 0.18
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -358,6 +337,7 @@ Items:
     Shop_View:
       Slot: 13
       Page: 1
+  
   stone_sword:
     Type: ITEM
     Item:
@@ -373,8 +353,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 0.21
+      SELL: 0.1
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -387,64 +367,9 @@ Items:
     Shop_View:
       Slot: 14
       Page: 1
-  fishing_rod:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:1,id:"minecraft:fishing_rod"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 15
-      Page: 1
-  diamond_shovel:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:1,id:"minecraft:diamond_shovel"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 16
-      Page: 1
+  
+  # ==================== COPPER TOOLS ====================
+
   copper_shovel:
     Type: ITEM
     Item:
@@ -460,8 +385,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 7.65
+      SELL: 3.8
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -474,6 +399,7 @@ Items:
     Shop_View:
       Slot: 19
       Page: 1
+  
   copper_pickaxe:
     Type: ITEM
     Item:
@@ -489,8 +415,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 22.8
+      SELL: 11.4
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -503,6 +429,7 @@ Items:
     Shop_View:
       Slot: 20
       Page: 1
+  
   copper_axe:
     Type: ITEM
     Item:
@@ -518,8 +445,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 22.8
+      SELL: 11.4
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -532,6 +459,7 @@ Items:
     Shop_View:
       Slot: 21
       Page: 1
+  
   copper_hoe:
     Type: ITEM
     Item:
@@ -547,8 +475,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 15.3
+      SELL: 7.65
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -561,6 +489,7 @@ Items:
     Shop_View:
       Slot: 22
       Page: 1
+  
   copper_sword:
     Type: ITEM
     Item:
@@ -576,8 +505,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 15.15
+      SELL: 7.57
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -590,64 +519,9 @@ Items:
     Shop_View:
       Slot: 23
       Page: 1
-  bucket:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:16,id:"minecraft:bucket"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 24
-      Page: 1
-  diamond_axe:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:1,id:"minecraft:diamond_axe"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 25
-      Page: 1
+  
+  # ==================== IRON TOOLS ====================
+
   iron_shovel:
     Type: ITEM
     Item:
@@ -663,8 +537,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 22.65
+      SELL: 11.32
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -677,6 +551,7 @@ Items:
     Shop_View:
       Slot: 28
       Page: 1
+  
   iron_pickaxe:
     Type: ITEM
     Item:
@@ -692,8 +567,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 67.8
+      SELL: 33.9
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -706,6 +581,7 @@ Items:
     Shop_View:
       Slot: 29
       Page: 1
+  
   iron_axe:
     Type: ITEM
     Item:
@@ -721,8 +597,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 67.8
+      SELL: 33.9
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -735,6 +611,7 @@ Items:
     Shop_View:
       Slot: 30
       Page: 1
+  
   iron_hoe:
     Type: ITEM
     Item:
@@ -750,8 +627,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 45.3
+      SELL: 22.65
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -764,6 +641,7 @@ Items:
     Shop_View:
       Slot: 31
       Page: 1
+  
   iron_sword:
     Type: ITEM
     Item:
@@ -779,8 +657,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 45.15
+      SELL: 22.57
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -793,64 +671,9 @@ Items:
     Shop_View:
       Slot: 32
       Page: 1
-  shield:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:1,id:"minecraft:shield"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 33
-      Page: 1
-  diamond_pickaxe:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:1,id:"minecraft:diamond_pickaxe"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 34
-      Page: 1
+  
+  # ==================== GOLDEN TOOLS ====================
+
   golden_shovel:
     Type: ITEM
     Item:
@@ -866,8 +689,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 37.65
+      SELL: 18.82
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -880,6 +703,7 @@ Items:
     Shop_View:
       Slot: 37
       Page: 1
+  
   golden_pickaxe:
     Type: ITEM
     Item:
@@ -895,8 +719,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 112.8
+      SELL: 56.4
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -909,6 +733,7 @@ Items:
     Shop_View:
       Slot: 38
       Page: 1
+  
   golden_axe:
     Type: ITEM
     Item:
@@ -924,8 +749,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 112.8
+      SELL: 56.4
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -938,6 +763,7 @@ Items:
     Shop_View:
       Slot: 39
       Page: 1
+  
   golden_hoe:
     Type: ITEM
     Item:
@@ -953,8 +779,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 75.3
+      SELL: 37.65
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -967,6 +793,7 @@ Items:
     Shop_View:
       Slot: 40
       Page: 1
+  
   golden_sword:
     Type: ITEM
     Item:
@@ -982,8 +809,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 75.15
+      SELL: 37.57
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -996,12 +823,15 @@ Items:
     Shop_View:
       Slot: 41
       Page: 1
-  bow:
+  
+  # ==================== DIAMOND TOOLS ====================
+
+  diamond_shovel:
     Type: ITEM
     Item:
       Provider: vanilla
       Data:
-        Value: '{count:1,id:"minecraft:bow"}'
+        Value: '{count:1,id:"minecraft:diamond_shovel"}'
         DataVersion: 4671
       CompareNBT: false
     Rotating: false
@@ -1011,8 +841,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 150.15
+      SELL: 75.07
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1023,8 +853,69 @@ Items:
         SellAmount: -1
         RestockTime: 0
     Shop_View:
-      Slot: 42
+      Slot: 16
       Page: 1
+  
+  diamond_pickaxe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_pickaxe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 450.3
+      SELL: 225.15
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 34
+      Page: 1
+  
+  diamond_axe:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_axe"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 450.3
+      SELL: 225.15
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 25
+      Page: 1
+  
   diamond_hoe:
     Type: ITEM
     Item:
@@ -1040,8 +931,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 300.3
+      SELL: 150.15
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1053,4 +944,156 @@ Items:
         RestockTime: 0
     Shop_View:
       Slot: 43
+      Page: 1
+  
+  diamond_sword:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:diamond_sword"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 300.15
+      SELL: 150.07
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 7
+      Page: 1
+  
+  # ==================== OTHER TOOLS ====================
+
+  fishing_rod:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:fishing_rod"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 1.16
+      SELL: 0.58
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  
+  bucket:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:16,id:"minecraft:bucket"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 67.5
+      SELL: 33.75
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 24
+      Page: 1
+  
+  shield:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:shield"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 23.4
+      SELL: 11.7
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  
+  bow:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:bow"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 1.16
+      SELL: 0.58
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 42
       Page: 1

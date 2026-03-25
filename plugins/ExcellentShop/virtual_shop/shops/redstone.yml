@@ -15,7 +15,13 @@ Settings:
     Paginated: false
     ByPage:
       '0': default
+# Aqua Hive Redstone & Mechanisms Shop - CRAFTING-BASED PRICES
+# All prices calculated from raw material costs
+
 Items:
+  # ==================== BASIC REDSTONE ====================
+
+    # Redstone Dust - Base component
   redstone:
     Type: ITEM
     Item:
@@ -31,8 +37,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 10.0
+      SELL: 5.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -45,6 +51,8 @@ Items:
     Shop_View:
       Slot: 11
       Page: 1
+  
+  # Redstone Torch - 1 Stick + 1 Redstone
   redstone_torch:
     Type: ITEM
     Item:
@@ -60,8 +68,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 25.0
+      SELL: 12.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -74,6 +82,8 @@ Items:
     Shop_View:
       Slot: 12
       Page: 1
+  
+  # Redstone Block - 9 Redstone
   redstone_block:
     Type: ITEM
     Item:
@@ -89,8 +99,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 135.0
+      SELL: 67.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -103,6 +113,8 @@ Items:
     Shop_View:
       Slot: 13
       Page: 1
+  
+  # Repeater - 3 Stone + 2 Redstone + 1 Redstone Torch
   repeater:
     Type: ITEM
     Item:
@@ -118,8 +130,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 80.0
+      SELL: 40.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -132,6 +144,8 @@ Items:
     Shop_View:
       Slot: 14
       Page: 1
+  
+  # Comparator - 3 Stone + 3 Redstone + 1 Nether Quartz
   comparator:
     Type: ITEM
     Item:
@@ -147,8 +161,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 100.0
+      SELL: 50.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -161,6 +175,8 @@ Items:
     Shop_View:
       Slot: 15
       Page: 1
+  
+  # Lever - 1 Stick + 1 Cobblestone
   lever:
     Type: ITEM
     Item:
@@ -176,8 +192,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -190,6 +206,10 @@ Items:
     Shop_View:
       Slot: 20
       Page: 1
+  
+  # ==================== PISTONS & MOVEMENT ====================
+
+    # Piston - 3 Wood + 4 Cobblestone + 1 Iron + 1 Redstone
   piston:
     Type: ITEM
     Item:
@@ -205,8 +225,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 75.0
+      SELL: 37.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -219,6 +239,8 @@ Items:
     Shop_View:
       Slot: 21
       Page: 1
+  
+  # Sticky Piston - 1 Piston + 1 Slime Ball
   sticky_piston:
     Type: ITEM
     Item:
@@ -234,8 +256,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 120.0
+      SELL: 60.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -248,6 +270,8 @@ Items:
     Shop_View:
       Slot: 22
       Page: 1
+  
+  # Slime Block - 9 Slime Balls
   slime_block:
     Type: ITEM
     Item:
@@ -263,8 +287,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 400.0
+      SELL: 200.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -277,6 +301,10 @@ Items:
     Shop_View:
       Slot: 23
       Page: 1
+  
+  # ==================== RAILS & TRANSPORT ====================
+
+    # Rail - 6 Iron + 1 Stick
   rail:
     Type: ITEM
     Item:
@@ -292,8 +320,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 95.0
+      SELL: 47.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -306,6 +334,8 @@ Items:
     Shop_View:
       Slot: 24
       Page: 1
+  
+  # Powered Rail - 6 Gold + 1 Stick + 1 Redstone
   powered_rail:
     Type: ITEM
     Item:
@@ -321,8 +351,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 170.0
+      SELL: 85.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -335,6 +365,8 @@ Items:
     Shop_View:
       Slot: 29
       Page: 1
+  
+  # Detector Rail - 6 Iron + 1 Stone Plate + 1 Redstone
   detector_rail:
     Type: ITEM
     Item:
@@ -350,8 +382,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 105.0
+      SELL: 52.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -364,6 +396,8 @@ Items:
     Shop_View:
       Slot: 30
       Page: 1
+  
+  # Activator Rail - 6 Iron + 2 Sticks + 1 Redstone
   activator_rail:
     Type: ITEM
     Item:
@@ -379,8 +413,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 120.0
+      SELL: 60.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -393,6 +427,8 @@ Items:
     Shop_View:
       Slot: 31
       Page: 1
+  
+  # Minecart - 5 Iron (single item)
   minecart:
     Type: ITEM
     Item:
@@ -408,8 +444,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 6.0
+      SELL: 3.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -422,6 +458,10 @@ Items:
     Shop_View:
       Slot: 32
       Page: 1
+  
+  # ==================== OTHER MECHANISMS ====================
+
+    # Hopper - 5 Iron + 1 Chest
   hopper:
     Type: ITEM
     Item:
@@ -437,8 +477,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 75.0
+      SELL: 37.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -451,6 +491,8 @@ Items:
     Shop_View:
       Slot: 33
       Page: 1
+  
+  # TNT - 5 Gunpowder + 4 Sand
   tnt:
     Type: ITEM
     Item:
@@ -466,8 +508,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 110.0
+      SELL: 55.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -480,6 +522,8 @@ Items:
     Shop_View:
       Slot: 39
       Page: 1
+  
+  # Daylight Detector - 3 Glass + 3 Nether Quartz + 3 Wood Slabs
   daylight_detector:
     Type: ITEM
     Item:
@@ -495,8 +539,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 145.0
+      SELL: 72.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -509,6 +553,8 @@ Items:
     Shop_View:
       Slot: 40
       Page: 1
+  
+  # Tripwire Hook - 1 Iron + 1 Stick + 1 Wood Plank
   tripwire_hook:
     Type: ITEM
     Item:
@@ -524,8 +570,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1

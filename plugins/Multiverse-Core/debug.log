@@ -18953,3 +18953,229 @@
 2026-03-23 14:11:01 [INFO] [Multiverse-Core-Debug] Handling gamemode for player in world 'spawn': Kimsgrim, Changing to SURVIVAL
 2026-03-23 15:39:06 [INFO] [Multiverse-Core] Disabling Multiverse-Core v5.5.3
 2026-03-23 15:39:06 [INFO] [Multiverse-Core] - Disabled
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Server folder: C:\Users\CD_55\Desktop\MC server\server
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Bukkit.yml: C:\Users\CD_55\Desktop\MC server\server\bukkit.yml
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered base permissions
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] server.properties: C:\Users\CD_55\Desktop\MC server\server\server.properties
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Enabled Asynchronous Tab Completion Support!
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Config already migrated
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for world spawn
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for world world
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for world world_nether
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for world world_the_end
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Bukkit created world: spawn
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn MONSTER skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn MONSTER skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn ANIMAL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn ANIMAL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn WATER_ANIMAL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn WATER_ANIMAL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn WATER_AMBIENT skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn WATER_AMBIENT skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn WATER_UNDERGROUND_CREATURE skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn WATER_UNDERGROUND_CREATURE skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn AMBIENT skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn AMBIENT skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn AXOLOTL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World spawn AXOLOTL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Autoloaded world spawn
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World already loaded in bukkit: world
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world MONSTER skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world MONSTER skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world ANIMAL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world ANIMAL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world WATER_ANIMAL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world WATER_ANIMAL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world WATER_AMBIENT skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world WATER_AMBIENT skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world WATER_UNDERGROUND_CREATURE skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world WATER_UNDERGROUND_CREATURE skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world AMBIENT skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world AMBIENT skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world AXOLOTL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world AXOLOTL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Autoloaded world world
+2026-03-23 21:04:23 [SEVERE] [Multiverse-Core] Failed to autoload world world_the_end: Failure{reason=WORLD_FOLDER_INVALID}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World already loaded in bukkit: world_nether
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether MONSTER skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether MONSTER skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether ANIMAL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether ANIMAL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether WATER_ANIMAL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether WATER_ANIMAL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether WATER_AMBIENT skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether WATER_AMBIENT skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether WATER_UNDERGROUND_CREATURE skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether WATER_UNDERGROUND_CREATURE skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether AMBIENT skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether AMBIENT skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether AXOLOTL skipping setTicksPerSpawns as tick-rate is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] World world_nether AXOLOTL skipping setSpawnLimit as spawn-limit is UNSET
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Autoloaded world world_nether
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Vault economy enabled.
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--page', aliases=[-p]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--filter', aliases=[-f]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: pagefilter
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--reset-world-config', aliases=[-wc]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--reset-gamerules', aliases=[-gm]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--reset-world-border', aliases=[-wb]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--no-save', aliases=[-s]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvclone
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--seed', aliases=[-s]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--generator', aliases=[-g]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--generator-settings', aliases=[-gs]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--world-type', aliases=[-t]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--no-adjust-spawn', aliases=[-n]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--no-structures', aliases=[-a]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--biome', aliases=[-b]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--properties', aliases=[-p]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvcreate
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--remove-players', aliases=[-r]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: removeplayer
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--logs', aliases=[-l]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--upload', aliases=[-u]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--paranoid', aliases=[-p]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvdumps
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--generator', aliases=[-g]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--no-adjust-spawn', aliases=[-n]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--biome', aliases=[-b]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--skip-folder-check', aliases=[-f]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvimport
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--page', aliases=[-p]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--filter', aliases=[-f]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--raw', aliases=[-r]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvlist
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--remove-players', aliases=[-r]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--skip-folder-check', aliases=[-f]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvunload
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--remove-players', aliases=[-r]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--seed', aliases=[-s]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--reset-world-config', aliases=[-wc]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--reset-gamerules', aliases=[-gm]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--reset-world-border', aliases=[-wb]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--keep-files', aliases=[-f]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvregen
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--remove-players', aliases=[-r]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--no-unload-bukkit-world', aliases=[-b]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--no-save', aliases=[-n]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvremove
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--unsafe', aliases=[-u]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: unsafe
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--unsafe', aliases=[-u]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--silent', aliases=[-s]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvteleport
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--remove-players', aliases=[-r]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--no-unload-bukkit-world', aliases=[-b]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--no-save', aliases=[-n]}
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Registered flag group: mvunload
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.CheckCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.CheckCommand$LegacyAlias(CorePermissionsChecker arg0<c2>,</c2> LocationManipulation arg1)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.CloneCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.CloneCommand$LegacyAlias(WorldManager arg0<c2>,</c2> Flags arg1)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.ConfigCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.ConfigCommand$LegacyAlias(CoreConfig arg0)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.ConfirmCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.ConfirmCommand$LegacyAlias(CommandQueueManager arg0)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.CoordinatesCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.CoordinatesCommand$LegacyAlias(LocationManipulation arg0)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.CreateCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.CreateCommand$LegacyAlias(WorldManager arg0<c2>,</c2> Flags arg1)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.DebugCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.DebugCommand$LegacyAlias(CoreConfig arg0)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.DeleteCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.DeleteCommand$LegacyAlias(CommandQueueManager arg0<c2>,</c2> WorldManager arg1<c2>,</c2> PlayerWorldTeleporter arg2<c2>,</c2> WorldTickDeferrer arg3<c2>,</c2> RemovePlayerFlags arg4)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.GameruleCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.GameruleCommand$LegacyAlias(PageFilterFlags arg0)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.GeneratorsCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.GeneratorsCommand$LegacyAlias(GeneratorProvider arg0<c2>,</c2> PageFilterFlags arg1)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.HelpCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.HelpCommand$LegacyAlias(MVCommandManager arg0)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.ImportCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.ImportCommand$LegacyAlias(WorldManager arg0<c2>,</c2> Flags arg1)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.InfoCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.InfoCommand$LegacyAlias(LocationManipulation arg0<c2>,</c2> MVEconomist arg1<c2>,</c2> PageFilterFlags arg2)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.ListCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.ListCommand$LegacyAlias(WorldManager arg0<c2>,</c2> WorldEntryCheckerProvider arg1<c2>,</c2> Flags arg2)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.LoadCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.LoadCommand$LegacyAlias(WorldManager arg0<c2>,</c2> Flags arg1)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.ModifyCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.ModifyCommand$LegacyAlias(WorldManager arg0)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.RegenCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.RegenCommand$LegacyAlias(CommandQueueManager arg0<c2>,</c2> WorldManager arg1<c2>,</c2> PlayerWorldTeleporter arg2<c2>,</c2> WorldTickDeferrer arg3<c2>,</c2> Flags arg4)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.ReloadCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.ReloadCommand$LegacyAlias(CoreConfig arg0<c2>,</c2> AnchorManager arg1<c2>,</c2> WorldManager arg2<c2>,</c2> PluginManager arg3)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.RemoveCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.RemoveCommand$LegacyAlias(WorldManager arg0<c2>,</c2> PlayerWorldTeleporter arg1<c2>,</c2> Flags arg2)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.SetSpawnCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.SetSpawnCommand$LegacyAlias(WorldManager arg0<c2>,</c2> BlockSafety arg1<c2>,</c2> UnsafeFlags arg2)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.UnloadCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.UnloadCommand$LegacyAlias(WorldManager arg0<c2>,</c2> PlayerWorldTeleporter arg1<c2>,</c2> Flags arg2)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.VersionCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.VersionCommand$LegacyAlias(MultiverseCore arg0)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.core.commands.WhoCommand$LegacyAlias
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.core.commands.WhoCommand$LegacyAlias(WorldManager arg0<c2>,</c2> PageFilterFlags arg1)
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination a
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination b
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination ca
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination e
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination pl
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination w
+2026-03-23 21:04:23 [INFO] [Multiverse-Core-Debug] Metrics enabled.
+2026-03-23 21:04:23 [INFO] [Multiverse-Core] API service loaded!
+2026-03-23 21:04:23 [INFO] [Multiverse-Core] [32mVersion 5.5.3 (API v5.5) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71[39m
+2026-03-23 21:04:23 [INFO] [Multiverse-Core] [32mLoving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse[39m
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] Registering Multiverse-Portals version api 5.2
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.ConfigCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.ConfigCommand$LegacyAlias(PortalsConfig arg0)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.CreateCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.CreateCommand$LegacyAlias(MultiversePortals arg0<c2>,</c2> PortalManager arg1)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.DebugCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.DebugCommand$LegacyAlias(MultiversePortals arg0)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.InfoCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.InfoCommand$LegacyAlias(MultiversePortals arg0<c2>,</c2> DisplayUtils arg1)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.ListCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.ListCommand$LegacyAlias(PortalManager arg0<c2>,</c2> WorldManager arg1<c2>,</c2> DisplayUtils arg2)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.ModifyCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.ModifyCommand$LegacyAlias(MultiversePortals arg0<c2>,</c2> WorldManager arg1)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.RemoveCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.RemoveCommand$LegacyAlias(PortalManager arg0)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.SelectCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.SelectCommand$LegacyAlias(MultiversePortals arg0<c2>,</c2> PortalsConfig arg1)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.portals.commands.WandCommand$LegacyAlias
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.portals.commands.WandCommand$LegacyAlias(MultiversePortals arg0<c2>,</c2> PortalsConfig arg1)
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination p
+2026-03-23 21:04:26 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination rp
+2026-03-23 21:04:33 [INFO] [Multiverse-Core-Debug] Registering Multiverse-NetherPortals version api 5.0
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.netherportals.commands.LinkCommand$LegacyAlias
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.netherportals.commands.LinkCommand$LegacyAlias(MultiverseNetherPortals arg0)
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.netherportals.commands.ListCommand$LegacyAlias
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.netherportals.commands.ListCommand$LegacyAlias(MultiverseNetherPortals arg0<c2>,</c2> WorldManager arg1)
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.netherportals.commands.UnlinkCommand$LegacyAlias
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.netherportals.commands.UnlinkCommand$LegacyAlias(MultiverseNetherPortals arg0)
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Registering Multiverse-Inventories version api 5.3
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Skipping event method onPlayerSpawnChange in org.mvplugins.multiverse.inventories.listeners.SpawnChangeListener
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--skip-exist-check', aliases=[-s]}
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Registered flag group: mvinvaddworlds
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--clear-all-player-profiles', aliases=[-a]}
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Registered flag group: mvinvbulkeditglobalprofileclear
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Added flag: Builder{key='--include-groups-worlds', aliases=[-i]}
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Registered flag group: mvinvincludegroupsworlds
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.inventories.commands.GroupCommand$LegacyAlias
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.inventories.commands.GroupCommand$LegacyAlias(MultiverseInventories arg0)
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.inventories.commands.InfoCommand$LegacyAlias
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.inventories.commands.InfoCommand$LegacyAlias(ProfileContainerStoreProvider arg0<c2>,</c2> WorldGroupManager arg1)
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.inventories.commands.ListCommand$LegacyAlias
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.inventories.commands.ListCommand$LegacyAlias(WorldGroupManager arg0)
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.inventories.commands.ReloadCommand$LegacyAlias
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.inventories.commands.ReloadCommand$LegacyAlias(MultiverseInventories arg0)
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [ERROR] Could not find a subcommand ctor for org.mvplugins.multiverse.inventories.commands.ToggleCommand$LegacyAlias
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] [INFO] Found unusable constructor: org.mvplugins.multiverse.inventories.commands.ToggleCommand$LegacyAlias(InventoriesConfig arg0)
+2026-03-23 21:04:34 [INFO] [Multiverse-Core-Debug] Successfully registered permissions for destination ll
+2026-03-23 21:05:11 [INFO] [Multiverse-Core-Debug] JoinDestination is disabled
+2026-03-23 21:05:11 [INFO] [Multiverse-Core-Debug] Handling gamemode and flight for player Charon_VV in world 'spawn'
+2026-03-23 21:05:11 [INFO] [Multiverse-Core-Debug] Handling gamemode for player in world 'spawn': Charon_VV, Changing to SURVIVAL
+2026-03-23 21:05:11 [INFO] [Multiverse-Core-Debug] Got teleport event for player 'Charon_VV' with cause 'PLUGIN'
+2026-03-23 21:05:11 [INFO] [Multiverse-Core-Debug] Unknown teleporter for teleport for Charon_VV. Using player as teleporter.
+2026-03-23 21:05:11 [INFO] [Multiverse-Core-Debug] Teleporter Charon_VV is teleporting Charon_VV from Location{world=CraftWorld{name=spawn},x=5.6959176452298665,y=-3.0,z=-47.424173505808874,pitch=16.499987,yaw=57.900085} to Location{world=CraftWorld{name=spawn},x=0.0,y=0.0,z=0.0,pitch=-30.150011,yaw=-179.84988}
+2026-03-23 21:05:11 [INFO] [Multiverse-Core-Debug] Player 'Charon_VV' is teleporting to the same world.
+2026-03-23 21:05:11 [INFO] [Multiverse-Core-Debug] MV-Core is allowing Player 'Charon_VV' to go to 'spawn'.

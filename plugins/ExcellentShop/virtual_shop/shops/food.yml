@@ -155,7 +155,13 @@ Content:
     Shop_Item:
       Buy_Price: 100
       Sell_Price: 50
+# Aqua Hive Food Shop - CRAFTING-BASED PRICES
+# All prices calculated from raw material costs and cooking values
+
 Items:
+  # ==================== PAGE 1 - BASIC FOODS ====================
+
+    # Apple - From trees, basic food
   apple:
     Type: ITEM
     Item:
@@ -171,8 +177,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 8.0
+      SELL: 4.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -185,6 +191,8 @@ Items:
     Shop_View:
       Slot: 11
       Page: 1
+  
+  # Melon Slice - From melon plants
   melon_slice:
     Type: ITEM
     Item:
@@ -200,8 +208,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 6.0
+      SELL: 3.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -214,6 +222,8 @@ Items:
     Shop_View:
       Slot: 12
       Page: 1
+  
+  # Sweet Berries - From bushes
   sweet_berries:
     Type: ITEM
     Item:
@@ -229,8 +239,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 6.0
+      SELL: 3.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -243,6 +253,8 @@ Items:
     Shop_View:
       Slot: 13
       Page: 1
+  
+  # Raw Beef - From cows
   beef:
     Type: ITEM
     Item:
@@ -258,8 +270,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -272,6 +284,8 @@ Items:
     Shop_View:
       Slot: 14
       Page: 1
+  
+  # Raw Porkchop - From pigs
   porkchop:
     Type: ITEM
     Item:
@@ -287,8 +301,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -301,6 +315,8 @@ Items:
     Shop_View:
       Slot: 15
       Page: 1
+  
+  # Raw Mutton - From sheep
   mutton:
     Type: ITEM
     Item:
@@ -316,8 +332,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -330,6 +346,8 @@ Items:
     Shop_View:
       Slot: 20
       Page: 1
+  
+  # Raw Chicken - From chickens
   chicken:
     Type: ITEM
     Item:
@@ -345,8 +363,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 10.0
+      SELL: 5.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -359,6 +377,8 @@ Items:
     Shop_View:
       Slot: 21
       Page: 1
+  
+  # Raw Rabbit - From rabbits
   rabbit:
     Type: ITEM
     Item:
@@ -374,8 +394,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -388,6 +408,8 @@ Items:
     Shop_View:
       Slot: 22
       Page: 1
+  
+  # Raw Cod - From fishing
   cod:
     Type: ITEM
     Item:
@@ -403,8 +425,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 8.0
+      SELL: 4.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -417,6 +439,8 @@ Items:
     Shop_View:
       Slot: 23
       Page: 1
+  
+  # Raw Salmon - From fishing
   salmon:
     Type: ITEM
     Item:
@@ -432,8 +456,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 10.0
+      SELL: 5.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -446,6 +470,8 @@ Items:
     Shop_View:
       Slot: 24
       Page: 1
+  
+  # Pumpkin Pie - Crafted: 1 Pumpkin + 1 Sugar + 1 Egg ($4.28) → $6.50
   pumpkin_pie:
     Type: ITEM
     Item:
@@ -461,8 +487,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 10.0
+      SELL: 5.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -475,6 +501,8 @@ Items:
     Shop_View:
       Slot: 29
       Page: 1
+  
+  # Bread - Crafted: 3 Wheat ($30) → $45
   bread:
     Type: ITEM
     Item:
@@ -490,8 +518,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 45.0
+      SELL: 22.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -504,6 +532,8 @@ Items:
     Shop_View:
       Slot: 30
       Page: 1
+  
+  # Cookie - Crafted: 2 Wheat + Cocoa ($20 + cocoa) → $30
   cookie:
     Type: ITEM
     Item:
@@ -519,8 +549,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -533,6 +563,8 @@ Items:
     Shop_View:
       Slot: 31
       Page: 1
+  
+  # Cake - Complex recipe (premium item)
   cake:
     Type: ITEM
     Item:
@@ -548,8 +580,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 50.0
+      SELL: 25.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -562,6 +594,8 @@ Items:
     Shop_View:
       Slot: 32
       Page: 1
+  
+  # Glow Berries - From caves
   glow_berries:
     Type: ITEM
     Item:
@@ -577,8 +611,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 10.0
+      SELL: 5.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -591,6 +625,10 @@ Items:
     Shop_View:
       Slot: 33
       Page: 1
+  
+  # ==================== PAGE 2 - COOKED FOODS ====================
+
+    # Baked Potato - Smelted potato ($8) + cooking = $12
   baked_potato:
     Type: ITEM
     Item:
@@ -606,8 +644,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -620,6 +658,8 @@ Items:
     Shop_View:
       Slot: 20
       Page: 2
+  
+  # Cooked Beef - Smelted beef ($12) + cooking = $18
   cooked_beef:
     Type: ITEM
     Item:
@@ -635,8 +675,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 18.0
+      SELL: 9.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -649,6 +689,8 @@ Items:
     Shop_View:
       Slot: 21
       Page: 2
+  
+  # Cooked Porkchop - Smelted porkchop ($12) + cooking = $18
   cooked_porkchop:
     Type: ITEM
     Item:
@@ -664,8 +706,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 18.0
+      SELL: 9.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -678,6 +720,8 @@ Items:
     Shop_View:
       Slot: 22
       Page: 2
+  
+  # Cooked Mutton - Smelted mutton ($12) + cooking = $18
   cooked_mutton:
     Type: ITEM
     Item:
@@ -693,8 +737,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 18.0
+      SELL: 9.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -707,6 +751,8 @@ Items:
     Shop_View:
       Slot: 23
       Page: 2
+  
+  # Cooked Chicken - Smelted chicken ($10) + cooking = $15
   cooked_chicken:
     Type: ITEM
     Item:
@@ -722,8 +768,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 15.0
+      SELL: 7.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -736,6 +782,8 @@ Items:
     Shop_View:
       Slot: 24
       Page: 2
+  
+  # Cooked Rabbit - Smelted rabbit ($12) + cooking = $18
   cooked_rabbit:
     Type: ITEM
     Item:
@@ -751,8 +799,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 18.0
+      SELL: 9.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -765,6 +813,8 @@ Items:
     Shop_View:
       Slot: 29
       Page: 2
+  
+  # Golden Apple - Premium food (8 gold + apple)
   golden_apple:
     Type: ITEM
     Item:
@@ -780,8 +830,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 250.0
+      SELL: 125.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -794,6 +844,8 @@ Items:
     Shop_View:
       Slot: 30
       Page: 2
+  
+  # Cooked Salmon - Smelted salmon ($10) + cooking = $15
   cooked_salmon:
     Type: ITEM
     Item:
@@ -809,8 +861,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 15.0
+      SELL: 7.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -823,6 +875,8 @@ Items:
     Shop_View:
       Slot: 31
       Page: 2
+  
+  # Golden Carrot - Premium food (8 gold + carrot)
   golden_carrot:
     Type: ITEM
     Item:
@@ -838,8 +892,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 220.0
+      SELL: 110.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -852,6 +906,8 @@ Items:
     Shop_View:
       Slot: 32
       Page: 2
+  
+  # Cooked Cod - Smelted cod ($8) + cooking = $12
   cooked_cod:
     Type: ITEM
     Item:
@@ -867,8 +923,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -881,6 +937,10 @@ Items:
     Shop_View:
       Slot: 33
       Page: 2
+  
+  # ==================== PAGE 3 - SUSPICIOUS STEWS ====================
+
+    # Suspicious Stew (Saturation) - Dandelion effect
   suspicious_stew:
     Type: ITEM
     Item:
@@ -896,8 +956,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 15.0
+      SELL: 7.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -910,6 +970,8 @@ Items:
     Shop_View:
       Slot: 20
       Page: 3
+  
+  # Suspicious Stew (Poison) - Toxic effect
   suspicious_stew_1:
     Type: ITEM
     Item:
@@ -925,8 +987,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 8.0
+      SELL: 4.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -939,6 +1001,8 @@ Items:
     Shop_View:
       Slot: 21
       Page: 3
+  
+  # Suspicious Stew (Wither) - Dangerous effect
   suspicious_stew_2:
     Type: ITEM
     Item:
@@ -954,8 +1018,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 6.0
+      SELL: 3.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -968,6 +1032,8 @@ Items:
     Shop_View:
       Slot: 22
       Page: 3
+  
+  # Suspicious Stew (Blindness) - Debuff effect
   suspicious_stew_3:
     Type: ITEM
     Item:
@@ -983,8 +1049,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 8.0
+      SELL: 4.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -997,6 +1063,8 @@ Items:
     Shop_View:
       Slot: 23
       Page: 3
+  
+  # Suspicious Stew (Nausea) - Debuff effect
   suspicious_stew_4:
     Type: ITEM
     Item:
@@ -1012,8 +1080,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 8.0
+      SELL: 4.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1026,6 +1094,8 @@ Items:
     Shop_View:
       Slot: 24
       Page: 3
+  
+  # Suspicious Stew (Night Vision) - Buff effect
   suspicious_stew_5:
     Type: ITEM
     Item:
@@ -1041,8 +1111,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 25.0
+      SELL: 12.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1055,6 +1125,8 @@ Items:
     Shop_View:
       Slot: 29
       Page: 3
+  
+  # Suspicious Stew (Fire Resistance) - Buff effect
   suspicious_stew_6:
     Type: ITEM
     Item:
@@ -1070,8 +1142,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1084,6 +1156,8 @@ Items:
     Shop_View:
       Slot: 30
       Page: 3
+  
+  # Suspicious Stew (Weakness) - Debuff effect
   suspicious_stew_7:
     Type: ITEM
     Item:
@@ -1099,8 +1173,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 8.0
+      SELL: 4.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1113,6 +1187,8 @@ Items:
     Shop_View:
       Slot: 31
       Page: 3
+  
+  # Suspicious Stew (Regeneration) - Buff effect
   suspicious_stew_8:
     Type: ITEM
     Item:
@@ -1128,8 +1204,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1142,6 +1218,8 @@ Items:
     Shop_View:
       Slot: 32
       Page: 3
+  
+  # Suspicious Stew (Jump Boost) - Buff effect
   suspicious_stew_9:
     Type: ITEM
     Item:
@@ -1157,8 +1235,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 25.0
+      SELL: 12.0
     Stock:
       GLOBAL:
         BuyAmount: -1

@@ -172,9 +172,12 @@ Content:
 # Aqua Hive Mob Drops Shop - Optimized Economy
 # All mob drops with fair prices based on rarity and utility
 
+# Aqua Hive Mob Drops Shop - CRAFTING-BASED PRICES
+# Prices reflect crafting value, rarity, and utility
+
 Items:
   # ==================== COMMON DROPS ====================
-
+  # Rotten Flesh - Low value, common drop
   rotten_flesh:
     Type: ITEM
     Item:
@@ -190,8 +193,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 8.0
-      SELL: 4.0
+      BUY: 6.0
+      SELL: 3.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -205,72 +208,13 @@ Items:
       Slot: 11
       Page: 1
   
+  # Gunpowder - Used for TNT, Fireworks (3 needed for Firework Rocket)
   gunpowder:
     Type: ITEM
     Item:
       Provider: vanilla
       Data:
         Value: '{count:64,id:"minecraft:gunpowder"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 12.0
-      SELL: 6.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 12
-      Page: 1
-  
-  string:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:string"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 10.0
-      SELL: 5.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 13
-      Page: 1
-  
-  leather:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:leather"}'
         DataVersion: 4671
       CompareNBT: false
     Rotating: false
@@ -292,75 +236,16 @@ Items:
         SellAmount: -1
         RestockTime: 0
     Shop_View:
-      Slot: 14
+      Slot: 12
       Page: 1
   
-  rabbit_foot:
+  # String - 4 string = 1 wool ($30 stack) = $0.47 per string
+  string:
     Type: ITEM
     Item:
       Provider: vanilla
       Data:
-        Value: '{count:64,id:"minecraft:rabbit_foot"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 25.0
-      SELL: 12.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 15
-      Page: 1
-  
-  fermented_spider_eye:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:fermented_spider_eye"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 30.0
-      SELL: 15.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 20
-      Page: 1
-  
-  rabbit_hide:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:rabbit_hide"}'
+        Value: '{count:64,id:"minecraft:string"}'
         DataVersion: 4671
       CompareNBT: false
     Rotating: false
@@ -382,45 +267,16 @@ Items:
         SellAmount: -1
         RestockTime: 0
     Shop_View:
-      Slot: 21
+      Slot: 13
       Page: 1
   
-  armadillo_scute:
+  # Leather - 4 leather = 1 leather chestplate? Actually used for armor
+  leather:
     Type: ITEM
     Item:
       Provider: vanilla
       Data:
-        Value: '{count:64,id:"minecraft:armadillo_scute"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 35.0
-      SELL: 17.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 22
-      Page: 1
-  
-  glow_ink_sac:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:glow_ink_sac"}'
+        Value: '{count:64,id:"minecraft:leather"}'
         DataVersion: 4671
       CompareNBT: false
     Rotating: false
@@ -442,9 +298,165 @@ Items:
         SellAmount: -1
         RestockTime: 0
     Shop_View:
+      Slot: 14
+      Page: 1
+  
+  # Rabbit Foot - Used for Jump Boost Potion (valuable)
+  rabbit_foot:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:rabbit_foot"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 35.0
+      SELL: 17.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 15
+      Page: 1
+  
+  # Fermented Spider Eye - Used for Weakness and Invisibility Potions
+  fermented_spider_eye:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:fermented_spider_eye"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 40.0
+      SELL: 20.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 20
+      Page: 1
+  
+  # Rabbit Hide - 4 hides = 1 leather ($20 stack) = $5 per 4 hides → $1.25 per hide
+  rabbit_hide:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:rabbit_hide"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 10.0
+      SELL: 5.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 21
+      Page: 1
+  
+  # Armadillo Scute - Used for Wolf Armor (valuable)
+  armadillo_scute:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:armadillo_scute"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 45.0
+      SELL: 22.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 22
+      Page: 1
+  
+  # Glow Ink Sac - Glowing Item Frames (decorative value)
+  glow_ink_sac:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:glow_ink_sac"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 25.0
+      SELL: 12.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
       Slot: 23
       Page: 1
   
+  # Spider Eye - Brewing ingredient, common
   spider_eye:
     Type: ITEM
     Item:
@@ -475,6 +487,7 @@ Items:
       Slot: 24
       Page: 1
   
+  # Sugar - Made from sugar cane, common
   sugar:
     Type: ITEM
     Item:
@@ -506,73 +519,13 @@ Items:
       Page: 1
   
   # ==================== RARE DROPS ====================
-
+  # Prismarine Shard - Used for Prismarine blocks, Sea Lanterns
   prismarine_shard:
     Type: ITEM
     Item:
       Provider: vanilla
       Data:
         Value: '{count:64,id:"minecraft:prismarine_shard"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 30
-      Page: 1
-  
-  turtle_scute:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:turtle_scute"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 40.0
-      SELL: 20.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 31
-      Page: 1
-  
-  slime_ball:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:slime_ball"}'
         DataVersion: 4671
       CompareNBT: false
     Rotating: false
@@ -594,47 +547,16 @@ Items:
         SellAmount: -1
         RestockTime: 0
     Shop_View:
-      Slot: 32
+      Slot: 30
       Page: 1
   
-  egg:
+  # Turtle Scute - Used for Turtle Shell Helmet (Water Breathing)
+  turtle_scute:
     Type: ITEM
     Item:
       Provider: vanilla
       Data:
-        Value: '{count:16,id:"minecraft:egg"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 2.0
-      SELL: 1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 33
-      Page: 1
-  
-  # ==================== VERY RARE DROPS ====================
-
-  ender_pearl:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:16,id:"minecraft:ender_pearl"}'
+        Value: '{count:64,id:"minecraft:turtle_scute"}'
         DataVersion: 4671
       CompareNBT: false
     Rotating: false
@@ -656,9 +578,104 @@ Items:
         SellAmount: -1
         RestockTime: 0
     Shop_View:
+      Slot: 31
+      Page: 1
+  
+  # Slime Ball - Used for Sticky Pistons, Slime Blocks
+  slime_ball:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:slime_ball"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 30.0
+      SELL: 15.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 32
+      Page: 1
+  
+  # Egg - Common, used for cake and throwing
+  egg:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:16,id:"minecraft:egg"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 3.0
+      SELL: 1.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 33
+      Page: 1
+  
+  # ==================== VERY RARE DROPS ====================
+  # Ender Pearl - Teleportation, Eye of Ender (2 needed for End Portal)
+  ender_pearl:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:16,id:"minecraft:ender_pearl"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 70.0
+      SELL: 35.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
       Slot: 38
       Page: 1
   
+  # Glowstone Dust - 4 dust = Glowstone Block (crafting value)
   glowstone_dust:
     Type: ITEM
     Item:
@@ -674,8 +691,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -689,6 +706,7 @@ Items:
       Slot: 39
       Page: 1
   
+  # Nautilus Shell - Used for Conduit (very rare)
   nautilus_shell:
     Type: ITEM
     Item:
@@ -704,8 +722,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 60.0
-      SELL: 30.0
+      BUY: 80.0
+      SELL: 40.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -719,6 +737,7 @@ Items:
       Slot: 40
       Page: 1
   
+  # Magma Cream - Fire Resistance Potion (4 needed for magma block)
   magma_cream:
     Type: ITEM
     Item:
@@ -734,8 +753,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 22.0
-      SELL: 11.0
+      BUY: 28.0
+      SELL: 14.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -749,6 +768,7 @@ Items:
       Slot: 41
       Page: 1
   
+  # Ghast Tear - Regeneration Potion, End Crystals (very rare)
   ghast_tear:
     Type: ITEM
     Item:
@@ -764,8 +784,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 80.0
-      SELL: 40.0
+      BUY: 100.0
+      SELL: 50.0
     Stock:
       GLOBAL:
         BuyAmount: -1

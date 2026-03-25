@@ -114,9 +114,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: 0.4953444336571562
+      x: 0.4953444302082062
       y: 0.12000000476837158
-      z: -56.53013280206104
+      z: -56.53013229370117
       yaw: -0.7498474
       pitch: 13.199995
     visibility_distance: 200
@@ -143,9 +143,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: 3.4964868895598586
+      x: 3.4964869022369385
       y: 0.12000000476837158
-      z: -56.495070868981294
+      z: -56.49507141113281
       yaw: 6.600647
       pitch: 0.60000044
     visibility_distance: 200
@@ -172,9 +172,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: -2.5314469170451614
+      x: -2.531446933746338
       y: 0.12000000476837158
-      z: -56.48627116406555
+      z: -56.486270904541016
       yaw: -6.5996704
       pitch: -0.750042
     visibility_distance: 200
@@ -201,9 +201,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: 6.520747906458337
+      x: 6.520748138427734
       y: 0.12000000476837158
-      z: -55.49862303879864
+      z: -55.49862289428711
       yaw: 18.300842
       pitch: 6.750067
     visibility_distance: 200
@@ -230,9 +230,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: -5.475728887664324
+      x: -5.475728988647461
       y: 0.12000000476837158
-      z: -55.50995156475479
+      z: -55.509952545166016
       yaw: -16.949554
       pitch: -0.2999974
     visibility_distance: 200
@@ -259,9 +259,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: -8.487896268689003
+      x: -8.487895965576172
       y: 0.12000000476837158
-      z: -54.48490203915337
+      z: -54.484901428222656
       yaw: -33.299286
       pitch: 5.5499897
     visibility_distance: 200
@@ -288,9 +288,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: 9.504891372496344
+      x: 9.504891395568848
       y: 0.12000000476837158
-      z: -54.515304011986785
+      z: -54.51530456542969
       yaw: 53.100086
       pitch: 90.0
     visibility_distance: 200
@@ -317,9 +317,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: -11.558655050266937
+      x: -11.55865478515625
       y: 0.12000000476837158
-      z: -51.52239837386086
+      z: -51.52239990234375
       yaw: -40.049225
       pitch: 8.099964
     visibility_distance: 200
@@ -346,9 +346,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: 12.566987735873957
+      x: 12.566987991333008
       y: 0.12000000476837158
-      z: -51.557406394588014
+      z: -51.55740737915039
       yaw: 42.60138
       pitch: -0.2998804
     visibility_distance: 200
@@ -774,9 +774,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: -999.5312337465288
-      y: 5.120000004768372
-      z: -1028.3906285880364
+      x: -999.53125
+      y: 5.119999885559082
+      z: -1028.390625
       yaw: 0.14648438
       pitch: -2.413988E-6
     visibility_distance: 100
@@ -801,9 +801,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: -999.5235052315668
-      y: 6.120000004768372
-      z: -1003.5469315022245
+      x: -999.5234985351562
+      y: 6.119999885559082
+      z: -1003.5469360351562
       yaw: 0.14465332
       pitch: 2.99998
     visibility_distance: 100
@@ -829,9 +829,9 @@ holograms:
     type: TEXT
     location:
       world: spawn
-      x: 1030.415957910413
-      y: 6.120000004768372
-      z: -975.4713318736601
+      x: 1030.416015625
+      y: 6.119999885559082
+      z: -975.4713134765625
       yaw: 89.99972
       pitch: 1.9499637
     visibility_distance: -1

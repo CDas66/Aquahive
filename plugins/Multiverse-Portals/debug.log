@@ -2400,3 +2400,7 @@
 2026-03-23 13:38:32 [INFO] [Multiverse-Portals-Debug] The PlayerInteractEvent was already cancelled. Doing nothing.
 2026-03-23 15:39:06 [INFO] Disabling Multiverse-Portals v5.2.1
 2026-03-23 15:39:06 [INFO] [Multiverse-Portals] - Disabled
+2026-03-23 21:04:26 [INFO] [Multiverse-Portals] 0 - Portals(s) loaded
+2026-03-23 21:04:26 [INFO] Found FastAsyncWorldEdit. Using it for selections.
+2026-03-23 21:04:26 [INFO] [Multiverse-Portals] Version 5.2.1 (API v5.2) Enabled - By Rigby, fernferret and benwoo1110
+2026-03-23 21:05:12 [INFO] [Multiverse-Portals-Debug] Calling BungeeCord GetServers

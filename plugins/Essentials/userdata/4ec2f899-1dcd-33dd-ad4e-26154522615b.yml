@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774260538846
-  login: 1774252802352
+  logout: 1774294610091
+  login: 1774280111520
   kits:
     color: 1773812902491
     dtools: 1774079247514
@@ -33,16 +33,16 @@ timestamps:
     vex: 0
     umbra: 0
     zenith: 0
-money: '81060.0'
+money: '10000000000000'
 last-account-name: Charon_VV
 logoutlocation:
   world: eccef47b-2cc9-45c0-b5ac-52470f8d5827
   world-name: spawn
-  x: 5.6959176452298665
+  x: 0.30127434541892867
   y: -3.0
-  z: -47.424173505808874
-  yaw: 57.90008544921875
-  pitch: 16.49998664855957
+  z: -39.80300178932828
+  yaw: 177.90008544921875
+  pitch: 22.64999771118164
 lastlocation:
   world: eccef47b-2cc9-45c0-b5ac-52470f8d5827
   world-name: spawn

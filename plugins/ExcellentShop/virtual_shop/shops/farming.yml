@@ -202,75 +202,18 @@ Content:
 # Aqua Hive Farming Shop - Optimized Economy
 # Seeds, crops, and farming supplies with fair prices
 
+# Aqua Hive Farming Shop - CRAFTING-BASED PRICES
+# All prices calculated from crop values and crafting recipes
+
 Items:
   # ==================== CROPS & VEGETABLES ====================
-
+  # Carrot - Basic crop, used for golden carrots and rabbit breeding
   carrot:
     Type: ITEM
     Item:
       Provider: vanilla
       Data:
         Value: '{count:64,id:"minecraft:carrot"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 6.0
-      SELL: 3.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 11
-      Page: 1
-  
-  potato:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:potato"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 6.0
-      SELL: 3.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 13
-      Page: 1
-  
-  wheat:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:wheat"}'
         DataVersion: 4671
       CompareNBT: false
     Rotating: false
@@ -292,9 +235,72 @@ Items:
         SellAmount: -1
         RestockTime: 0
     Shop_View:
+      Slot: 11
+      Page: 1
+  
+  # Potato - Basic crop, can be baked
+  potato:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:potato"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 8.0
+      SELL: 4.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 13
+      Page: 1
+  
+  # Wheat - Used for bread, hay bales, cake
+  wheat:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:wheat"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 10.0
+      SELL: 5.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
       Slot: 21
       Page: 1
   
+  # HAY BALE - Crafted from 9 Wheat ($90) → Should be 1.5x material cost
   hay_block:
     Type: ITEM
     Item:
@@ -310,8 +316,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 135.0
+      SELL: 67.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -325,6 +331,7 @@ Items:
       Slot: 22
       Page: 1
   
+  # Kelp - Basic aquatic plant, used for dried kelp
   kelp:
     Type: ITEM
     Item:
@@ -340,8 +347,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 5.0
-      SELL: 2.0
+      BUY: 6.0
+      SELL: 3.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -356,13 +363,75 @@ Items:
       Page: 1
   
   # ==================== SEEDS ====================
-
+  # Beetroot Seeds - Grows beetroot (food)
   beetroot_seeds:
     Type: ITEM
     Item:
       Provider: vanilla
       Data:
         Value: '{count:64,id:"minecraft:beetroot_seeds"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 4.0
+      SELL: 2.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 12
+      Page: 1
+  
+  # Melon Seeds - Grows melons (food, trading)
+  melon_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:melon_seeds"}'
+        DataVersion: 4671
+      CompareNBT: false
+    Rotating: false
+    Allowed_Ranks: []
+    Required_Permissions: []
+    Forbidden_Permissions: []
+    Currency: vault
+    Price:
+      Type: FLAT
+      BUY: 10.0
+      SELL: 5.0
+    Stock:
+      GLOBAL:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+      PLAYER:
+        BuyAmount: -1
+        SellAmount: -1
+        RestockTime: 0
+    Shop_View:
+      Slot: 14
+      Page: 1
+  
+  # Wheat Seeds - Grows wheat
+  wheat_seeds:
+    Type: ITEM
+    Item:
+      Provider: vanilla
+      Data:
+        Value: '{count:64,id:"minecraft:wheat_seeds"}'
         DataVersion: 4671
       CompareNBT: false
     Rotating: false
@@ -384,69 +453,10 @@ Items:
         SellAmount: -1
         RestockTime: 0
     Shop_View:
-      Slot: 12
-      Page: 1
-  
-  melon_seeds:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:melon_seeds"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 8.0
-      SELL: 4.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
-      Slot: 14
-      Page: 1
-  
-  wheat_seeds:
-    Type: ITEM
-    Item:
-      Provider: vanilla
-      Data:
-        Value: '{count:64,id:"minecraft:wheat_seeds"}'
-        DataVersion: 4671
-      CompareNBT: false
-    Rotating: false
-    Allowed_Ranks: []
-    Required_Permissions: []
-    Forbidden_Permissions: []
-    Currency: vault
-    Price:
-      Type: FLAT
-      BUY: 2.0
-      SELL: 1.0
-    Stock:
-      GLOBAL:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-      PLAYER:
-        BuyAmount: -1
-        SellAmount: -1
-        RestockTime: 0
-    Shop_View:
       Slot: 15
       Page: 1
   
+  # Pumpkin Seeds - Grows pumpkins (for pie, jack o' lantern)
   pumpkin_seeds:
     Type: ITEM
     Item:
@@ -462,8 +472,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 8.0
-      SELL: 4.0
+      BUY: 10.0
+      SELL: 5.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -477,6 +487,7 @@ Items:
       Slot: 31
       Page: 1
   
+  # Torchflower Seeds - Decorative flower
   torchflower_seeds:
     Type: ITEM
     Item:
@@ -492,8 +503,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 10.0
-      SELL: 5.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -507,6 +518,7 @@ Items:
       Slot: 23
       Page: 1
   
+  # Pitcher Pod - Decorative flower
   pitcher_pod:
     Type: ITEM
     Item:
@@ -522,8 +534,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 10.0
-      SELL: 5.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -537,6 +549,7 @@ Items:
       Slot: 30
       Page: 1
   
+  # Nether Wart - Brewing ingredient, grows in Nether
   nether_wart:
     Type: ITEM
     Item:
@@ -552,8 +565,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 18.0
+      SELL: 9.0
     Stock:
       GLOBAL:
         BuyAmount: -1

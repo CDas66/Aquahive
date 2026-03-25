@@ -14,5 +14,4 @@ messages:
   crafted: '&b[OneMace] &eThe Mace has been crafted!'
   lost: '&b[OneMace] &eThe Mace has been lost!'
 offline_inventory:
-  e0b41c12-5443-3b56-8d95-2f207caf1dce: false
   4ec2f899-1dcd-33dd-ad4e-26154522615b: false

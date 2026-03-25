@@ -3421,3 +3421,31 @@
 2026-03-23 15:38:58 [INFO] [Multiverse-Inventories-Debug] got data file: plugins\Multiverse-Inventories\worlds\spawn\Charon_VV.json. Type: WORLD, DataName: spawn, PlayerName: Charon_VV
 2026-03-23 15:39:05 [INFO] [Multiverse-Inventories] Disabling Multiverse-Inventories v5.3.2
 2026-03-23 15:39:05 [INFO] [Multiverse-Inventories] - Disabled
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] ItemStackConverter is using byte serialization: true
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] Recalculating enabled shares...
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] Getting world groups from config file
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] Loading groups: [default]
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] Attempting to load group: default...
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] Group: default added to memory
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] Loaded 1 world groups from config.
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] Reloaded all config and groups!
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories-Debug] Found luckperms!
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories] Loading player names map...
+2026-03-23 21:04:34 [INFO] [Multiverse-Inventories] Version 5.3.2 (API v5.3) Enabled - By dumptruckman and benwoo1110
+2026-03-23 21:05:10 [INFO] [Multiverse-Inventories-Debug] Loading global profile for Player{name:'Charon_VV', uuid:'4ec2f899-1dcd-33dd-ad4e-26154522615b'}.
+2026-03-23 21:05:10 [INFO] [Multiverse-Inventories-Debug] Global profile for player 4ec2f899-1dcd-33dd-ad4e-26154522615b (Charon_VV) not in cached. Loading...
+2026-03-23 21:05:10 [INFO] [Multiverse-Inventories-Debug] Preloaded data for Player{name:'Charon_VV', uuid:'4ec2f899-1dcd-33dd-ad4e-26154522615b'}. Time taken: 0.6386 ms
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] Global profile for player 4ec2f899-1dcd-33dd-ad4e-26154522615b (Charon_VV) not in cached. Loading...
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] Skipping write for optional share: last_location
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] Change affected by 2 fromProfiles and 0 toProfiles
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] got data file: plugins\Multiverse-Inventories\groups\default\Charon_VV.json. Type: GROUP, DataName: default, PlayerName: Charon_VV
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] ProfileKey{containerType=GROUP, dataName='default', profileType=ProfileType:SURVIVAL, playerName='Charon_VV', playerUUID=4ec2f899-1dcd-33dd-ad4e-26154522615b} not cached. loading from disk...
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] got data file: plugins\Multiverse-Inventories\worlds\spawn\Charon_VV.json. Type: WORLD, DataName: spawn, PlayerName: Charon_VV
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] ProfileKey{containerType=WORLD, dataName='spawn', profileType=ProfileType:SURVIVAL, playerName='Charon_VV', playerUUID=4ec2f899-1dcd-33dd-ad4e-26154522615b} not cached. loading from disk...
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] === Charon_VV complete for WriteOnlyShareHandlingEvent | [32mtime taken: 80.4050 ms[0m ===
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] Created player profile from map for 'Charon_VV'.
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] Persisted: ender_chest, inventory_contents, armor_contents, off_hand, max_hit_points, hit_points, remaining_air, maximum_air, fall_distance, fire_ticks, xp, lvl, total_xp, food_level, exhaustion, saturation, bed_spawn, potion_effects to WORLD:spawn (ProfileType:SURVIVAL) for player Charon_VV
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] Created player profile from map for 'Charon_VV'.
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] Persisted: hit_points, max_hit_points, food_level, saturation, exhaustion, xp, total_xp, lvl, inventory_contents, armor_contents, bed_spawn, maximum_air, remaining_air, fall_distance, fire_ticks, potion_effects, ender_chest, off_hand to GROUP:default (ProfileType:SURVIVAL) for player Charon_VV
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] got data file: plugins\Multiverse-Inventories\worlds\spawn\Charon_VV.json. Type: WORLD, DataName: spawn, PlayerName: Charon_VV
+2026-03-24 01:06:49 [INFO] [Multiverse-Inventories-Debug] got data file: plugins\Multiverse-Inventories\groups\default\Charon_VV.json. Type: GROUP, DataName: default, PlayerName: Charon_VV

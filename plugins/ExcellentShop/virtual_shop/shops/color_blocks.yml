@@ -18,8 +18,12 @@ Settings:
 # Aqua Hive Decorative Blocks Shop - Optimized Economy
 # Wool, Terracotta, Concrete, Glass - All Colors
 
+# Aqua Hive Decorative Blocks Shop - CRAFTING-BASED PRICES
+# All prices calculated from raw material costs to prevent inflation
+
 Items:
   # ==================== PAGE 1 - WOOL ====================
+  # Wool: 4 String ($0.31 per wool) → 64 stack = $20 material cost
 
   white_wool:
     Type: ITEM
@@ -36,8 +40,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -66,8 +70,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -96,8 +100,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -126,8 +130,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -156,8 +160,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -186,8 +190,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -216,8 +220,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -246,8 +250,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -276,8 +280,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -306,8 +310,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -336,8 +340,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -366,8 +370,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -396,8 +400,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -426,8 +430,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -456,8 +460,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -486,8 +490,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 18.0
-      SELL: 9.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -502,6 +506,7 @@ Items:
       Page: 1
   
   # ==================== PAGE 2 - TERRACOTTA ====================
+  # Terracotta: Clay ($0.19) + Smelting = $0.19 each → 64 stack = $12
 
   terracotta:
     Type: ITEM
@@ -518,8 +523,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 12.0
-      SELL: 6.0
+      BUY: 18.0
+      SELL: 9.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -533,6 +538,7 @@ Items:
       Slot: 11
       Page: 2
   
+  # Colored Terracotta: Terracotta + Dye → Slightly higher price
   white_terracotta:
     Type: ITEM
     Item:
@@ -548,8 +554,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -578,8 +584,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -608,8 +614,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -638,8 +644,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -668,8 +674,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -698,8 +704,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -728,8 +734,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -758,8 +764,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -788,8 +794,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -818,8 +824,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -848,8 +854,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -878,8 +884,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -908,8 +914,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -938,8 +944,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -968,8 +974,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -998,8 +1004,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 22.0
+      SELL: 11.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1014,6 +1020,8 @@ Items:
       Page: 2
   
   # ==================== PAGE 3 - CONCRETE ====================
+  # Concrete Powder: 4 Sand ($0.36) + 4 Gravel ($0.36) = $0.72 per 8 powder → $5.76 per 64
+  # Concrete: Same as powder after water
 
   white_concrete:
     Type: ITEM
@@ -1030,8 +1038,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1060,8 +1068,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1090,8 +1098,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1120,8 +1128,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1150,8 +1158,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1180,8 +1188,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1210,8 +1218,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1240,8 +1248,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1270,8 +1278,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1300,8 +1308,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1330,8 +1338,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1360,8 +1368,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1390,8 +1398,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1420,8 +1428,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1450,8 +1458,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1480,8 +1488,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1496,6 +1504,7 @@ Items:
       Page: 3
   
   # ==================== PAGE 4 - CONCRETE POWDER ====================
+  # Concrete Powder: Same pricing as concrete
 
   white_concrete_powder:
     Type: ITEM
@@ -1512,8 +1521,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1542,8 +1551,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1572,8 +1581,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1602,8 +1611,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1632,8 +1641,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1662,8 +1671,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1692,8 +1701,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1722,8 +1731,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1752,8 +1761,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1782,8 +1791,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1812,8 +1821,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1842,8 +1851,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1872,8 +1881,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1902,8 +1911,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1932,8 +1941,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1962,8 +1971,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -1978,6 +1987,7 @@ Items:
       Page: 4
   
   # ==================== PAGE 5 - GLAZED TERRACOTTA ====================
+  # Glazed Terracotta: Same as colored terracotta + smelting
 
   white_glazed_terracotta:
     Type: ITEM
@@ -2460,6 +2470,7 @@ Items:
       Page: 5
   
   # ==================== PAGE 6 - GLASS ====================
+  # Glass: 1 Sand ($0.09) + Smelting = $0.09 each → 64 stack = $5.76
 
   glass:
     Type: ITEM
@@ -2491,6 +2502,7 @@ Items:
       Slot: 11
       Page: 6
   
+  # Tinted Glass: 4 Glass + 4 Amethyst Shard = $0.36 + Amethyst
   tinted_glass:
     Type: ITEM
     Item:
@@ -2506,8 +2518,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 20.0
-      SELL: 10.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2521,6 +2533,7 @@ Items:
       Slot: 12
       Page: 6
   
+  # Stained Glass: 8 Glass + Dye = $0.72 + Dye
   white_stained_glass:
     Type: ITEM
     Item:
@@ -2536,8 +2549,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2566,8 +2579,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2596,8 +2609,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2626,8 +2639,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2656,8 +2669,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2686,8 +2699,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2716,8 +2729,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2746,8 +2759,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2776,8 +2789,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2806,8 +2819,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2836,8 +2849,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2866,8 +2879,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2896,8 +2909,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2926,8 +2939,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2956,8 +2969,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -2986,8 +2999,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      BUY: 15.0
-      SELL: 7.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1

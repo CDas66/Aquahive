@@ -169,7 +169,13 @@ Content:
     Shop_Item:
       Buy_Price: 300
       Sell_Price: 150
+# Aqua Hive Ores Shop - CRAFTING-BASED PRICES
+# Raw ores, ingots, and precious materials
+
 Items:
+  # ==================== RAW ORES ====================
+
+    # Coal - Common fuel source
   coal:
     Type: ITEM
     Item:
@@ -185,8 +191,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 10.0
+      SELL: 5.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -199,6 +205,8 @@ Items:
     Shop_View:
       Slot: 11
       Page: 1
+  
+  # Raw Copper - Smelts to 1 Copper Ingot ($5)
   raw_copper:
     Type: ITEM
     Item:
@@ -214,8 +222,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 4.0
+      SELL: 2.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -228,6 +236,8 @@ Items:
     Shop_View:
       Slot: 12
       Page: 1
+  
+  # Raw Iron - Smelts to 1 Iron Ingot ($15)
   raw_iron:
     Type: ITEM
     Item:
@@ -243,8 +253,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 12.0
+      SELL: 6.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -257,6 +267,8 @@ Items:
     Shop_View:
       Slot: 13
       Page: 1
+  
+  # Raw Gold - Smelts to 1 Gold Ingot ($25)
   raw_gold:
     Type: ITEM
     Item:
@@ -272,8 +284,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -286,6 +298,8 @@ Items:
     Shop_View:
       Slot: 14
       Page: 1
+  
+  # Lapis Lazuli - Enchanting material
   lapis_lazuli:
     Type: ITEM
     Item:
@@ -301,8 +315,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 25.0
+      SELL: 12.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -315,6 +329,8 @@ Items:
     Shop_View:
       Slot: 15
       Page: 1
+  
+  # Emerald - Trading currency
   emerald:
     Type: ITEM
     Item:
@@ -330,8 +346,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 30.0
+      SELL: 15.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -344,6 +360,10 @@ Items:
     Shop_View:
       Slot: 20
       Page: 1
+  
+  # ==================== INGOTS ====================
+
+    # Copper Ingot - Crafted from raw copper
   copper_ingot:
     Type: ITEM
     Item:
@@ -359,8 +379,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 5.0
+      SELL: 2.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -373,6 +393,8 @@ Items:
     Shop_View:
       Slot: 21
       Page: 1
+  
+  # Iron Ingot - Crafted from raw iron
   iron_ingot:
     Type: ITEM
     Item:
@@ -388,8 +410,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 15.0
+      SELL: 7.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -402,6 +424,8 @@ Items:
     Shop_View:
       Slot: 22
       Page: 1
+  
+  # Gold Ingot - Crafted from raw gold
   gold_ingot:
     Type: ITEM
     Item:
@@ -417,8 +441,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 25.0
+      SELL: 12.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -431,6 +455,8 @@ Items:
     Shop_View:
       Slot: 23
       Page: 1
+  
+  # Diamond - Premium material
   diamond:
     Type: ITEM
     Item:
@@ -446,8 +472,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 100.0
+      SELL: 50.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -460,6 +486,10 @@ Items:
     Shop_View:
       Slot: 24
       Page: 1
+  
+  # ==================== NETHER & SPECIAL ORES ====================
+
+    # Quartz - Nether material
   quartz:
     Type: ITEM
     Item:
@@ -475,8 +505,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 20.0
+      SELL: 10.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -489,6 +519,8 @@ Items:
     Shop_View:
       Slot: 30
       Page: 1
+  
+  # Amethyst Shard - Geode material
   amethyst_shard:
     Type: ITEM
     Item:
@@ -504,8 +536,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 15.0
+      SELL: 7.0
     Stock:
       GLOBAL:
         BuyAmount: -1
@@ -518,6 +550,8 @@ Items:
     Shop_View:
       Slot: 31
       Page: 1
+  
+  # Flint - Gravel drop
   flint:
     Type: ITEM
     Item:
@@ -533,8 +567,8 @@ Items:
     Currency: vault
     Price:
       Type: FLAT
-      SELL: -1.0
-      BUY: -1.0
+      BUY: 8.0
+      SELL: 4.0
     Stock:
       GLOBAL:
         BuyAmount: -1
